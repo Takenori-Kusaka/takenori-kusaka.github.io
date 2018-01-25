@@ -25,6 +25,6 @@ markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
-timezone: Asia/Tokyo
+timezone: Asia/Kyoto
 title: Example title
 url: http://example.com
