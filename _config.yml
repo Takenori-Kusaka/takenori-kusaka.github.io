@@ -1,23 +1,23 @@
 actors:
-  alice:
+  kokorokagami:
     image_url: /images/actors/kokorokagami.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
+    name: kokorokagami
+    url: http://sns.example.com/kokorokagami
+  touden:
+    image_url: /images/actors/touden.png
+    name: touden
+    url: http://sns.example.com/touden
+author: kokorokagami
 description: Example description
 description_long: Example long description
-email: info@example.com
+email: CreateThisWhen2DecideTheTitle@example.com
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE.txt
   - README.md
   - vendor
-hashtag: examplehashtag
+hashtag: CreateThisWhen2DecideTheTitle
 itunes_podcast_url:
 keywords: comma,separated,keywords
 language: ja
@@ -26,5 +26,5 @@ permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Kyoto
-title: Example title
-url: http://example.com
+title: Awesome title
+url: http://CreateThisWhen2DecideTheTitle.com
