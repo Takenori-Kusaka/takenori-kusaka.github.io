@@ -8,8 +8,8 @@ actors:
     name: touden
     url: https://twitter.com/touden256?lang=en
 author: kokorokagami
-description: Rercalog is a Voice Log by kokorokagami with touden.
-description_long: Rercalog is a Voice Log that "recall" by week. Theme is tech and current topics.
+description: RercalogはkokorokagamiとtoudenによるVoice Logです
+description_long: Rercalogはこれまでの振り返りを週単位で行うVoice Logです。techおよび時事ネタが主。
 email: rercalog@gmail.com
 exclude:
   - Gemfile
