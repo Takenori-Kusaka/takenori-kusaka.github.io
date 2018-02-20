@@ -10,7 +10,7 @@ actors:
 author: kokorokagami
 description: RecalogはkokorokagamiとtoudenによるVoice Logです
 description_long: Recalogはこれまでの振り返りを週単位で行うVoice Logです。techおよび時事ネタが主。
-email: Recalog@gmail.com
+email: Rercalog@gmail.com
 exclude:
   - Gemfile
   - Gemfile.lock
