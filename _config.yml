@@ -2,22 +2,22 @@ actors:
   kokorokagami:
     image_url: /images/actors/kokorokagami.png
     name: kokorokagami
-    url: http://sns.example.com/kokorokagami
+    url: https://twitter.com/TakenoriKusaka
   touden:
     image_url: /images/actors/touden.png
     name: touden
-    url: http://sns.example.com/touden
+    url: https://twitter.com/touden256?lang=en
 author: kokorokagami
-description: Example description
-description_long: Example long description
-email: CreateThisWhen2DecideTheTitle@example.com
+description: RercalogはkokorokagamiとtoudenによるVoice Logです
+description_long: Rercalogはこれまでの振り返りを週単位で行うVoice Logです。techおよび時事ネタが主。
+email: rercalog@gmail.com
 exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE.txt
   - README.md
   - vendor
-hashtag: CreateThisWhen2DecideTheTitle
+hashtag: Rercalog
 itunes_podcast_url:
 keywords: comma,separated,keywords
 language: ja
@@ -26,5 +26,5 @@ permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Kyoto
-title: Awesome title
-url: http://CreateThisWhen2DecideTheTitle.com
+title: Rercalog
+url: https://takenori-kusaka.github.io/
