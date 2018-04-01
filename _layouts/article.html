@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang={{ site.language }}>
   {% include head.html %}
   <body>
@@ -23,14 +23,14 @@
                 controls=""
                 data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
                 preload="auto"
-                src="{{ page.audio_file_path | prepend:site.github.url }}"
+                src="{{ page.audio_file_path | prepend:site.github.url | prepend:"https://dts.podtrac.com/redirect.mp3/"}}"
                 width="100%"
               >
               </audio>
             </p>
             <p class="text-right">
               <small>
-                <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
+                <a href="{{ page.audio_file_path | prepend:site.github.url | prepend:"https://dts.podtrac.com/redirect.mp3/" }}">MP3ファイルをダウンロード</a>
               </small>
             </p>
             <h2>
