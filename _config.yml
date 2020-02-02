@@ -25,6 +25,6 @@ markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
-timezone: Asia/Kyoto
+# timezone: Asia/Kyoto
 title: Recalog
 url: https://takenori-kusaka.github.io/
