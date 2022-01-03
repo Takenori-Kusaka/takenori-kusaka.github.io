@@ -10,7 +10,7 @@ actors:
 author: kokorokagami
 description: Recalogは一週間にあったニュースや記事からkokorokagamiとtodenがピックアップして話す番組です
 description_long: Recalogは一週間にあったニュースや記事に対しkokorokagamiとtoudenが色々コメントしたり雑談する番組です。Tech系をメインに政治、経済、社会など幅広くとりあげます。中の人はエンジニアですが専門外のことを基本話しているので参考程度にお聞きください。
-email: Recalog1@gmail.com
+email: rercalog@gmail.com
 exclude:
   - Gemfile
   - Gemfile.lock
