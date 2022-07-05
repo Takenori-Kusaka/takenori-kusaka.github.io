@@ -1,0 +1,69 @@
+/* @theme myformat */
+
+@import "gaia";
+
+section::after,
+footer {
+  color: white;
+  background-color: #44aada;
+  height: 45px;
+  margin-bottom: 0px;
+  font-size: 60%;
+  padding: 0px 20px 0px 20px;
+}
+
+section {
+  background-color: white;
+  background-image: url(./topimage.svg);
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif;
+}
+
+section.top {
+  background-color: white;
+  background-image: url(./topimage.png);
+  background-repeat: no-repeat;
+  background-size: 1280px;
+}
+
+section.normal {
+  background-color: white;
+  background-image: url(./topimage.png);
+  background-repeat: no-repeat;
+  background-size: 1280px;
+  padding: 100px;
+  font-size: 2.5rem;
+}
+
+section.normal h1 {
+  color: rgb(68, 67, 67);
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 2px solid #d2d294;
+  margin-bottom: -15px;
+}
+
+section.normal h2 {
+  color: rgb(31, 30, 30);
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding: 4px;
+}
+
+section.normal h3 {
+  color: rgb(68, 67, 67);
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+section.normal h4 {
+  font-size: 1.0rem;
+}
+
+section.final {
+  background-image: url(./img/logo.svg);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position-x: center;
+  background-position-y: center;
+}
