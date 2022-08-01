@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 
 
-def generate_slide(topics: list):
+def generate_slide(now, topics: list):
     HEADER = "---\n\
 marp: true\n\
 theme: myformat\n\
@@ -54,15 +54,13 @@ _class: normal\n\
             index = index + 1
     
     logger.info(result)
-    now = datetime.datetime.now()
     filename = now.strftime('%Y-%m-%d') + '-topic.md'
     filepath = './doc/' + filename
     logger.info(filepath)
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(result)
 
-def generate_post(topics: list):
-    now = datetime.datetime.now()
+def generate_post(now, topics: list):
     gl = glob.glob('./_posts/*.md')
     allposts = list(gl)
     allposts.sort()
@@ -150,8 +148,8 @@ def main():
 
     with open('./src/topic.yaml', encoding='utf-8') as f:
         topics = yaml.safe_load(f)
-    generate_slide(topics)
-    generate_post(topics)
+    generate_slide(topics['Date'], topics['Topic'])
+    generate_post(topics['Date'], topics['Topic'])
 
 if __name__ == "__main__":
     # execute only if run as a script
