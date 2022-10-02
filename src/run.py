@@ -78,7 +78,7 @@ actor_ids:\n\
 - touden\n\
 audio_file_path: /audio/{0}\n\
 audio_file_size: 0\n\
-text_file_path: /_text/{7}\n\
+text_file_path: /text/{7}\n\
 date: {1} 20:00:00 +0900\n\
 description: kokorokagamiとtoudenの2人で、{2}{3} について話しました。\n\
 duration: \"00:00\"\n\
