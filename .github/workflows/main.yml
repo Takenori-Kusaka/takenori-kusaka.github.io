@@ -34,5 +34,5 @@ jobs:
         run: |
           git add .
           git commit -m "add text" -a
-          git pull
-          git push origin master
+          git fetch
+          git push origin
