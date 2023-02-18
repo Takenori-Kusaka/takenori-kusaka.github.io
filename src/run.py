@@ -93,7 +93,7 @@ title: {4}. {5} {6} ほか\n\
         latest_num,
         now.strftime('%Y/%m/%d'),
         topics[0],
-        now.strftime('%Y%m%d') + 'm.wav.vtt',
+        now.strftime('%Y%m%d') + 'm.wav.tsv',
     )
 
     FOOTER = "\n\
