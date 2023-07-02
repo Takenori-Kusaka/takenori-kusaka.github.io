@@ -103,7 +103,6 @@ ___\n\
 - [Youtube Live](https://www.youtube.com/channel/UCD1zo-WnyFdE5w0pqvKblkA)\n\
 \n\
 # ご意見、ご感想\n\
-- [Twitter](https://twitter.com/recalog1)\n\
 - [メールアドレス：rercalog@gmail.com](rercalog@gmail.com)\n\
 \n\
 # 編集\n\
@@ -114,8 +113,7 @@ ___\n\
 # BGM\n\
 \n\
 [騒音のない世界](http://noiselessworld.net/) beco様より  \n\
-OP:[オオカミ少年](https://soundcloud.com/baron1_3/wolfboy)  \n\
-本編:[蜃気楼](https://soundcloud.com/baron1_3/shinkirou)  \n\
+[蜃気楼](https://soundcloud.com/baron1_3/shinkirou)  \n\
 \n\
 # 免責\n\
 \n\
