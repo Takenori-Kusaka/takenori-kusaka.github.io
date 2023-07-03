@@ -100,25 +100,18 @@ title: {4}. {5} {6} ほか\n\
 ___\n\
 \n\
 # こちらでも配信しています\n\
-- [Youtube Live](https://www.youtube.com/channel/UCD1zo-WnyFdE5w0pqvKblkA)\n\
+- [Youtube Live](https://www.youtube.com/@recalog)\n\
+- [LISTEN](https://listen.style/p/recalog)\n\
 \n\
 # ご意見、ご感想\n\
-- [Twitter](https://twitter.com/recalog1)\n\
 - [メールアドレス：rercalog@gmail.com](rercalog@gmail.com)\n\
-\n\
-# 編集\n\
-\n\
-@Touden氏  \n\
-最大限の感謝を  \n\
 \n\
 # BGM\n\
 \n\
 [騒音のない世界](http://noiselessworld.net/) beco様より  \n\
-OP:[オオカミ少年](https://soundcloud.com/baron1_3/wolfboy)  \n\
-本編:[蜃気楼](https://soundcloud.com/baron1_3/shinkirou)  \n\
+[蜃気楼](https://soundcloud.com/baron1_3/shinkirou)  \n\
 \n\
 # 免責\n\
-\n\
 本ラジオはあくまで個人の見解であり現実のいかなる団体を代表するものではありません  \n\
 ご理解頂ますようよろしくおねがいします  \n\
 "
