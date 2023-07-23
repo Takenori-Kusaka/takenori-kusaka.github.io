@@ -5,9 +5,7 @@ import glob
 
 logger = logging.getLogger(__name__)
 
-
-
-def generate_slide(now, topics: list):
+def generate_slide(now, title: str, topics: list):
     HEADER = "---\n\
 marp: true\n\
 theme: myformat\n\
@@ -28,9 +26,9 @@ _class: normal\n\
 -->\n\
 \n\
 ![bg](./stringarea.png)\n\
-# Show Notes\n\
+# {}\n\
 \n\
-"
+".format(title)
 
     TOPIC_HEADER = ['枕']
     for i in range(1, 7):
@@ -60,7 +58,7 @@ _class: normal\n\
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(result)
 
-def generate_post(now, topics: list):
+def generate_post(now, title: str, topics: list):
     gl = glob.glob('./_posts/*.md')
     allposts = list(gl)
     allposts.sort()
@@ -85,6 +83,8 @@ duration: \"00:00\"\n\
 layout: article\n\
 title: {4}. {5} {6} ほか\n\
 ---\n\
+\n\
+以下のようなトピックについて話をしました。\n\
 ".format(
         now.strftime('%Y%m%d') + 'm.m4a',
         now.strftime('%Y-%m-%d'),
@@ -92,19 +92,12 @@ title: {4}. {5} {6} ほか\n\
         "、{} など".format(topics[2]) if len(topics) > 2 else "",
         latest_num,
         now.strftime('%Y/%m/%d'),
-        topics[0],
-        now.strftime('%Y%m%d') + 'm.wav.tsv',
+        title,
     )
 
     FOOTER = "\n\
 ___\n\
 \n\
-# こちらでも配信しています\n\
-- [Youtube Live](https://www.youtube.com/@recalog)\n\
-- [LISTEN](https://listen.style/p/recalog)\n\
-\n\
-# ご意見、ご感想\n\
-- [メールアドレス：rercalog@gmail.com](rercalog@gmail.com)\n\
 \n\
 # BGM\n\
 \n\
@@ -121,13 +114,12 @@ ___\n\
         TOPIC_HEADER.append('{}'.format(i))
 
     logger.info(HEADER)
-    
+
     result = HEADER
     index = 0
+    result = result + '\n'
     for t in topics:
-        result = result + '\n'
-        result = result + '# [{0}. {1}](TOPIC0_PAGELINK) (00:{2:02})\n\n'.format(TOPIC_HEADER[index], t, (index + 1) * 5)
-        result = result + '[<img src="TOPIC0_IMGLINK" width="320dp">](TOPIC0_PAGELINK)\n'
+        result = result + '{}: {}\n'.format(TOPIC_HEADER[index], t)
         index = index + 1
     
     result = result + FOOTER
@@ -143,8 +135,8 @@ def main():
 
     with open('./src/topic.yaml', encoding='utf-8') as f:
         topics = yaml.safe_load(f)
-    generate_slide(topics['Date'], topics['Topic'])
-    generate_post(topics['Date'], topics['Topic'])
+    generate_slide(topics['Date'], topics['Title'], topics['Topic'])
+    generate_post(topics['Date'], topics['Title'], topics['Topic'])
 
 if __name__ == "__main__":
     # execute only if run as a script
