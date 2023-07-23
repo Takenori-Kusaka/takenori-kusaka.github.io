@@ -15,9 +15,9 @@ _class: normal
 -->
 
 ![bg](./stringarea.png)
-# Show Notes
+# {{ title }}
 
-## 枕:{{ topic0 }}
+## 枕: {{ topic0 }}
 ### 1. {{ topic1 }}
 ### 2. {{ topic2 }}
 ### 3. {{ topic3 }}
@@ -32,9 +32,9 @@ _class: normal
 -->
 
 ![bg](./stringarea.png)
-# Show Notes
+# {{ title }}
 
-### 枕:{{ topic0 }}
+### 枕: {{ topic0 }}
 ## 1. {{ topic1 }}
 ### 2. {{ topic2 }}
 ### 3. {{ topic3 }}
@@ -49,9 +49,9 @@ _class: normal
 -->
 
 ![bg](./stringarea.png)
-# Show Notes
+# {{ title }}
 
-### 枕:{{ topic0 }}
+### 枕: {{ topic0 }}
 ### 1. {{ topic1 }}
 ## 2. {{ topic2 }}
 ### 3. {{ topic3 }}
@@ -66,9 +66,9 @@ _class: normal
 -->
 
 ![bg](./stringarea.png)
-# Show Notes
+# {{ title }}
 
-### 枕:{{ topic0 }}
+### 枕: {{ topic0 }}
 ### 1. {{ topic1 }}
 ### 2. {{ topic2 }}
 ## 3. {{ topic3 }}
@@ -83,9 +83,9 @@ _class: normal
 -->
 
 ![bg](./stringarea.png)
-# Show Notes
+# {{ title }}
 
-### 枕:{{ topic0 }}
+### 枕: {{ topic0 }}
 ### 1. {{ topic1 }}
 ### 2. {{ topic2 }}
 ### 3. {{ topic3 }}
@@ -100,9 +100,9 @@ _class: normal
 -->
 
 ![bg](./stringarea.png)
-# Show Notes
+# {{ title }}
 
-### 枕:{{ topic0 }}
+### 枕: {{ topic0 }}
 ### 1. {{ topic1 }}
 ### 2. {{ topic2 }}
 ### 3. {{ topic3 }}
@@ -117,9 +117,9 @@ _class: normal
 -->
 
 ![bg](./stringarea.png)
-# Show Notes
+# {{ title }}
 
-### 枕:{{ topic0 }}
+### 枕: {{ topic0 }}
 ### 1. {{ topic1 }}
 ### 2. {{ topic2 }}
 ### 3. {{ topic3 }}
