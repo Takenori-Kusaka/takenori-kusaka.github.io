@@ -76,7 +76,6 @@ actor_ids:\n\
 - touden\n\
 audio_file_path: /audio/{0}\n\
 audio_file_size: 0\n\
-text_file_path: /text/{7}\n\
 date: {1} 20:00:00 +0900\n\
 description: kokorokagamiとtoudenの2人で、{2}{3} について話しました。\n\
 duration: \"00:00\"\n\
@@ -98,13 +97,6 @@ title: {4}. {5} {6} ほか\n\
     FOOTER = "\n\
 ___\n\
 \n\
-\n\
-# BGM\n\
-\n\
-[騒音のない世界](http://noiselessworld.net/) beco様より  \n\
-[蜃気楼](https://soundcloud.com/baron1_3/shinkirou)  \n\
-\n\
-# 免責\n\
 本ラジオはあくまで個人の見解であり現実のいかなる団体を代表するものではありません  \n\
 ご理解頂ますようよろしくおねがいします  \n\
 "
