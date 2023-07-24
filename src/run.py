@@ -35,10 +35,10 @@ _class: normal\n\
         TOPIC_HEADER.append('{0:02}'.format(i))
 
     logger.info(HEADER)
-    logger.info(TOPPAGE)
+    #logger.info(TOPPAGE)
     logger.info(PAGE_TEMPLATE)
     
-    result = HEADER + TOPPAGE
+    result = HEADER# + TOPPAGE
     for t in topics:
         result = result + PAGE_TEMPLATE
         index = 0
