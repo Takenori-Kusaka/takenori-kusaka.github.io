@@ -111,7 +111,7 @@ ___\n\
     index = 0
     result = result + '\n'
     for t in topics:
-        result = result + '{}: {}\n'.format(TOPIC_HEADER[index], t)
+        result = result + '## {}: {}\n'.format(TOPIC_HEADER[index], t)
         index = index + 1
     
     result = result + FOOTER
