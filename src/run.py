@@ -85,7 +85,7 @@ title: {4}. {5} {6} ほか\n\
 \n\
 以下のようなトピックについて話をしました。\n\
 ".format(
-        now.strftime('%Y%m%d') + 'm.m4a',
+        now.strftime('%Y%m%d') + 'm.mp3',
         now.strftime('%Y-%m-%d'),
         topics[1] if len(topics) > 1 else topics[0],
         "、{} など".format(topics[2]) if len(topics) > 2 else "",
