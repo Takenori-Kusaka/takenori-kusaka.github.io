@@ -26,7 +26,10 @@ class PodcastContentApp:
                 if not isinstance(topics['Date'], datetime.date):
                     topics['Date'] = datetime.datetime.strptime(topics['Date'], '%Y-%m-%d').date()
                 if not isinstance(topics['Topic'], list) or not topics['Topic']:
-                    raise ValueError("Topicは1つ以上のURLを含む配列である必要があります")
+                    raise ValueError("Topicは1つ以上のアイテムを含む配列である必要があります")
+                for item in topics['Topic']:
+                    if not isinstance(item, dict) or 'link' not in item or 'text' not in item:
+                        raise ValueError("各Topicアイテムは'link'と'text'キーを持つ辞書である必要があります")
                 logger.info(f"topic.yaml読み込み完了: {len(topics['Topic'])}件のトピック")
                 return topics
         except Exception as e:
@@ -41,29 +44,38 @@ class PodcastContentApp:
             anthropic_api_key, perplexity_api_key = self.env_manager.load_environment()
 
             # APIクライアントの初期化
-            article_fetcher = ArticleFetcher(perplexity_api_key)
+            article_fetcher = ArticleFetcher(perplexity_api_key, anthropic_api_key)
             headline_generator = HeadlineGenerator(anthropic_api_key)
             self.content_generator = ContentGenerator()
 
             # topic.yamlの読み込み
             topics = self.load_topic_yaml()
 
-            # 各URLから記事情報を取得
+            # 各トピックから記事情報を取得
             summaries = []
+            youtube_summaries = []
             headlines = []
-            for url in topics['Topic']:
-                logger.info(f"URL処理開始: {url}")
-                summary = article_fetcher.get_article_info(url)
+            for topic in topics['Topic']:
+                link = topic['link']
+                text = topic['text']
+                logger.info(f"トピック処理開始: {link}")
+                summary = article_fetcher.get_article_info(link, text)
                 if summary:
                     summaries.append(summary)
+                    youtube_summary = article_fetcher.get_youtube_summary(summary)
+                    if youtube_summary:
+                        youtube_summaries.append(youtube_summary)
+                    else:
+                        logger.error(f"YouTube用要約生成失敗: {link}")
+                        raise Exception("YouTube用要約の生成に失敗しました")
                     headline = headline_generator.generate_headline(summary)
                     if headline:
                         headlines.append(headline)
                     else:
-                        logger.error(f"見出し生成失敗: {url}")
+                        logger.error(f"見出し生成失敗: {link}")
                         raise Exception("見出し生成に失敗しました")
                 else:
-                    logger.error(f"記事情報取得失敗: {url}")
+                    logger.error(f"記事情報取得失敗: {link}")
                     raise Exception("記事情報の取得に失敗しました")
 
             # メインタイトルを生成
@@ -78,7 +90,7 @@ class PodcastContentApp:
             # ファイルを生成
             self.content_generator.generate_slide(topics['Date'], headlines, summaries)
             self.content_generator.generate_post(topics['Date'], headlines, summaries, main_title, latest_num)
-            self.content_generator.generate_youtube_description(topics['Date'], headlines, summaries, main_title, latest_num)
+            self.content_generator.generate_youtube_description(topics['Date'], headlines, youtube_summaries, main_title, latest_num)
 
             logger.info("プログラム実行完了")
 
