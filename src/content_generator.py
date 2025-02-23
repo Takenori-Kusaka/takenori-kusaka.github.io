@@ -251,15 +251,43 @@ class ContentGenerator:
                 bullets.append(f"- {fallback}")
         return "\n".join(bullets)
 
-    def generate_youtube_description(self, date, headlines, summaries, main_title, latest_num):
-        """
-        YouTube概要欄を生成する新規メソッド
-        ※引数はそれぞれ、日付、見出しリスト、要約リスト、メインタイトル、最新投稿番号です
-        """
-        header = f"【{main_title}】\n{date.strftime('%Y/%m/%d')}\n\n"
-        body = "\n".join(f"- {h}" for h in headlines)
-        footer = f"\n\n投稿番号: {latest_num}\n\n" + "\n".join(summaries)
-        return header + body + footer
+    def generate_youtube_summary(self, summary):
+        """YouTubeの説明用に140文字以内のサマリーを生成"""
+        if len(summary) <= 140:
+            return summary
+        return summary[:137] + "..."
+
+    def generate_youtube_description(self, date, headlines, youtube_summaries, main_title, latest_num):
+        # Markdown形式のYouTube用説明文を作成する
+        description = ""
+        description += "---\n"
+        description += f"第{latest_num}回 {main_title}\n"
+        description += "---\n\n"
+        description += "今回は以下のトピックについて話しました：\n\n"
+        for idx, hl in enumerate(headlines, start=1):
+            description += f"{idx}. {hl}\n"
+        description += "\n【各トピックの詳細】\n"
+        for idx, (hl, summary) in enumerate(zip(headlines, youtube_summaries), start=1):
+            description += f"{idx}. {hl}\n{summary}\n\n"
+        description += "【出演】\n"
+        description += "kokorokagamiとtouden\n\n"
+        description += "【免責】\n"
+        description += "本ラジオはあくまで個人の見解であり現実のいかなる団体を代表するものではありません\n"
+        description += "#テクノロジー #ニュース #エンジニアリング\n"
+        return description
+
+    def save_youtube_description(self, date, description):
+        # 出力先のファイルパスを生成 (/youtube/フォルダ内)
+        filename = date.strftime('%Y-%m-%d') + '-topic.md'
+        output_path = os.path.join('./youtube', filename)
+        print(output_path)
+        try:
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(description)
+        except IOError as e:
+            # ログ出力や例外処理
+            print(f"ファイル書き込みエラー: {str(e)}")
+            raise
 
     def generate_slide(self, date, headlines, summaries):
         logger.info("スライド生成開始")
