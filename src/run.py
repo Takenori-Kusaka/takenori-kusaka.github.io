@@ -90,7 +90,8 @@ class PodcastContentApp:
             # ファイルを生成
             self.content_generator.generate_slide(topics['Date'], headlines, summaries)
             self.content_generator.generate_post(topics['Date'], headlines, summaries, main_title, latest_num)
-            self.content_generator.generate_youtube_description(topics['Date'], headlines, youtube_summaries, main_title, latest_num)
+            youtube_description = self.content_generator.generate_youtube_description(topics['Date'], headlines, youtube_summaries, main_title, latest_num)
+            self.content_generator.save_youtube_description(topics['Date'], youtube_description)
 
             logger.info("プログラム実行完了")
 
