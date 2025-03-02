@@ -255,7 +255,8 @@ class ContentGenerator:
         """YouTubeの説明用に140文字以内のサマリーを生成"""
         if len(summary) <= 140:
             return summary
-        return summary[:137] + "..."
+        trimmed_summary = summary[:137].rstrip()
+        return trimmed_summary + "..."
 
     def generate_youtube_description(self, date, headlines, youtube_summaries, main_title, latest_num):
         # Markdown形式のYouTube用説明文を作成する
@@ -268,7 +269,8 @@ class ContentGenerator:
             description += f"{idx}. {hl}\n"
         description += "\n【各トピックの詳細】\n"
         for idx, (hl, summary) in enumerate(zip(headlines, youtube_summaries), start=1):
-            description += f"{idx}. {hl}\n{summary}\n\n"
+            cleaned_summary = self.generate_youtube_summary(summary)
+            description += f"{idx}. {hl}\n{cleaned_summary}\n\n"
         description += "【出演】\n"
         description += "kokorokagamiとtouden\n\n"
         description += "【免責】\n"
