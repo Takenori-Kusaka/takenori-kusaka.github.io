@@ -28,7 +28,7 @@ class HeadlineGenerator:
         
         try:
             message = self.client.messages.create(
-                model="claude-3-5-sonnet-20241022",
+                model="claude-3-7-sonnet-20250219",
                 max_tokens=100,
                 temperature=0,
                 system="以下のルールに従って見出しを作成してください：\n- 10〜20文字で簡潔に\n- 「」で囲む\n- 説明や理由を含めない\n- 一行のみ",
@@ -74,7 +74,7 @@ class HeadlineGenerator:
 
         try:
             message = self.client.messages.create(
-                model="claude-3-5-sonnet-20241022",
+                model="claude-3-7-sonnet-20250219",
                 max_tokens=200,
                 temperature=0,
                 system="新聞の見出し作成の専門家として、提示された見出しの中から最も重要なものを選び、全体を表す見出しを作成してください。",

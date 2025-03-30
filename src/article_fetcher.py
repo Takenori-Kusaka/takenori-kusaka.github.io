@@ -16,12 +16,13 @@ class ArticleFetcher:
         }
         self.anthropic_client = anthropic.Anthropic(api_key=anthropic_api_key)
 
-    def get_article_info(self, link, text=""):
+    def get_article_info(self, link, text):
         """Perplexity APIを使用して記事の情報を取得、またはテキストを処理"""
         if link:
             logger.info(f"記事情報の取得開始: {link}")
             
             data = {
+                "query": text,
                 "model": "sonar-pro",
                 "messages": [
                     {
@@ -41,7 +42,6 @@ class ArticleFetcher:
                 "max_tokens": 1000,
                 "return_images": False,
                 "return_related_questions": False,
-                "search_domain_filter": ["sorae.info"],
                 "stream": False,
                 "presence_penalty": 0,
                 "frequency_penalty": 1
@@ -82,7 +82,7 @@ class ArticleFetcher:
                     logger.debug(f"ステータスコード: {e.response.status_code}")
                     logger.debug(f"レスポンスヘッダー: {dict(e.response.headers)}")
                 return None
-        elif text:
+        elif text is not None:
             logger.info("テキストの処理開始")
             return self.summarize_text(text)
         else:
@@ -95,7 +95,7 @@ class ArticleFetcher:
         
         try:
             message = self.anthropic_client.messages.create(
-                model="claude-3-opus-20240229",
+                model="claude-3-7-sonnet-20250219",
                 max_tokens=1000,
                 temperature=0.2,
                 system="あなたは与えられた文章を300文字以上700文字以内に要約する専門家です。重要なポイントを保持しつつ、簡潔で魅力的な要約を作成してください。",
@@ -122,7 +122,7 @@ class ArticleFetcher:
         
         try:
             message = self.anthropic_client.messages.create(
-                model="claude-3-opus-20240229",
+                model="claude-3-7-sonnet-20250219",
                 max_tokens=200,
                 temperature=0.2,
                 system="あなたは与えられた文章を140文字以内に要約する専門家です。重要なポイントを保持しつつ、簡潔で魅力的な要約を作成してください。",

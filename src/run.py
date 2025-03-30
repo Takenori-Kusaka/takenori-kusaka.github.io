@@ -2,6 +2,7 @@ import logging
 import yaml
 import datetime
 import sys
+import traceback  # tracebackモジュールを追加
 
 from logger_config import LoggerConfig
 from environment_manager import EnvironmentManager
@@ -59,7 +60,9 @@ class PodcastContentApp:
                 link = topic['link']
                 text = topic['text']
                 logger.info(f"トピック処理開始: {link}")
-                summary = article_fetcher.get_article_info(link, text)
+                # クエリにURLを貼るように変更（search_domain_filterを外す）
+                query = f"{text} {link}" if text.strip() else link
+                summary = article_fetcher.get_article_info(link, query)
                 if summary:
                     summaries.append(summary)
                     youtube_summary = article_fetcher.get_youtube_summary(summary)
@@ -97,6 +100,7 @@ class PodcastContentApp:
 
         except Exception as e:
             logger.error(f"プログラム実行エラー: {str(e)}")
+            logger.error(f"詳細なエラー情報: {traceback.format_exc()}")  # スタックトレースをログに出力
             sys.exit(1)
 
 if __name__ == "__main__":
