@@ -95,7 +95,7 @@ class ArticleFetcher:
         
         try:
             message = self.anthropic_client.messages.create(
-                model="claude-3-opus-20240229",
+                model="claude-sonnet-4-20250514",
                 max_tokens=1000,
                 temperature=0.2,
                 system="あなたは与えられた文章を300文字以上700文字以内に要約する専門家です。重要なポイントを保持しつつ、簡潔で魅力的な要約を作成してください。",
@@ -122,7 +122,7 @@ class ArticleFetcher:
         
         try:
             message = self.anthropic_client.messages.create(
-                model="claude-3-opus-20240229",
+                model="claude-sonnet-4-20250514",
                 max_tokens=200,
                 temperature=0.2,
                 system="あなたは与えられた文章を140文字以内に要約する専門家です。重要なポイントを保持しつつ、簡潔で魅力的な要約を作成してください。",
