@@ -28,11 +28,9 @@
               >
               </audio>
             </p>
-            <p class="text-right">
-              <small>
-                <a href="{{ page.audio_file_path | prepend:site.github.url | prepend:"https://dts.podtrac.com/redirect.mp3/" }}">MP3ファイルをダウンロード</a>
-              </small>
-            </p>
+            <div class="article-download-links">
+              <a href="{{ page.audio_file_path | prepend:site.github.url | prepend:"https://dts.podtrac.com/redirect.mp3/" }}">MP3ファイルをダウンロード</a>
+            </div>
             <h2>
               内容紹介
             </h2>
@@ -47,7 +45,6 @@
                 {% assign actor = site.actors[actor_id] %}
                 <a href="{{ actor.url }}" class="actor" target="_blank">
                   <img src="{{ actor.image_url | prepend:site.github.url }}" alt="{{ actor.name }}" class="actor-image" width="72" height="72">
-                  <br>
                   {{ actor.name }}
                 </a>
               {% endfor %}

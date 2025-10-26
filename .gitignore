@@ -134,3 +134,7 @@ dist
 
 youtube/*.md
 work/
+
+# Ruby/Bundler
+vendor/
+.bundle/
