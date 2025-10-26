@@ -50,3 +50,46 @@
     display: inherit;
   }
 }
+
+// Responsive improvements for article
+@media (max-width: $width-screen-extra-small-maximum) {
+  .card {
+    border-radius: 0;
+    margin-bottom: 0;
+    
+    &-body,
+    &-header {
+      padding: 24px 20px;
+    }
+
+    &-heading {
+      font-size: 1.75rem;
+    }
+  }
+
+  .article {
+    &-actors {
+      gap: 16px;
+      padding: 16px;
+      justify-content: center;
+    }
+
+    &-download-links {
+      flex-direction: column;
+      gap: 12px;
+      
+      a {
+        justify-content: center;
+      }
+    }
+  }
+
+  .actor {
+    padding: 12px;
+    
+    &-image {
+      width: 60px !important;
+      height: 60px !important;
+    }
+  }
+}
