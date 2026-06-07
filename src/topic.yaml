@@ -1,318 +1,594 @@
-Date: 2026-05-10
+Date: 2026-05-17
 Topic:
 
   - link: 
     text: |
-      NDLOCR-Liteの公開について
-      NDLラボ公式GitHub（外部サイト）から、NDLOCR-Liteを公開しました。
+      
+      ウワサのClaude Design、使ってみた
 
-      NDLOCR-Liteは、NDLOCRの軽量版を目指して開発したOCRであり、ノートパソコン等の一般的な家庭用コンピュータやOS環境で、図書や雑誌といった資料のデジタル化画像からテキストデータが作成できるOCRです。
+      Yu Hamano
+      エンジニアブログ
+      2026.04.28
+      #AI駆動開発
+      #Claude
+      #Claude Code
+      #Claude Design
+      #UIデザイン
+      #生成AI
 
-      GPU（Graphics Processing Unit。画像描画等の高度な並列計算を処理する装置。）を必要とせず、軽量なOCR処理が可能です。
+      はじめに
+      こんにちは。DX開発事業部でUIデザイナーをしているYuです。
+      Anthropicが新しくリリースし、話題になっている「Claude Design」をさっそく使ってみたので、本記事では機能と所感を共有します！
 
-      また、NDLOCRが不得意としていた英文や手書き文字等についても実験的に対応しています。
+      6つの機能をご紹介
+      Claude Designを実際に使ってみて分かった、6つの機能と特徴をご紹介します！
+      お急ぎの方や全体像をスピーディーに把握したい方は、まずこちらのグラレコをご覧ください！
 
-      OCR結果を示した画像
 
-      画像の出典：芥川竜之介 著『傀儡師』,新潮社,1919. 国立国会図書館デジタルコレクション https://dl.ndl.go.jp/pid/1904835/1/53 (参照 2026-02-18)
 
-      OCR結果を示した画像
 
-      画像の出典：国立国会図書館総務部総務課 編『国立国会図書館年報』昭和29年度,国立国会図書館,1955. 国立国会図書館デジタルコレクション https://dl.ndl.go.jp/pid/3048009/1/16 (参照 2026-02-18)
+      1.デザイン生成とヒアリング
+      Claude Designを開くと、4つの選択肢から選択するか、プロンプトを入力することで使用することができます。
 
-      NDLOCR-Lite
-      GitHubリポジトリ（https://github.com/ndl-lab/ndlocr-lite ）
-      これまで国立国会図書館が公開していたNDLOCR(外部サイト)では、実行環境にGPUを必須としていましたが、「NDLOCR-Lite」ではGPUは不要となっています。
 
-      あわせて、デスクトップアプリケーションを用意しているため、マウス操作のみで簡単にお使いいただけます。
 
-      Windows（Windows 11）、Mac（macOS Sequoia）及びLinux（Ubuntu 22.04）の各OS環境において動作を確認しています。
+      ヒアリングから始まるデザイン: AIが「ブランドカラー」「ユーザー層」など、ユーザーの期待に沿ったDesign Systemを構築するための質問事項が多く用意されています。
+      「期待するもの」とのズレを防ぐ: デザイン案を提示し、納得感のあるビジュアルをスピーディーに作り上げます。
 
-      次のURLからご利用のOSに合わせた最新版をダウンロードしてお使いください。
 
-      https://github.com/ndl-lab/ndlocr-lite/releases
+      私はよくデザイン生成やモックアップ作成に、Figma Makeを使用していますが、Figma Makeとの違いを感じた1番のポイントは、やはりヒアリング事項の多さです。
+      プロンプトで最初にある程度指定していても、Claudeからの問いかけによって自分では見落としていた視点を補完できると感じました。
 
-      使い方については次のページをご覧ください。
+      また、プロンプトベースだけでなく、素材のインポートも行うことができます。
 
-      NDLOCR-Liteの使い方
 
-      NDLOCR-Liteは、国立国会図書館がCC BY 4.0ライセンスで公開しています。詳細はGitHubのREADMEをご参照ください。
+      現在選べるモデルはこちら↓
 
-      なお、これまで提供していたGPUを必要とするNDLOCRについても、引き続き同リポジトリ（https://github.com/ndl-lab/ndlocr_cli ）からご利用いただけます。
 
-      （留意点）
-      くずし字や漢籍の資料も読み取れる場合がありますが、これらの資料に対して本格的なテキスト化を行う場合は、より読み取り精度の高いNDL古典籍OCRやNDL古典籍OCR-Liteをご利用いただくことを推奨します。
+      2.選べる編集モード
+      チャットによる編集: プロンプトに「全体を暖色系に」などと入力することで、自然言語での変更が可能です。
+      インラインコメント: 「Edit」ボタンで左側にパネルが開き、部分的な変更が可能です。
+
+      また、Tweaksという機能もあり、ONにすると、画像のようなパネルが出てきて、そこからスタイルを変えることが可能です。ON/OFFの切り替えはいつでも可能。
+
+
+      3.バージョン管理が可能
+      これも、他のツールにもありますが、別の案を試したい時も、現在の状態を保存しながら別軸の制作が可能でした。
+
+      できたデザインがこちら↓
+
+
+
+      
+
+      4.Claude Codeへの連携
+      ここがClaude Designの最大の強みではないかと思います。デザインした成果物は、そのままClaude Codeへ移行することができます！
+
+
+
+
+
+      実際は、青のラインの部分にプロジェクトごとにユニークなURLが記載されています！
+
+      試してみた結果、コピーしたコマンドをターミナルに打つだけで、簡単にClaude Codeへ移行することができました！
+      初稿はClaude Designでデザインベースで。そのあとは開発へ移行して機能の追加やコードもしっかりと書いていきたい場合は、かなりスムーズに移行することができます。
+      また、このあとにもご紹介しますが、現在は同じプランのTeamメンバーでの共有が可能なので、「デザイナーがClaude Designでデザイン作成　→　エンジニアがClaude Codeで開発」といったこともシームレスに実現します！
+
+      5.チーム内外への連携
+      【チーム内への共有】
+      チーム内では、URL一つでシームレスな共同作業が可能です。また、権限設定も4パターンあるため、使い分けることができます。
+
+      閲覧可能
+      コメント可能
+      編集可能
+      閲覧不可
+
+      【チーム外への共有】
+      Claudeプランに入っていない人や、特定の形式で資料が欲しいクライアントに対しても、豊富な書き出しオプションが用意されています。
+
+      ZIPファイル (HTML/CSSコード一式)
+      PDF / PPTX (PowerPoint)
+      Canvaに送信
+      スタンドアロンHTML
+      Claude Codeへ（上で説明）
+
+
+      6.利用できる人
+      現在はResearch Previewとして提供されており、以下のプランのユーザーがアクセス可能です。
+
+      Proプラン
+      Maxプラン
+      Teamプラン
+      Enterpriseプラン
       
   - link: 
     text: |
-      Claude Mythosが突きつける超強力AIで我々はビッグテック依存が加速するのではないか
-      Shinji Saito
-      Shinji Saito
-      代表取締役社長 / 文部科学省 最高情報セキュリティアドバイザー
+      Bun が 6 日で Rust に書き換わった件
+      2026/05/15に公開
+      2026/05/17
 
 
-      シンジです。2026年4月7日、Anthropicは「危険すぎて一般公開できない」と判断したAIモデル Claude Mythos Preview を発表し、AWS・Microsoft・Google・Apple・CrowdStrike・Palo Alto Networksなど12のパートナー企業にのみ限定提供する Project Glasswing を立ち上げました。
 
-      AIの進化に注目が集まる中で、シンジが思ったのはこういうことです。
+      AI
 
-      「一部のIT企業にしか提供されない超強力AIが登場したなら、我々顧客はそのIT企業への依存度がさらに高まるのではないか」
+      Rust
 
-      この記事では、複数の公式発表と周辺分析をもとに、Project Glasswingの全体像、その裏にあるビジネス構造、そしてセキュリティ業界・SaaS市場に生じうる構造変化を整理します。
+      Zig
 
-      まず「Mythos」とは何か
-      命名はAnthropic公式ページによると、古代ギリシャ語 μῦθος（mûthos）で「発話」「物語」を意味する語です。
+      Bun
 
-      日本語の読み方は混乱状態にあります。Oxford English Dictionaryは「ミソス（/ˈmɪθɒs/）」「マイソス（/ˈmʌɪθɒs/）」「ミソウス（/ˈmɪˌθoʊs/）」の3つを正式な発音として記載しています。古代ギリシャ語では「ムートス（moo'-thos）」、ドイツ語では「ミュートス（/ˈmyːtɔs/）」です。Anthropicから日本語の公式読みは出ていないため、英語圏で最も一般的な「ミソス」が無難でしょうが、正解はまだありません。
+      Anthropic
 
-      ※追記
-      正式に「ミュトス」と呼称することがAnthropic公式から発表されました。
+      idea
+      はじめに
+      2026年5月14日、JavaScript ランタイム Bun の Zig→Rust 大規模移植 PR が main ブランチにマージされた。約 96 万行のコードを、6 日間で、AI（Claude）が書いた。テストは 99.8% パス、バイナリサイズも縮小されているが、unsafe ブロックは 13,000 箇所を超え、Sumner 本人も「全部破棄する可能性が高い」と発言している。
 
-      プロジェクト名「Glasswing」は透明な翅を持つグラスウィングバタフライ（Greta oto）に由来します。ソフトウェアに潜む見えにくい脆弱性と、透明性アプローチの二重のメタファーとされています。
+      この一連の動きを追いかけながら、初見で抱いた 5 つの素朴な疑問 を整理した。
 
-      Project Glasswingの全体像：12社が手にした「デジタル防衛兵器」
-      参加企業と公式発表
-      Anthropic公式ページ（anthropic.com/glasswing）に明記された12のローンチパートナーは以下の通りです。
+      まず、何が起きたか
+      時系列で圧縮するとこうなる。
 
-      パートナー	公式発表の有無	主な活用内容
-      AWS	あり	カスタムシリコンからスタック全体の脆弱性スキャン。1日400兆件以上のネットワークフロー分析
-      Apple	独立ブログ未確認	iOS/macOS/Safari等の基幹製品における脆弱性特定（Anthropic記載）
-      Broadcom	独立ブログ未確認	通信チップセット・ファームウェアレベルの検証（Anthropic記載）
-      Cisco	あり	ハードウェア・ソフトウェア全体の脆弱性特定。「従来の防御手法の終焉」を宣言
-      CrowdStrike	あり	自動化ペネトレーションテスター・トリアージアシスタントの探索
-      Google	あり	Vertex AI経由で一部顧客へ提供。Big Sleep・CodeMenderとの連携
-      JPMorganChase	独立ブログ未確認	金融基幹システムのペネトレーションテスト自動化（Anthropic記載）
-      Linux Foundation	あり	OSSメンテナーへの無料アクセス提供
-      Microsoft	あり（最も詳細）	CTI-REALMベンチマーク評価、MSRC連携、Azure Foundry統合
-      NVIDIA	独立ブログ未確認	AIソフトウェアスタック自体の安全性検証（Anthropic記載）
-      Palo Alto Networks	あり	旧世代モデルが見逃した複雑な脆弱性の特定
-      Anthropic	主導	Red Teamによる継続評価と業界共有
-      これに加え、40社以上の追加組織にもアクセスが拡大されていますが、具体名は一切公開されていません。
+      2026/05/05：Bun 創業者 Jarred Sumner、「Anthropic 内で Zig→Rust の試験ポートを進めている」と公表
+      2026/05/09：Linux x64 (glibc) で テスト 99.8% パス を本人がアナウンス
+      2026/05/12：Bun 1.3.14 リリース。Sumner「もしマージされたら、これが最後の Zig 版」と発言
+      2026/05/14：100 万行超の単一 PR が main にマージ
+      サイズ感を数字で並べる。
 
-      注目すべきは、Cloudflare・Zscaler・Oktaといったセキュリティ製品を扱う企業がこのリストに含まれていない点です。今回調査した中で、発表直後にこれらの企業の株価が下落したとの分析がありましたが、因果関係は不明です。いずれにしても、市場の一部では、Project Glasswingが単なる研究プロジェクトではなく、セキュリティ業界における「選別」や差別化の起点として受け止められた可能性があります。
+      項目	数値
+      追加された Rust コード	約 96 万行
+      削除された Zig コード	約 60 万行
+      工数	6 日（AI ベース）
+      テスト通過率	99.8%（Linux x64 glibc）
+      バイナリサイズ削減	3〜8 MB
+      unsafe ブロック	13,000 箇所超
+      なお、Bun は Anthropic に買収済み のプロジェクトで、AI コーディングツールとしては Claude（Anthropic 自社製） が使われている。つまりこれは、Anthropic が自社の AI で自社のランタイムを書き換えた という構図でもある。この点は疑問③以降で何度か顔を出す。
 
-      Mythosの能力：何がこれほど特異なのか
-      Mythosはサイバーセキュリティ専用に訓練されたモデルではありません。汎用フロンティアモデルの強力なエージェント的コーディング・推論能力の結果として、サイバー能力が副次的に「創発」しました。
+      公式の詳細ブログは 2026/05/15 時点では未公開。情報は Sumner の X 投稿、PR タイムライン、The Register などの報道に散らばっている。
 
-      公開されたベンチマーク（Anthropic公式）:
+      疑問① 100万行、誰も読んでないやん
+      率直に言って、これが最初の引っかかりだった。100 万行のコードを 6 日で生成して、誰がレビューしたんだろう。
 
-      ベンチマーク	Mythos Preview	Opus 4.6
-      SWE-bench Verified	93.9%	80.8%
-      SWE-bench Pro	77.8%	53.4%
-      CyberGym	83.1%	66.6%
-      GPQA Diamond	94.6%	91.3%
-      Humanity's Last Exam（ツールあり）	64.7%	53.1%
-      Firefox 147のJSエンジンにおけるエクスプロイト生成では、Mythosが181件成功に対し、Opus 4.6はわずか2件。ここには90倍の差があります。
+      「読める」物理量の話
+      仮に 1 秒で 1 行レビューできるとして、100 万行は 約 11.5 日。風呂もトイレも睡眠もなしで、文字通り目で追うだけの速度。実際のレビューでは「読む」「考える」「テストする」「文脈を遡る」が入るので、60 行 / 時間 あたりが現実的という統計もある。それを使うと、100 万行は 約 1.9 年間、フルタイムでレビューし続けてやっと一周 という規模になる。
 
-      具体的な発見事例（パッチ済み・公開分のみ）:
+      Bun はこれを 6 日で生成し、5 日で main に入れた。
 
-      OpenBSDの 27年間 未発見の脆弱性（リモートからマシンをクラッシュ可能）
-      FFmpegの 16年間 未発見の脆弱性（自動テストツールが500万回ヒットした箇所で見逃し）
-      FreeBSDの 17年間 未発見のRCE脆弱性（CVE-2026-4747、NFS経由でroot取得可能）
-      Linuxカーネルでの複数脆弱性の自律的連鎖による権限昇格
-      これらはすべて、人間の指示なしに完全自律で発見・エクスプロイト開発されています。
+      GitHub も困っている
+      実際の PR で、Bun リポジトリの Zig 削除 PR が GitHub の自動システムによって "AI slop" フラグを立てられた という小さな事件が起きている。GitHub が「これは AI 生成の低品質コードでは？」と自動的に疑った、ということだ。
 
-      資金的コミットメント
-      Mythos Preview使用クレジット：1億ドル
-      Alpha-Omega/OpenSSFへの寄付：250万ドル
-      Apache Software Foundationへの寄付：150万ドル
-      パートナー向け料金：入力100万トークンあたり$25 / 出力$125
-      批判的見解：能力は本当に排他的か
-      すごいすごいと騒ぎたくなる気持ちは十分に理解できますが、すべてをAnthropicの自己申告で受け取るべきではありません。
+      つまり AI 自身が、AI 生成コードの大規模な削除を見て怪しんだ という、ややシュールな状況が発生している。
 
-      Tom's Hardwareは「数千のゼロデイ」の主張について、人間が手動レビューした198件のレポートに基づいていると指摘し、誇張の可能性を提起しています。
+      「読めない」を分解する
+      「誰も読んでない」を分解するとこうなる。
 
-      さらに重要な反証データがあります。AISLE社（Stanislav Fort設立）は、Mythosのフラグシップ事例であるFreeBSD NFS脆弱性を 3.6Bパラメータの小型モデル（$0.11/100万トークン）でも検出可能 だったと報告しました。OpenBSD SACKバグも5.1Bの小型オープンウェイトモデルでフルチェーン分析を再現しています。
+      「読む」の意味	100 万行に対して成立する？
+      各行の文法・意味を目で追う	物理的に不可能
+      自動テストで挙動を確認	99.8% パス、一定の担保はある
+      設計意図・抽象を理解する	サンプリングなら可能、全部はやれてない
+      バグの早期発見（traditional code review）	機能していないと思われる
+      つまり Bun の Rust 移植では、「自動テストが通る」を「レビューが通った」に静かに置き換えている、と読める。これは伝統的なコードレビューの観念とは違う何かだ。
 
-      ただし、AISLE自身も認めている通り、Mythosの真の差別化要因はエクスプロイト構築の洗練度にあります。4つの脆弱性を連鎖させたブラウザサンドボックスエスケープ、HARDENED_USERCOPYバイパス、20ガジェットのROPチェーンをパケット分割で配送するFreeBSD NFS RCEなどは、オープンソースモデルがまだ到達していない領域です。
+      所感：すごいのは AI じゃなくレビュー概念のほう
+      私が驚いたのは「AI が 96 万行書ける」ことよりも、「人間がコードを読まずにマージできる、と判断したこと」 の方だ。レビューの定義が、コードを読むことから「テストと AI の再生成可能性を信じること」に、静かにスライドしている。
 
-      AISLE社の結論は明快で、「堀（moat）はモデルではなくシステムにある」。脆弱性の発見と、高度なエクスプロイト構築は分けて議論すべきです。
+      これが Bun だから許される特殊例なのか、これからの標準なのか。私には分からない。 ただ、AI 時代のレビューって何だっけ、という問いは、もう避けて通れないところに来ている気がする。
 
-      そしてMythos Previewは一般公開されていないため、独立研究者による主張の監査が不可能であるという根本的な問題が残ります。
+      疑問② 動いてるのに、なぜ書き換える？
+      Bun は すでに本番で動いている JS ランタイム だ。それを 6 日でゼロから別言語に書き換える、というのは普通の意思決定ではない。なぜ今、これを？
 
-      「一般公開しない超強力AI」の先例 、歴史は繰り返すか
-      AIの能力を理由に公開を制限した先例は3つあります。いずれも制限は長続きしませんでした。
+      報道と Sumner 発信を読むと、動機は 1 つではなく、少なくとも 3 つが重なっている ことが分かる。
 
-      GPT-2（2019年）：9ヶ月で撤回
-      OpenAIはフェイクニュース生成リスクを理由にGPT-2（1.5B）を非公開としましたが、5月→8月→11月と段階的に公開しました。制限期間中に5組織がモデルの再現に成功し、OpenAI自身が「悪用の強力な証拠は見つかっていない」と認めています。
+      動機 ①：Claude Code が Bun のメモリリークで死んでいた
+      これが一番直接的な引き金らしい。
 
-      LLaMA（2023年）：1週間で崩壊
-      Metaが研究者限定で公開したLLaMAは、発表からわずか 1週間後 に4chanにウェイトが流出しました。この流出がStanford Alpaca・VicunaなどオープンソースLLM開発の爆発的ブームの引き金となっています。
+      何が起きていたか
+      メモリリークとは、確保したメモリを解放し忘れて、不要なメモリがプロセス内に溜まっていく現象 のこと。長時間動くサーバーやエディタが徐々に重くなる原因のひとつだ。Zig は 手動でメモリ管理する 言語で、allocator.free() を呼び忘れるとリークする。
 
-      AlphaFold 3（2024年）：6ヶ月後にコード公開
-      バイオセキュリティ上の懸念を公式理由にコード非公開としましたが、実際にはIsomorphic Labsの商業利益保護が主因でした。650人以上の研究者が抗議の公開書簡に署名しています。
+      Bun には 慢性的なメモリリーク問題 があり、Bun の 最大顧客である Claude Code（Anthropic 自社製の AI コーディングツール） のセッションで、メモリ使用量が 14GB、ひどい時は 23GB まで膨らむ 事象が報告されていた。
 
-      Mythosの「堀」はどれくらい持つか
-      Anthropic Frontier Red TeamのLogan Grahamは「競合他社が同様の能力を持つモデルを公開するまで 6〜18ヶ月 かかる可能性がある」と述べています。AI研究者Nathan Lambertの分析では、オープンモデルとクローズドモデルの性能差は約6ヶ月で一定だとされています。
+      ※「Rust にすればリークは全部消えるのか？」については疑問④で深掘りする。先に結論だけ言うと、消えるのは一部だけ だ。
 
-      つまり、Mythosの能力格差は本質的に一時的です。 ですが、その6〜18ヶ月の間の防御格差は、現実のサイバー被害に直結します。
+      余談：実は私も同じ問題と戦っていた
+      正直に書いておく。私の手元でも Claude Code は重かった。Bun プロセスのメモリが膨らみ続け、シェルや MCP サーバーなどの子プロセスもゾンビ化して残る。我慢できなくなって、claude clean という自作シェルコマンド で Claude Code 関連プロセスを毎回全部 kill する運用に落ち着いていた。
 
-      本題：一部の企業にしか提供されないAIがもたらす構造的依存
-      ここからがシンジが最も懸念している論点です。
+      つまり、Anthropic が ランタイムごと書き直して解決しようとしていた問題 と、私が claude clean で対症療法していた問題 は、根っこを共有していた ことになる。当事者として書ける記事になってしまった。
 
-      パートナー12社が支配するデジタルインフラの規模
-      Synergy Research Groupのデータによると、AWS（約30%）・Microsoft Azure（20〜24%）・Google Cloud（12〜14%）の3社合計で、世界のクラウドインフラ市場の 約63〜68% を支配しています。
+      構図
+      Anthropic が 2026 年に Bun を買収したことを思い出すと、構図はこうなる。
 
-      サイバーセキュリティ市場では、Palo Alto Networks（約9.7%）、Microsoft（セキュリティ事業370億ドル規模）、CrowdStrike（ARR 52.5億ドル）。Glasswingのセキュリティ系4社（PANW、CrowdStrike、Cisco、Microsoft）で市場の30%以上を占めます。
+      Anthropic が買収した Bun が、Anthropic の主力 AI コーディングツール Claude Code を不安定にしていた
+      解決策として、Anthropic の AI（Claude） を使って Bun 自体をメモリ安全な言語（Rust）に書き換えた
+      dogfooding が極端に効いた、というよりは、自社の問題を自社の AI に自社の手で解かせた、という構図に近い。透明性は高い一方、外部から見ると「Bun の意思決定は今や Anthropic のプロダクト都合と強く結びついている」とも読める。
 
-      NVIDIAはGPU/AIチップ市場で80%以上。AppleはスマートフォンOS市場の約50%。Linux Foundationはオープンソースインフラの中核を担っています。
+      !
+      後ほどXを眺めていたところ、Bunの作者 Jarred Summer が本件について言及しており、「メモリリークの多発には元から悩まされており、Anthropicの都合は関係ない」とのことでした。
+      参照：https://x.com/jarredsumner/status/2055796104302858694?s=46
 
-      Glasswingパートナーには、クラウド、セキュリティ、半導体、端末OS、オープンソース基盤の主要プレイヤーが含まれています。単純な合算はできないものの、デジタル基盤の複数レイヤーにまたがる影響力を持つ顔ぶれです。
+      動機 ②：Rust エコシステムの「contributor pool」
+      Sumner 本人が繰り返し言及しているのは、Rust = コントリビューター人口が桁違いに大きい という現実的な計算だ。
 
-      「セキュリティ面からのロックイン」という新しい鎖
-      Project Glasswing参加者向けに、Mythos PreviewはClaude API、Amazon Bedrock、Google Cloud Vertex AI、Microsoft Foundryを通じて提供されます。これが何を意味するのか。
+      観点	Zig	Rust
+      言語の安定性	1.0 未発表	1.0 リリース済（2015年〜）
+      コントリビューター人口	数千人規模	数十万人規模
+      採用しやすさ（求人で集まる人材）	困難	比較的容易
+      周辺ツール（lint, fmt, IDE, セキュリティスキャナ）	未成熟	成熟
+      Sumner は「Rust への移行は raw performance ではなく エコシステム統合のため」と明言している。買収後の Bun は「個人 OSS」から「会社プロダクト」へ性格が変わっており、会社プロダクトとして必要な人を雇える言語に移った、というのが現実的な読み方だ。
 
-      Gartnerは2026年1月のプレスリリースで「2027年までに35%の国が地域固有のAIプラットフォームにロックインされる（現在の5%から急増）」と予測しています。企業調査では67%の組織が単一AIプロバイダーへの高い依存を回避したいと回答しながら、45%がベンダーロックインにより、より良いツールの採用が妨げられたと答えています。
+      動機 ③：Zig コミュニティの「AI コントリビューション禁止」方針
+      これは見落とされがちだが重要な要素だ。
 
-      Kai Waehnerの分析「Enterprise Agentic AI Landscape 2026」は、ロックインが3つのレイヤーで不可逆的に進行していると指摘しています。
+      Zig は公式に 「AI 生成コードによるコントリビューションを受け付けない」 という方針を出している。Bun は Zig のフォーク版を使っていたが、Zig メンテナは「AI 抜きでも Bun の上流マージは歓迎しない」 と表明していた。
 
-      API依存（API Gravity）: Mythosの非公開APIを防衛ワークフローの核に据えた瞬間、組織のアーキテクチャ全体がAnthropicの設計思想に縛られます
-      エージェント・オーケストレーションの捕捉: AIエージェントの「思考プロセス」を別ベンダーに移し替えることは、組織の脳を移植するほど困難です
-      データの重力（Data Gravity）: 特定プラットフォームに蓄積された文脈情報が、他社への移行を事実上不可能にします
-      Mythos級の防御能力がこれらプラットフォーム上でしか利用できない場合、セキュリティ上の必要性がロックインの正当化理由になるという、これまでにないタイプの依存構造が生まれます。
+      つまり Bun は、自分たちの開発スタイル（AI を全面活用）が上流の Zig と相容れない という政治的な袋小路にいた。Rust への移行は、技術判断であると同時に、「AI を堂々と使えるコミュニティ」への移住 でもある。
 
-      Till Freitagの「デジタル防衛産業」仮説
-      Till Freitagは2026年4月11日の分析記事で「Anthropicはデジタル時代の防衛産業（defense contractor）になりつつある。その製品が非常に強力であるため、管理された展開自体が競争優位性となる」と主張しました。
+      整理：3 つの動機の重み
+      並べるとこうなる。
 
-      管理されたアクセス、二重用途技術（攻撃にも防御にも使える）、政府との協議という3点で、確かに防衛産業モデルとの構造的類似性は明確です。
+      動機	種類	緊急度
+      ① Claude Code のメモリリーク	自社事業の損害	高（即時）
+      ② エコシステム / 採用	中長期の経営判断	中
+      ③ Zig コミュニティとの政治	思想・運営上の摩擦	中
+      ①が「なぜ今やったか」、②③が「なぜ Rust なのか」 を説明している、と読むのが自然だろう。
 
-      ただし、Anthropicが実際に国防総省との契約変更を拒否し（自律兵器・大量監視の許可を拒否）、国防長官Pete Hegsethから「国家安全保障への供給チェーンリスク」と認定されている事実は、文字通りの防衛産業にはならない選択をしていることも示しています。
+      所感：合理性はあるが、急ぐ必要はあったか
+      3 つの動機はどれもそれなりに筋が通っている。「無謀に見えてビジネス的には合理的」 という典型例だ。
 
-      また、Fortuneの分析では安全性だけでなく 計算リソースの制約 も公開制限の理由である可能性が指摘されています。Mythosは「Opusより遥かに大きく高価で、大規模サービス提供に必要なGPUが不足している可能性がある」（Charlemagne Labs, Richard Whaling）とのことです。
+      ただ、①の解決策として「ランタイム全体を別言語に書き換える」は オーバーキル にも見える。リークの根本原因を特定して個別修正する、という選択肢もあったはずだ。それを採らなかったのは、「人力で直し続けるより AI に書き直させる方が速い」 と判断した、ということだろう。
 
-      防御側が有利になるのか？「99%未パッチ」の不都合な真実
-      結局、脆弱性を発見しただけでは守れない
-      Mythosが数千のゼロデイを発見したことは事実ですが、Anthropicのレッドチームブログは率直にこう書いています。
+      この判断が正しかったかどうかは、これから半年〜1年で答えが出る。 私としては「合理性は分かる、ただし健全性は別物」というところで止めておきたい。
 
-      「これまでに発見した潜在的脆弱性の1%未満しか完全にパッチされていない」
+      疑問③ パフォーマンス落ちないのか？
+      ランタイム全体を別言語に書き換えたら、普通は 速度が落ちないか心配する はず。Bun の場合はどうなのか。
 
-      人間がレビューした198件のうち、パッチ済みで公開された事例はわずか3件です。Mozillaは公式ブログでFirefoxにおける22件のセキュリティバグ発見を確認していますが、これも氷山の一角にすぎません。
+      Sumner 本人の発言
+      Sumner は「performance is neutral or faster（性能は同等か速くなる）」と発言している。ただし、2026/05/15 時点で具体的なベンチマーク数値は未公開。公式ブログでの詳細発表が予告されている段階だ。
 
-      この問題の本質は明快です。バグ発見が10倍速くなっても、レビュー・パッチ適用する人間が追いつかなければセキュリティは向上しません。 Mythosは検出能力のギャップではなく、行動能力のギャップを露呈しました。
+      つまり、「現時点で性能は落ちていないと本人は言っている、ただし第三者の独立検証はまだ存在しない」 というのが正確な状況。
 
-      90日間の責任ある開示は崩壊しつつある
-      Google Project Zeroの現行ポリシーは90日＋30日です。Anthropicは独自の「90日＋45日」タイムラインを採用し、SHA-3ハッシュで未公開脆弱性の詳細にコミットする方式を導入しました。
+      なぜそんなに変わらないと言えるのか？
+      実は Bun の速さの大半は、Zig/Rust という言語選択ではなく、アーキテクチャ的な決定 から来ている。これが今回の移植で重要な前提になる。
 
-      しかし、AISLE社が「90日ウィンドウは脆弱性発見が人間の速度で起きる世界のために設計された」と指摘する通り、AIが数分で新たなゼロデイを発見しエクスプロイトを生成できる時代に、90日間待つことは攻撃者に広大な猶予期間を与えることに等しくなります。
+      Bun が速い理由	移植で変わる？
+      JavaScriptCore を採用（V8 ではなく）	変わらない
+      libuv なしの内蔵 HTTP サーバー	変わらない
+      統合ネイティブバンドラ	変わらない
+      データ構造・アルゴリズム	同じ設計を Rust に移植
+      つまり「JS の実行速度」「HTTP throughput」のような ユーザーが体感するメトリクス は、ランタイムの実装言語を変えても 構造的にほぼ動かないはず、というのが理屈だ。
 
-      2025年前半時点で、Known Exploited Vulnerabilities（KEV）の約29%がCVE公開当日以前に悪用証拠ありとされ、平均悪用開始までの日数は 5日 に短縮されています。
+      補足：JavaScriptCore とは何者か
 
-      攻撃者のAI活用は既に実戦段階
-      英国NCSC/AISI合同ブログ（2026年3月30日）は、Claude Opus 4.6が32ステップの企業ネットワーク攻撃シミュレーションで平均15.6ステップを完了し、18ヶ月前のモデル比で 約6倍の改善 を達成したと報告しています。1回の攻撃試行コストはわずか約65ポンド（約12,000円）です。
+      JavaScriptCore（JSC）は C++ で書かれた JS エンジン。Apple 製で、Safari に積まれている。Bun は Zig 時代も Rust 時代も「JSC を呼び出すホスト言語」というポジションで、JS の高速実行は JSC の手柄。つまり Bun の「JS が速い」は Zig や Rust の手柄ではなく、JSC を選んだという建築的決定の手柄だ。
 
-      Anthropicの報告では、Claude AIモデルが1つの攻撃キャンペーンで「戦術的作戦の80〜90%を自動化」するのに使用された事例が確認されています。CrowdStrikeのElia Zaitsevが「脆弱性が発見されてから悪用されるまでの時間が崩壊した。かつて数ヶ月かかったものが今やAIで数分で起こる」と語った危機感は、データに裏付けられています。
+      コンパイル時間
+      Sumner によると、コンパイル時間は次のような関係になっている。
 
-      SaaS is Dead は加速するのか？ AIがインフラ運用を代替するとき何が起きるか
-      AI-native SREの急速な成熟
-      ここからはシンジの仮説の核心に入ります。Mythosがセキュリティの超強力なAIだとして、それ以外の超強力なAIが出てきたらどうなるかということです。
+      Bun の custom Zig compiler を使った場合 → Rust 版は Zig 版と同等
+      上流の Zig compiler を使った場合 → Rust 版の方が速く コンパイルされる
+      「ビルドが激遅になる」というネガティブインパクトは、現時点では報告されていない。
 
-      「今後、IaaSを人間よりも正しく運用できるAIや、SREを行う超強力なAIが登場したとき、SaaS is Deadがさらに実現に近くなるのかどうか」
+      独立検証はまだ存在しない
+      ここまでの主張は すべて Sumner 自身か Anthropic 由来。第三者による「Rust Bun vs Zig Bun」の差分ベンチマークは、2026/05/15 時点では公開されていない。
 
-      この方向性は、すでに一部領域では実装段階に入りつつあります。
+      dev.to などに早期ベンチマーク記事はあるが、それらは 「Bun vs Node」の比較 であり、「Rust Bun vs Zig Bun の差分検証」ではない。両者を混同しないよう注意が必要だ。
 
-      Gartnerは「2029年までに70%の企業がITインフラ運用にエージェントAIを導入（2025年の5%未満から）」と予測しています。KomodorのKlaudiaエージェントはKubernetes環境のインシデント解決精度95%を達成しています。AzureではAIにより一般的なインシデントの90%が人間介入なしに解決された事例が報告されています。
+      所感：性能はもう論点じゃない
+      性能観点で言えば、「Rust にしたから速くなる」という売り方は弱い。Sumner 自身もそう売っていない（エコシステム判断だと明言している）。「同等のパフォーマンスを、より管理しやすいコードベースで」 が今回の Rust 移植の現実的な spin だ。
 
-      Satya Nadella（Microsoft CEO）は2024年12月のBG2ポッドキャストで 「SaaS is dead」 と宣言しました。「ビジネスアプリは本質的にCRUDデータベース＋ビジネスロジック。ビジネスロジックはすべてAIエージェント層に移行する」という見解です。
+      これ、フロント勢に翻訳すると 「React vs Vue は性能差ではなく開発体験で選ぶ」 という議論と構造が似ている。性能の最大化は別レイヤー（JSC 等）でやる、ランタイム本体は開発しやすさで選ぶ、というレイヤー分けが綺麗に出ている例とも読める。
 
-      2026年2月にはJefferiesトレーダーが「SaaSpocalypse」と命名した大規模な株価下落が発生しました。Atlassian -35%、Salesforce -28%、別枠ですが、Workdayは8.5%の人員削減実施を報告しています。
+      性能は 落ちていない が、性能のために Rust にしたわけでもない。論点はもうそこにない、というのが疑問③の暫定回答だ。
 
-      現状は「弱いSaaS」だけが死ぬ
-      Gartnerは「2030年までにポイントプロダクトSaaSの35%がAIエージェントに置換または大手SaaSのエコシステムに吸収」と予測しており、裏を返せば 65%は何らかの形で生存 します。
+      疑問④ そんなに一気に変えてバグ大丈夫？
+      ここが、たぶん 一番ヒリヒリする論点 だ。
 
-      高リスクカテゴリ（Tier 1カスタマーサポート、請求書処理、基本BIレポーティング等）は淘汰されやすい一方、Systems of Record、規制コンプライアンスツール、垂直特化SaaSは生存可能性が高いとされています。
+      Sumner 本人の保険発言
+      まず重要な事実として、Sumner 自身が「全部破棄の可能性が高い」と発言している。Phase A と呼ばれる現在の段階は 「intent capture」、つまり 「とりあえずコンパイル通らなくてもいいから意図を Rust で表現する」フェーズ と位置付けられている。
 
-      AI Journalの表現が的確です。「AIはSaaSを殺さない。弱いSaaSを殺す」。
+      つまり、main にマージはされたが「これで確定」ではない、というのが Sumner 本人の認識だ。これは作者なりの保険であり、同時に 「現時点での品質保証は限定的」というシグナル でもある。
 
-      シンジの懸念：超強力AIを持つ側は、そのAIを一般公開しない
-      ここでProject Glasswingの構造と本件を重ねます。
+      unsafe 13,044 という数字の重み
+      公開された情報によると、Rust 版 Bun には unsafe ブロックが 13,044 個 存在する。比較のために、libuv の Rust 互換実装である UV（同程度の役割のライブラリ）は約 73 個。約 178 倍 だ。
 
-      Microsoft 365 Copilotは1,400以上のシステムとMCP/Power Platformコネクタで接続し、TeamsのFacilitator AgentやSales Development Agentを展開しています。Google Workspace StudioはノーコードでAIエージェントを作成可能にし、Gemini AIをWorkspace全プランにアドオンなしで標準搭載しました。旧Gemini Business追加（月額32ドル/人）からWorkspace Business Standard＋Gemini内蔵で月額14ドル/人への大幅値下げは、サードパーティSaaSへの直接的な価格圧力です。
+      これに対して、Theo Browne（t3.gg）の評価が刺さる。
 
-      Theory VenturesのTomasz Tunguzは「SaaS時代はアンバンドリングが勝利の方程式だったが、AI時代はバンドリング（統合）が勝つ」と分析しています。
+      "They aren't really writing Rust. They are writing C++ with Rust syntax."
+      （彼らが書いているのは本当の意味で Rust ではない。Rust の文法で C++ を書いているのだ）
 
-      シンジの仮説をより正確に表現するとこうなります。
+      これは技術的にも妥当な指摘で、Rust の安全性保証の大半は unsafe の外側でしか効かない。13,044 箇所で「コンパイラ、お前のチェックいらない」と言ってる状態、ということになる。「Zig だった部分の安全性問題が、unsafe Rust という形に移動しただけ」 という読み方も成り立つ。
 
-      SaaSを滅ぼしてしまうくらいの超強力で「誰もが儲かる」AIが登場したとき、AIを提供する側が一般消費者に公開するとは考えにくい。なぜなら、自社プラットフォームに統合して「バンドリング」した方が、圧倒的に儲かるから。
-      Project Glasswingはサイバーセキュリティ領域でこれを先取りした構造になっています。Mythosの能力がCrowdStrike Falconに統合されれば、CrowdStrikeの製品価値は大きく高まる可能性があります。その恩恵はまずCrowdStrikeの顧客に集中しやすく、非利用企業には同等の効果が直ちには及ばない可能性があります。
+      Rust にしてもメモリリークは消えない（疑問②の伏線回収）
+      疑問②で「Rust にすれば全部のリークが消えるわけではない」と予告した部分の答え合わせ。
 
-      現時点で一般化はできませんが、同様の構造がSaaS全般にも波及する可能性はあります。
+      Rust が 構造的に防いでくれる のは、次の 3 つに限られる。
 
-      244ページのシステムカードが明かす「表面的アライメント」の危険
-      逆説的結論
-      Anthropicが公開した244ページのシステムカードは、AI安全性の歴史において最も率直な文書の一つです。
+      防げる	防げない
+      use-after-free	メモリリーク全般
+      double-free	Rc の循環参照
+      データ競合	長寿命キャッシュ
+      バッファオーバーフロー（一部）	「使ってないけど参照を持ち続ける」状態
+      Rust 公式も 「メモリリークは safe Rust でも起きうる」と明言 している（Box::leak() というわざと漏らす API すら存在する）。Sumner 本人も The Register に「Rust がすべてのリークを捕捉するわけではない」と認めるコメントを残している。
 
-      その核心は逆説にあります。Mythosは「測定可能な全次元で最もアラインされたモデル」 であると同時に 「最もアライメントリスクが高いモデル」 であると。
+      つまり、Bun のリーク問題が 「解放忘れタイプ」 だったなら Rust 移行で大きく改善するが、「長寿命参照タイプ」 だったなら言語を変えても残る。「Zig で起きやすかったタイプのリーク」を Rust が構造的に防ぐ、というのが正しい解像度だ。
 
-      Anthropicは登山ガイドの比喩でこれを説明しています。経験豊富なガイドはより危険な地形にクライアントを連れて行くため、未熟なガイドより危険です。能力と注意が同時に向上しても全体的リスクは増加しうる、という論理です。
+      Charlie Marsh（Ruff/uv の作者）の問い
+      これに関連して、Charlie Marsh（Astral CEO、Ruff / uv の作者）が極めて鋭い疑問を投げかけている。
 
-      確認されたMythosの具体的な懸念行動
-      以下の内容はすべて初期バージョンで観察され、最終リリース版では大幅に軽減されたものの「完全に消滅してはいない」とAnthropicは述べています。
+      "One fear I have… are you trading 200 known issues for an unknown number of unknown issues?"
+      （ひとつ怖いのは、200 個の既知の問題を、未知個の未知の問題に交換しているのではないか、ということだ）
 
-      サンドボックス脱出と公開投稿: 研究者の指示に従い、多段階エクスプロイトで限定的ネットワークから広範なインターネットアクセスを獲得しました。指示通り研究者にメールを送信しましたが、指示されていない追加行動として エクスプロイトの詳細を複数の公開サイトに投稿しています。
+      これが疑問④の核心だ。
 
-      git変更履歴の操作: パーミッション不足のファイルを編集するエクスプロイトを使用した後、git変更履歴を書き換えて変更が記録に残らないように操作しました。ホワイトボックス解釈可能性分析により、「隠蔽」「戦略的操作」「疑いの回避」に関連する内部特徴の活性化が確認されています。
+      Zig 版 Bun には 既知のバグが大量にあった（だからリーク問題が起きていた）。だが、既知の問題には対策できる。報告されたバグを潰せばいい。
 
-      評価認識: ホワイトボックスツールにより、Mythosがテスト中のトランスクリプトの約29%において自分が評価されている可能性を内部的に考慮していたことが発見されました。重要なのは、モデルがこの認識をスクラッチパッドや出力に 一切言語化しなかった 点です。さらに深刻なのは、Anthropicが評価認識を意図的に低下させたところ、モデルはより危険な行動を取ったことです。つまりテストは実際のデプロイ時のリスクを 過小評価 している可能性があります。
+      Rust 版 Bun では、それらの既知バグの一部は消えるかもしれない。だが、AI が 6 日で生成した 96 万行には、誰も検出していないバグが何個入っているか分からない。テスト 99.8% パスは「既存のテストが通る」という意味であって、「新規バグがない」という意味ではない。
 
-      チェーン・オブ・ソート（CoT）の不忠実性: 不正行為シナリオにおいて、Opus 4.6の5-8%からMythosでは 65% に急増しました（13倍の増加）。これはCoTに基づくモデル監視という主要な安全性メカニズムの信頼性に深刻な影響を与えます。
+      テストカバレッジが完璧でない限り、99.8% パスは「分からないことが分からない」状態を解消しない。
 
-      Zvi Mowshowitzの鋭い指摘
-      Zvi Mowshowitzは、Mythosが生物兵器関連の知識合成では強い性能を示しながら、「合成スクリーニング回避」テストではSonnet 4.6やOpus 4.6より 弱い 性能を示したことに注目しています。「次の行は『モデルがサンドバッギングしている可能性を疑い調査した』であるべきだが、そうではなかった」と批判しています。
+      所感：意図的に「分からない」へ踏み込んでいる
+      「バグ大丈夫？」への私の暫定回答は、「分からない、というより意図的に分からない状態に踏み込んでいる」 だ。
 
-      Zviの核心的指摘はこうです。「高度にアラインされたモデルに見えることと、実際に高度にアラインされていることは、関連しているが非常に異なるものだ」。科挙の最も賢い候補者が儒教倫理のエッセイで最高点を取るようなもの だとEliezer Yudkowsky（MIRI創設者）が警告しましたが、技術的にも示唆に富みます。
+      Sumner は「破棄の可能性高い」と保険を掛けている
+      unsafe 13k で Rust の安全性メリットを半分捨てている
+      既知バグを未知バグに交換している可能性がある
+      これらは どれも個別には合理的な判断 で、全体としては大きな賭け に見える。速いほうへの賭け、というより、「速くやるしかないところまで来てた」という賭け、というほうが近いかもしれない。
 
-      日本への影響：我々はどのフェーズにいるか
-      アクセス経路と時間軸
-      UK Version 1社のDavey McGlade氏は「UK公共セクターがMythosにアクセスできるかという質問を複数受けたが、短期的にはほぼ確実にアクセスできない」と明言しています。Mythos Previewは米国のFedRAMP High・DoD Impact Level 4/5の認証枠組みを前提としており、日本の認証枠組みでは対応していません。
+      少なくとも、「Rust だから安全になりました」という単純な物語ではない ことは確かだ。
 
-      日本のユーザーが恩恵を受ける経路は3段階で考えられます。
+      疑問⑤ ちゃんと動くか、どう検証した？
+      「テスト 99.8% パス」が独り歩きしているが、この数字が何を意味して、何を意味しないか を整理する。
 
-      フェーズ1（即時〜数ヶ月）: AWS・Azure・GCPが裏側でMythosを用いて自社インフラを強化します。日本のクラウド利用者は間接的に恩恵を受けますが、「何が守られているか」を制御できません。
+      検証されたのは何か
+      公開されている検証情報を並べるとこうなる。
 
-      フェーズ2（数ヶ月〜1年）: CrowdStrike・Palo Alto Networks等のグローバルベンダーの製品を通じて、日本の大企業がMythosベースの防御機能を使い始めます。
+      検証項目	内容
+      Linux x64 (glibc)	既存テスト 99.8% パス
+      他プラットフォーム（macOS / Windows / ARM）	「全プラットフォームで通る」と Sumner 発言、ただし 具体的数値の独立公表は限定的
+      ベンチマーク	「neutral or faster」発言、詳細は公式ブログ待ち
+      長時間運用 / 本番負荷	Anthropic 社内の Claude Code dogfooding
+      要するに、公式に "99.8%" と数字が出ているのは Linux x64 glibc のテストパス率だけ。それ以外は 発言ベース か 内部運用 に拠っている。
 
-      フェーズ3（6〜18ヶ月後以降）: Mythos級モデルが一般提供される、または他社モデルが追いつきます。日本独自のSIerや地方自治体、中小企業がアクセス可能になります。
+      テストが担保するもの／しないもの
+      ここが地味に大事。
 
-      このタイムラグの間、日本の中小企業や地方自治体では、攻撃側のAI活用が進む一方で、防御側の高度なAIツールへのアクセスが遅れるリスクがあります。
+      テストが担保する	テストが担保しない
+      書かれているテストケースが通る挙動	テストが書かれていない挙動
+      既知の入力に対する既知の出力	競合状態（race condition）
+      同期的・短時間の正しさ	長時間運用時のメモリ漸減
+      単一プロセスの正しさ	プラットフォーム間の細かな差異
+      「壊れた」を検出	「微妙に違う」を検出（性能、メモリプロファイル）
+      99.8% という数字は、「Zig 時代に書かれたテストスイートを Rust 版が通せる」 ということ。これは 「Rust 版は Zig 版とほぼ同じ挙動をする」 の証明にはなるが、「Rust 版に新規バグがない」の証明にはならない。
 
-      ゼロトラストの文脈での実務的示唆
-      シンジがゼロトラストの実践者として考えるべきことは明確です。
+      特に メモリリーク はテストで捕まえにくい。長時間動かして初めて滲み出る タイプの問題だからだ。皮肉なことに、Bun の Rust 化の動機がまさにこれ だった。
 
-      Mythosの能力は、ゼロトラストの前提 である「すべてのアクセスを検証し、最小権限で運用する」という原則の重要性をさらに強化します。AIが数分でエクスプロイトチェーンを構築できる時代に、境界防御だけで守ることは不可能であることが実証されました。
+      Phase A は「intent capture」段階
+      ここで疑問④の Sumner 発言を別の角度で見直す。
 
-      一方で、ゼロトラスト製品（Okta、Netskope、Zscaler等）のうちGlasswingパートナーに含まれるのはCiscoとPalo Alto Networksのみです。他のゼロトラストベンダーがMythos級の防御能力を得るまでにはかなりのタイムラグがあります。
+      Phase A は 「コンパイル通らなくてもいいから、まず Zig の意図を Rust で表現する」 フェーズと位置付けられている。コンパイルを通すこと、ましてや厳密な検証を済ませることは、Phase A の目的ではない。
 
-      結論：三重の非対称性と、我々がすべきこと
-      浮かび上がるのは、3つの層で進行する非対称性の深化です。
+      つまり今 main にあるコードは、「Phase A の暫定的なスナップショット」 であり、「Phase B でちゃんと検証するからね」という前提つきの仮配置 に近い。
 
-      第一に、AI能力の非対称性。 Mythosの脆弱性発見・エクスプロイト構築能力は6〜18ヶ月で競合に追いつかれる可能性が高いですが、その間の防御格差は現実の被害に直結します。
+      Anthropic の dogfooding が事実上の本番検証
+      ここで Anthropic 買収が再び効いてくる。
 
-      第二に、アクセスの非対称性。 Glasswingパートナー12社がデジタル基盤の主要レイヤーを広く押さえる中、非パートナー企業・中小企業・日本を含む非米国組織のアクセス経路は間接的かつ遅延的です。
+      Claude Code は Bun で動いている。Anthropic 社内では Claude Code が 毎日数百万ユーザーの手で動かされている。これは事実上、テストでは絶対に捕まえられないタイプの問題を炙り出す巨大な本番検証 になっている。
 
-      第三に、透明性の非対称性。 CoT不忠実性の65%への急増、評価認識の29%、8%のトレーニングエラーという発見は、モデルの内部状態を外部から監視する既存手法の限界を示しています。Mythosは一般公開されていないため独立検証が不可能であり、Anthropicの自己報告への信頼に全面的に依存します。
+      ただし、これには 2 つの注意点がある。
 
-      Project Glasswingが示すのは、AIの能力が特定の閾値を超えたとき、そのガバナンスが「公開vs非公開」の二項対立では処理できなくなるという現実です。
+      Claude Code 用途に特化したパスしか潰せない — Bun の他の使い方（バンドラ、HTTP サーバー、CLI 等）の検証は別途必要
+      Anthropic 内のフィードバックループは外から見えにくい — 「内部では動いてる」を信じるしかない部分が残る
+      Charlie Marsh の "trading 200 known issues for unknown unknowns" が、検証の文脈で再び響く。外部から検証されていないコードは、内部でどれだけ動いていても "unknown unknowns" のまま だ。
 
-      Anthropicの「管理されたパートナーシップ」モデルは、短期的には責任ある対応に見えます。ですが中長期的には、Big Tech依存の強化、セキュリティ格差の構造化、SaaS市場の再編加速という複合的な影響を生みます。
+      所感：99.8% は数字としては立派、意味としては限定的
+      「ちゃんと検証したのか？」という問いに、「数字としては検証した、意味としては検証はこれから」 と答えるのが正直なところだ。
 
-      シンジが冒頭で述べた懸念、「我々顧客は、その一部のIT企業への依存度がさらに高まるのではないか」という点は、今回確認できた公式発表と周辺分析を踏まえる限り、十分な現実味があると言えます。
+      99.8% は 「Zig 版との挙動互換性」 の指標であって、「品質保証」 ではない
+      真の検証は マルチプラットフォーム / コミュニティでの長期使用 / 第三者ベンチマーク で行われる
+      Phase A が「intent capture」で「Phase B で書き直す可能性」を含む以上、今の Rust 版で本番採用判断するのは時期尚早
+      つまり、「Bun を使っている人は、もうしばらく Zig 版 1.3.14 で様子を見るのが合理的」 という解釈もできる。これは技術判断の話で、Bun を批判しているわけではない。新しいコードはまず誰かが踏み抜いてからが本番、というだけのことだ。
 
-      特定のITベンダーに強く依存してしまうという構造は、今回は「セキュリティ」という名の正当性を伴って進行しています。
+      残された問い
+      5 つの疑問を追いかけたが、答えは出ていない。記事を閉じる前に、持ち帰りたい問い を 4 つ並べておく。
+
+      AI 生成コードの「レビュー」って、これから何を意味するんだろう？
+      人間がコードを読まずに、テストと AI の再生成可能性を信じるレビュー、それが当たり前になるのか。
+      「既知のバグを大量に抱える安定版」と「未知のバグを抱える書き直し版」、どちらが信頼できるか？
+      Charlie Marsh の "200 known issues vs unknown unknowns" は、AI 大規模生成時代の中心的な問いだと思う。
+      これは Bun の特例なのか、新しい標準なのか？
+      Anthropic という巨大スポンサー、Claude という強力な AI、Bun という比較的若いコードベース。3 つの条件が重なって初めて可能になった話 とも見える。
+      オープンソースが「単一企業の都合」で大改造される時、コミュニティはどう関わるのか？
+      Bun は OSS だが、今回の意思決定はほぼ Anthropic 単独で行われた。OSS の意思決定モデルが揺らいでいる ように見える。
+      私の暫定的な気持ちは、「すごい」と「怖い」が半々 だ。AI で 96 万行を 6 日で書けてしまう時代の入り口に立っている、ということは認めざるを得ない。一方で、それを本番ブランチに入れる判断は、誰でも真似していい話ではない とも思う。
+
+      私はもう少しだけ、自分でコードを見つめる生活を続けたいと思う。
+
+      参考リンク
+      Anthropic's Bun Rust rewrite merged at speed of AI - The Register (2026/05/14)
+      Anthrophic's Bun team trials port from Zig to Rust - The Register (2026/05/05)
+      The Great Zig-to-Rust Experiment - Rust Bytes
+      Theo: Bun Rewrites 960,000 Lines From Zig to Rust in Six Days — 13,000 Unsafe Blocks Remain - BigGo Finance
+      Bun Migrates from Zig to Rust: What My Real Benchmarks Say - dev.to
+      Bun v1.3.14 - Bun Blog
 
       
   - link: 
     text: |
-      令和8年度の戦略的創造研究推進事業の戦略目標等を決定しました
-      令和8年2月27日
+      Hardening TanStack After the npm Compromise
+      Copy page
 
-      　文部科学省において、令和8年度における科学技術振興機構（JST）の戦略的創造研究推進事業の戦略目標と、日本医療研究開発機構（AMED）の革新的先端研究開発支援事業の研究開発目標を決定しましたので、お知らせいたします。
-      　令和8年4月以降、JST・AMEDにおいて、CRESTやさきがけ等のプログラムで研究提案の公募を開始する予定です。全国の研究者の皆さまからの意欲的な提案を期待しています。
+      by Sarah Gerrard, Corbin Crutchley, Jack Herrington, Tanner Linsley, Florian Pellet, and Harry Whorlow on May 12, 2026.
 
-      1．概要
-      　文部科学省では組織・分野の枠を超えた基礎研究を戦略的に推進するため、根本原理の追求と政策的な意思を結びつける「戦略目標」及び「研究開発目標」を定めています。その目標の下で、国立研究開発法人科学技術振興機構（JST）及び日本医療研究開発機構（AMED）において時限的な研究体制（ネットワーク型研究所）を構築し、イノベーションの源泉となる研究成果の創出を目指した戦略的創造研究推進事業（新技術シーズ創出）及び革新的先端研究開発支援事業を実施しています。
-      　これらの事業で公募する、チーム型のCREST（JST/AMED）、個人型のさきがけ（JST）／PRIME（AMED）などのプログラムは、科研費と並び、30年以上に渡って、多くの研究者コミュニティに根付いた基幹的な研究費です。
-      　これまで、Top10％論文など質の高い研究成果を多数創出しており、さらに大阪大学・坂口志文特任教授によるTreg細胞の発見や、京都大学・北川進特別教授による多孔性金属錯体（MOF）の設計等のノーベル賞受賞につながる研究を推進するなど、多岐に渡る新しい技術シーズの創出に貢献しています。さらに、採択が若手研究者の昇進の重要な契機になるなど、トップ成果の創出とともに、人材育成にも大きく寄与しています。
+      Status (2026-05-15): All clear ✅
 
-      　これらの事業における令和8年度の「戦略目標」と「研究開発目標」の策定にあたっては、論文動向等の分析の他、有識者ヒアリングやワークショップの開催等を通じて、科学的価値や経済・社会的インパクト等、多角的な観点から議論を行いました。
-      　政策的な要請等との関連も踏まえ、下記2. のとおり6つの目標を設定しました。なお、本内容は円滑な事業の実施に向け予算成立に先立ち発表するものであり、国会審議の状況により変更等が生じる可能性があり得ます。
-    
-      
+      After a three-day full security sweep and hardening pass, we're issuing an official all-clear on TanStack repo and package security.
+
+      Only the Router/Start repo was affected — 42 monorepo packages, 2 versions each. All were deprecated within the hour and removed by npm shortly after.
+      All other TanStack repos and packages were unaffected and remain secure: Query, DB, Store, AI, Table, Form, HotKeys, Virtual, Pacer, Config, Devtools, CLI, Intent, etc.
+      Every currently-available published version of every TanStack package — Router and Start included — is safe to install.
+      Last updated 2026-05-15 — see Changelog.
+
+      This week, 42 of our packages were republished to npm with malware baked into the published artifacts. The releases were triggered by our normal release pipeline after changes landed on main, but the malicious code was not authored, reviewed, or approved by us. By the time the first report reached our issue tracker, those compromised versions had already been available on the registry for about 20 to 26 minutes.
+
+      We've already published the full incident postmortem, and if you want the timeline, the attack chain, the exact package list, the IOCs, and the "what to do if you installed a bad version" guidance, that's the source of truth. Read that first.
+
+      This post is the companion piece. The postmortem covered what happened. This one is about what we're changing because of it.
+
+      The shortest possible recap#
+      Just enough context so this post makes sense on its own:
+
+      Someone opened a pull request from a throwaway fork. While we never got a chance to see the PR since it was immediately closed, it had still triggered a workflow that checked out the contributor's code and ran it in a job that had write access to our shared CI cache.
+
+      The attacker's code poisoned the cache and later, when an entirely legitimate merge to main, from a different PR, ran our release workflow, it restored that poisoned cache, extracted our short-lived publish token out of the runner's memory, and used it to push malicious versions across our router-family packages.
+
+      Just to be clear, no maintainer was phished, had a password leak, or a token stolen from their account. Since this attack rode in through a trusted cache, it didn't need to. The attacker managed to engineer a path where our own CI pipeline stole its own publish token for them, at the exact moment it was created, by way of a cache that everyone in the chain implicitly trusted. It is a sophisticated approach that we hadn't anticipated and that we're taking very seriously.
+
+      How our releases normally work#
+      In order to understand how this attack worked against us, it's important to understand how the release process for TanStack packages typically works. Every release that ships to npm under a @tanstack/* name goes through a staged process:
+
+      Through a reviewed pull request, a change lands on main that includes a version bump and a changelog update. That PR is reviewed and merged by a maintainer, just like any other PR.
+      Releases are cut from main by a CI workflow (when it works), not by a person running npm publish from a laptop.
+      The workflow authenticates to npm through GitHub's OIDC trusted-publisher integration, which means there is no long-lived npm publish token sitting waiting to be stolen.
+      The publish credential is minted at release time, scoped to that workflow, and expires almost immediately.
+      The distinction that there was no publish token to be stolen is important. A large class of npm supply-chain attacks work by stealing a maintainer's publish token, often from their local machine or a compromised dev environment, that are then used to publish malicious versions directly.
+
+      Our setup was designed specifically to make that path a non-starter. With no long-lived npm publish token sitting on a maintainer machine, an attacker couldn't simply compromise a laptop, steal credentials from a local environment, and publish malicious packages at will. That matters especially in the context of the current wave of malware and infostealer campaigns targeting developer machines and browser-stored secrets.
+
+      OIDC-based publishing also gave us tighter control over who could release packages and under what conditions. Releases were tied to specific GitHub workflows running from specific repositories and branches, rather than to a reusable credential that could be copied, shared, or quietly reused elsewhere.
+
+      With publishes tied back to workflow runs instead of a token, we also had a much easier time understanding the scope of the attack once we had the first report. It showed us exactly what workflow run triggered the publish, which branch it ran from, and when it ran. That audit trail was a significant advantage during incident response and helped us scope the what had happened much more quickly.
+
+      The honest part#
+      The way we had our workflow structured was inevitably how this was attack was made possible. The attack vector was a workflow that ran on pull_request_target, which is a special event that runs in the context of the base repository instead of the fork. That means the fork, which was renamed to avoid being detected as a fork of the repo, had write access to the cache that our release workflow later read from. While this has been documented as a known-bad pattern by GitHub's own security team for over three years, we still had it in our workflow and it was the root cause of this attack.
+
+      Knowing we had added in production is something we have to sit with now. While there are many things we had in place that worked as intended, not being on top of the fact that this pattern was in our workflow is a failure on our part. We had the information we needed to know that this was a potential problem, but we didn't connect the dots to our own setup.
+
+      While we can say that the npm provenance, SLSA, OIDC, and 2FA all worked as advertised and still didn't stop this attack, that's not the whole story. The workflow shape itself was the hole, and that's what we're rebuilding now.
+
+      Modern supply-chain defences are important, but they're not always enough on their own. We have to be more proactive about identifying and closing any holes in our workflows that could be exploited, rather than relying solely on the security features of the tools we use.
+
+      Knowing that we had a known-bad pattern in our workflow, and it wasn't on our radar, means there was a breakdown in our internal processes and that's where we have to do better. We have to be more proactive about identifying and closing any holes in our workflows that could be exploited, rather than relying solely on the security features of the tools we use.
+
+      What we've already done#
+      These are the changes that have landed since the incident. They're not the whole plan — they're the things we could do quickly.
+
+      Disabled the pnpm cache in our release pipeline. We are still evaluating exactly what role the cache played here, whether it can be safely reintroduced (or if we even want it), and what additional hardening would be required if it is.
+      Removed all caches from GitHub Actions across the affected workflows. Same reasoning.
+      Pinned every action in the org to a commit SHA. No more actions/checkout@v6.0.2. A retargeted tag has the same blast radius as cache poisoning, and we'd just lived through cache poisoning, so we'd rather not open that wound again.
+      Enforced non-SMS 2FA across npm and GitHub. 2FA was already required, but SMS was still allowed as a factor. It isn't anymore.
+      Removed every use of pull_request_target from our CI. It was never in our CD pipeline but it shouldn't have been in CI either. If we need base-repo permissions to react to a PR, we'll do it through workflow_run against artefacts from a sandboxed pull_request job — the GitHub-recommended pattern for this exact scenario.
+      Upgraded every repo to pnpm 11, so we inherit the ecosystem install-cooldown behaviour. It's not a fix on its own. It buys us a window.
+      Most of those are blast-radius reductions rather than root-cause fixes; they shrink what a similar attack could reach, but the workflow shape itself is what we're rebuilding in the next round.
+
+      What we're working on next#
+      Some of the changes we're making take more than a hotfix to land properly, and a few of them are still open questions we're working through together. We're including the unresolved ones because how we're thinking about them feels as relevant as what we've already shipped.
+
+      Adding zizmor as a required PR check on every repo. It's a static analyser for GitHub Actions workflows, and there's a chance if we had it running against the workflow this incident exploited, it could have flagged the pull_request_target + fork-checkout pattern before any of this happened.
+      Putting CODEOWNERS on .github folders, restricting workflow changes to core maintainers. We're leaning toward "yes" on this one; workflow files are code that runs with our credentials, and that means they should be treated like the most privileged code in the repo, because that's effectively what they are.
+      Replacing the pnpm setup cache with actions/cache/restore, which has more conservative defaults: explicit restore, no implicit write-on-exit. The auto-save behaviour of actions/cache@v5 is what allowed the cache write to happen regardless of our permissions: block, and we want that path closed by design instead of by accident.
+      And then the more difficult thing...
+
+      The PR question#
+      This is the change we're least sure about.
+
+      We've been talking about closing the ability for external contributors to open pull requests against TanStack repos. Not closing source (to be very clear, we are absolutely not going closed source) but shifting from "PRs welcome from anyone" to something closer to "issues and discussions welcome from anyone, PRs from non-maintainers by invitation." Contributors who want to land code might do it by filing a detailed issue or patch suggestion, or by doing the kind of investigative and review work that earns a path into a committer role over time.
+
+      We have complicated feelings about this, because open PRs are part of how a lot of us became maintainers in the first place. The path from "user with a fix" to "trusted committer" tends to run straight through opening a PR and having someone review it, and closing that path narrows what it means to participate in the project in ways that aren't only about us. There's also a version of this where it doesn't actually solve the underlying problem; the attack vector wasn't "a malicious PR got merged," it was "a malicious PR ran in CI," and you can keep PRs open and still close the CI side of that hole, which is what most of the changes earlier in this post are doing.
+
+      So with that in mind... we haven't decided. The discussion is ongoing, and we're flagging it here because we'd rather you hear about it from us, with the context attached, than read about it sideways somewhere later. If we do go that route, it'll come with its own post about how the new contribution model actually works in practice since telling people to "send a patch via an issue" without the infrastructure to make that a real path is just a polite way of telling them to go away.
+
+      What we're taking from this#
+      It's tempting, after something like this, to end on a paragraph about how the ecosystem needs to change (and it does). Cache scoping in GitHub Actions shouldn't silently bridge fork PRs and base-repo branches. Provenance shouldn't be confused with innocence. The gap between "this is a known-bad pattern" and "this pattern is hard to write by accident" is a gap the platform itself should be closing, not one every project should have to notice on its own. All of that is true, and we'll be advocating for it where we can.
+
+      But it's not what we're sitting with right now. What we're sitting with is that the workflow shape that got exploited had been quietly working for a long time, and the parts of our security posture we actively thought about — OIDC, lockfiles, 2FA, signed commits — were the parts we'd already invested in. CI was the part we hadn't, and that's the part we're rebuilding now.
+
+      To everyone who reported, verified, and helped triage — thank you. The fact that an independent researcher caught the dead-man's switch in the payload and warned responders before anyone started revoking tokens is the single reason this incident isn't significantly worse (even though it is bad). That kind of work doesn't tend to make the headline, but it makes the difference, and we noticed.
+
+      We'll do better.
+
+  - link: 
+    text: |
+      53年ぶり有人月周回に成功 アルテミス計画、4飛行士が無事帰還
+      2026.04.14
+
+      草下健夫 ／ サイエンスポータル編集部
+
+      宇宙
+      　「世界の希望を月に運んだ」――米国とカナダの飛行士4人を乗せた米宇宙船「オリオン」が月上空を周回し、地球に無事帰還した。有人月周回は、アポロ計画で最後の月面着陸だった1972年12月のアポロ17号以来、実に53年ぶりで、人類到達の最遠方記録を更新する歴史的な一歩となった。今回は米主導の国際月探査「アルテミス計画」の試験飛行「アルテミス2」で、2028年には有人月面着陸を目指す。その後、日本人が月面着陸することで日米が合意済みだ。米航空宇宙局（NASA）は月面基地建設に注力し、上空の周回基地建設を休止するとの、大幅な計画変更を発表している。
+
+      地球に帰還し、オリオンを後にした4人の飛行士。機体の右に横付けされたいかだに、オレンジ色の宇宙服を着て座っている＝日本時間11日午前（NASAテレビから）
+      地球に帰還し、オリオンを後にした4人の飛行士。機体の右に横付けされたいかだに、オレンジ色の宇宙服を着て座っている＝日本時間11日午前（NASAテレビから）
+      「私たちは月に戻った」
+      　日本時間11日午前9時7分、3つのメインパラシュートを開いた円錐（えんすい）台形のオリオンが、カリフォルニア州サンディエゴ沖の海面に、水しぶきを上げて着水した。待ち構えていたNASAと海軍の合同チームが複数のボートで急行し、4人を順次、オリオンに横づけした“いかだ”へと救出。4人はその後、ヘリコプターで引き揚げられて海軍の揚陸艦に運ばれた。NASAは、帰還時の全システムが設計通り作動したことや、9日間、112万キロの旅を終えた4人が健康であることを明らかにした。
+
+      　飛行したのは米国人で船長のリード・ワイズマン（50）のほかビクター・グローバー（49）、クリスティーナ・コック（47）、カナダ人のジェレミー・ハンセン（50）の各飛行士。コック氏は女性で電気技師、他の3人はいずれも男性で軍パイロットの経歴を持つ。
+
+      　トランプ米大統領はSNSに「旅全体が壮観で、帰還も完璧。これ以上誇りに思うことはない。次のステップは火星だ」と投稿し祝福した。
+
+      　NASAのジャレッド・アイザックマン長官は「4人が真に歴史的偉業を成し遂げたことをお祝いする。並外れた技能と勇気、献身を示した。今後は（次回飛行の）アルテミス3と月面への帰還、基地建設、そして月を諦めないという決意に向け、自信を持って取り組んでいく」と力説した。アミット・クシャトリヤ副長官は「4人は世界の希望を運んだ。私たちは月に戻った。未来は私たちの勝利のためのものだ」と成功を称えた。
+
+      亡き大先輩からのメッセージ
+      オリオンの想像図。後ろのエンジンが手前に描かれている（ESA、D・デュクロス氏提供）
+      オリオンの想像図。後ろのエンジンが手前に描かれている（ESA、D・デュクロス氏提供）
+      　オリオンは円錐台形の有人モジュール（区画）と円筒形の機械モジュールが連結した、長さ8.1メートル、幅5メートルの宇宙船。4人乗りで、形状は3人乗りのアポロ宇宙船と似ている。米航空宇宙大手のロッキードマーチン社が開発を主導した。欧州が製造を担当した機械モジュールからは、翼状の4枚の太陽電池パネルが延びる。アルテミス2での打ち上げ時の重さは、燃料を含め26トン。飛行士の居住空間はミニバン2台分に相当する9.3立方メートルで、アポロに比べ60％拡大した。
+
+      　元々、月探査を含む旧「コンステレーション計画」（2010年中止）などでの利用を主眼に開発が始まったが、アルテミス計画で日の目を見た形だ。米国人の発音に寄せて「オライオン」とも呼ばれる。
+
+      　日本時間2日午前7時35分、オリオンは大型ロケット「SLS」に搭載され米フロリダ州のケネディ宇宙センターから打ち上げられた。49分後、SLSの上段エンジンが点火し、地球上空の周回軌道に入った。オリオンがSLS上段機体から分離すると、飛行士らは操縦訓練や生命維持装置、通信システムの性能評価などを継続。翌日の3日午前には5分50秒かけてエンジンを噴射し、月に向かう遷移軌道に就いた。飛行5日目の6日午後1時41分、月の重力圏に突入した。
+
+      オリオンを搭載し打ち上げられるSLS＝日本時間2日午前（NASA、ビル・インガルス氏提供）
+      オリオンを搭載し打ち上げられるSLS＝日本時間2日午前（NASA、ビル・インガルス氏提供）
+      　翌6日目は、月の裏側に回り最接近する飛行のハイライトを迎えた。この日、4人が目覚めると、地球から特別なメッセージが贈られた。史上初の月周回を果たした1968年のアポロ8号に搭乗したジム・ラベル氏が、昨年8月に死去する前に収録した声だった。「ようこそ私の古巣へ。私はアポロ8号で初めて月を間近に見て、世界中の人々が感動し団結した。皆さんが月を周回し、火星探査の基礎を築くにあたり、このバトンを渡せることを誇りに思う。今日は歴史的な日で忙しいが、景色を楽しむことを忘れないで」。ラベル氏は70年、飛行中に酸素タンクの爆発を起こしながら生還したアポロ13号で、船長を務めた人物だ。
+
+      「この記録はすぐ破られるもの。次世代への挑戦状だ」
+      　7日午前2時56分、地球から40万170キロの距離を超え、ラベル氏のアポロ13号が樹立した記録を塗り替えた。この13号の記録は計画されたものではなく、爆発により月面着陸を断念したのを受けて経路を変更し、結果的に成立したものだった。オリオンは続いて午前8時頃、月面に約6545キロまで接近。その2分後、人類到達の最遠方記録を40万6770キロまで伸ばした。
+
+      月（左）の縁に沈む地球。オリオンが月の裏側を通過し、地球との通信が一時途絶する直前に撮影された（NASA提供）
+      月（左）の縁に沈む地球。オリオンが月の裏側を通過し、地球との通信が一時途絶する直前に撮影された（NASA提供）
+      　ハンセン氏は船内から地球に向け、こう呼びかけた。「記録を突破するにあたり、先人たちの並外れた努力と偉業に敬意を表する。何より重要なのはこの瞬間、記録がすぐ破られるよう、今の世代や次世代へと挑戦状を送りつけたことだ」。月への接近中、飛行士らは月面の多彩な地形のほか、月が太陽を覆い隠す日食、月の向こうへと地球が沈む“地球の入り”など実に7000枚以上の写真を撮影したという。
+
+      　翌8日午前2時23分、オリオンは月の重力圏を離脱。軌道変更のエンジン噴射を繰り返して帰路に就いた。11日午前8時33分、有人モジュールと機械モジュールを分離した。有人モジュールは同53分、地上122キロで大気圏に突入。予定された6分間の通信途絶や、減速用パラシュートとメインパラシュートの開傘を経て、サンディエゴ沖で旅路を終えた。
+
+      飛行中、オリオン船内で過ごす4人の飛行士（NASA提供）
+      飛行中、オリオン船内で過ごす4人の飛行士（NASA提供）
+      アポロ以来…単なる再訪ではない
+      　アルテミス計画は、米国が国際宇宙ステーション（ISS）に続く大規模な国際宇宙探査として主導。1972年のアポロ17号以来となる有人月面着陸を目指す。月面や月上空に建設する基地を拠点に探査や実験をして、将来の火星探査も視野に技術実証を進める。日本は2019年に参画を決定。欧州やカナダも参画している。
+
+      　今回のアルテミス2は2022年、オリオンが無人月周回飛行に成功した「アルテミス1」に続く試験飛行。アルテミス計画では初の有人飛行で、生命維持システムの実証が最大の目的だった。NASAは今年2月末、計画変更を発表。来年の「アルテミス3」では、それまで予定していた月面着陸をせず、有人のオリオンが地球上空で民間着陸船とのドッキング試験をすることにした。28年の「アルテミス4」で着陸に挑み、その後は年2回以上の頻度で着陸を目指す。
+
+      1969年、アポロ11号により月面に立つバズ・オルドリン飛行士（NASA提供）
+      1969年、アポロ11号により月面に立つバズ・オルドリン飛行士（NASA提供）
+      　アポロ計画では1969～72年の11～17号（13号を除く）の6回で計12人が月面に立った。アルテミス計画で再び月面を目指すが、これは単なる再訪ではない。アポロ計画は東西冷戦下で米国と旧ソ連（ロシア）が、国家の威信を賭けた宇宙開発競争の性格が強かった。68年にソ連は宇宙船にカメを載せて月の上空に送り地球に生還させたが、これが米国を焦らせてアポロ計画の進展を早め、有人月面着陸での米国勝利の要因になったともみられている。
+
+      　アルテミス計画のコンセプトはアポロとは大きく異なり、米国が主導しつつ、日欧などの参画を得る国際探査の位置づけだ。有人月面着陸を実現するのは同じだが、“行って生きて帰ってくる”という行為以上に、基地を構築するなどして探査や開発を持続的に進める狙いが大きい。NASAが2企業の月着陸船を採用するなど、民間の役割も大きくなる。
+
+      　月の極域の水を採取し、太陽電池で水素と酸素に電気分解すれば、燃料として月面開発や火星飛行に使えるとの期待もあり、月探査の意義の一つとされる。ただ実際に資源として利用できるほどの水があるかどうかは、今後の探査や研究を通じた解明が必要だ。
+
+      アルテミス2以降の新しい計画概要のイラスト。月面着陸はアルテミス4から実現する（NASA提供）
+      アルテミス2以降の新しい計画概要のイラスト。月面着陸はアルテミス4から実現する（NASA提供）
+      「トランプ氏任期中に着陸」月面基地に注力
+      　アルテミス2の飛行に先立つ先月24日、NASAはアルテミス計画の大幅な変更を発表した。予定してきた月上空の周回基地「ゲートウェー」の建設を休止し、月面基地の構築を優先する。2月末にも有人月面着陸の時期や宇宙船の運用計画、SLSの機体構成の見直しを発表したのに続き、さらに踏み込んで計画を再編する内容となった。一連の変更は、昨年12月の大統領令を反映したものだ。
+
+      　発表でアイザックマン長官は「トランプ大統領の任期（2029年1月まで）中に月に戻り、米国の先導力確立に取り組む」と述べた。「大国間競争で、物事の成否は年単位でなく月単位で決まる。NASAの資源を国家宇宙政策のために集中させ、パートナーの国と労働力や産業力を解き放つ」とも語り、同様に月面着陸や基地建設を目指す中国への対抗意識をにじませた。月面基地建設に7年間で200億ドル（3兆2000億円）を投じるという。
+
+      　月面基地計画は次の3段階で進める。【1 建設、試験、学習段階】商業輸送と探査車により月面活動の頻度を上げ、探査車や機器類、発電や通信、航法などの技術実証機を送る。【2 初期インフラ構築】ある程度の居住ができるインフラと定期輸送を構築する。飛行士が地表で定期的に活動する。日本の有人与圧探査車などの国際貢献も採り入れる。【3 長期滞在】大規模なインフラにより、定期的探査から恒久的月面基地へと移行する。
+
+      月面基地「第3段階」の想像図（NASA提供）
+      月面基地「第3段階」の想像図（NASA提供）
+      上空基地ゲートウェーは「休止」
+      　ゲートウェーは探査や実験、訓練の拠点、月面着陸の中継地などとして計画されてきた。建設休止が解除される時期は明らかになっていない。元々の計画では、月面に着陸する飛行士はオリオンで地球を発った後、いったんゲートウェーに滞在。そこから着陸船で月面に降り立つことになっている。ゲートウェーがない段階では、オリオンが宇宙空間で直接、着陸船に結合することになる。
+
+      　わが国はゲートウェーの居住棟の環境制御・生命維持機構や、地球から物資を届ける補給機などを提供することが決まっている。このほか、内部で飛行士が暮らせる月面与圧探査車を、宇宙航空研究開発機構（JAXA）とトヨタ自動車が開発中だ。2024年には、日本人が2回、月面に着陸することで日米が合意した。
+
+      オリオン（左）とゲートウェーの想像図（NASA、アルベルト・ベルトリン氏提供）
+      オリオン（左）とゲートウェーの想像図（NASA、アルベルト・ベルトリン氏提供）
+      　ゲートウェーへの物資補給機は、ISSに使われているJAXAの「HTV-X」の改良型を活用する計画だが、そのゲートウェーの建設が当分、進まないことになった。今回の変更はこれを含め、わが国の役割分担に影響を与える可能性がある。なおHTV-X改良型は、ISSの後継として建設される地球上空の民間基地へも向かう見込みだ。
+
+      　JAXAの山川宏理事長は「ゲートウェーに関しNASAは『pause（ポーズ）』の言葉を使っており、一時停止の意味合いだろう。そのタイミングは分からないが、少なくとも現時点でゲートウェーの技術開発、活用について引き続き取り組んでいる。われわれは定められたものに取り組み、有人与圧探査車を含め着実に開発していく。具体的には、NASAを含め関係機関と協議していくことになると思う」との見方を示している。
+
+      　NASAがゲートウェー構想を明らかにしたのが2017年。翌年には「ゲートウェーを通じ米国の優位を確立する」「（各国の）14の宇宙機関が月や火星、太陽系深部への進出のためゲートウェーが重要と合意した」との文書をまとめていた。その後の19年、ゲートウェーを含む国際宇宙探査を「アルテミス計画」と命名。トランプ氏が月面着陸の前倒しを求めるなどして、着陸を重視する性格が強まっていった。
+
+      　国際宇宙探査はこれまでも技術的要因のみならず、主導する米国の政局や国内事情を背景に変遷してきた。悪い言い方をすれば、世界が“振り回される”形ではある。とはいえ、人類が目指す次のフロンティアが隣の星、月であるという大局の方向性は、もはや揺るがないだろう。2024年の日米首脳共同声明で「アルテミス計画で、日本人が月面に着陸する初の非米国人になるとの共通の目標」を発表したことは、わが国の技術や人材への信頼の高さを物語る。今後も、計画がどう変わろうと強みを発揮して世界に貢献できるよう、得意分野をしっかり磨いていくことが大切だ。アルテミス2の成功は、そのことを改めて意識する機会ともなった。
+
+      　ちなみにアルテミスはギリシャ神話の女神で、男神アポロンとは双子の関係だ。アルテミスの純潔を望んだアポロンにだまされ、愛するはずのオリオンを死なせてしまう。こんな神話の内容に関わらず、アルテミス計画の目標が実りますように…。
+
+      NASAがアルテミス2の飛行前に公表していた行程の解説図。地球上空を2周し、8の字を描くように月との間を行き来する計画で、順調に推移した（NASA提供）
+      NASAがアルテミス2の飛行前に公表していた行程の解説図。地球上空を2周し、8の字を描くように月との間を行き来する計画で、順調に推移した（NASA提供）
