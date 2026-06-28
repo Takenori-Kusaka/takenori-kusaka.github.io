@@ -1,594 +1,614 @@
-Date: 2026-05-17
+Date: 2026-06-07
 Topic:
 
+  - link:
+    text: |
+      
+      測りすぎ――なぜパフォーマンス評価は失敗するのか? を読んだ
+      #21
+      @azu
+      azu
+      on Feb 19, 2022 · 0 comments
+      Return to top
+
+      azu
+      on Feb 19, 2022
+      Maintainer
+      測りすぎ――なぜパフォーマンス評価は失敗するのか? #20
+      測りすぎ――なぜパフォーマンス評価は失敗するのか？を読んだ。
+
+      iPadのKindleで画面読み上げで聞いてメモも音声で書いたので、聞いた話したが正しいかも。
+
+      　「もっとも正確に、もっとも簡単に測定できる開発プログラムがもっとも変革的ではないもので、もっとも変革的なプログラムはもっとも測定しにくいものだという開発理論の中心的な原則を無視する」
+      ジェリー・Z・ミュラー. 測りすぎなぜパフォーマンス評価は失敗するのか？ (Japanese Edition) (pp.169-170). Kindle 版.
+
+      元は The Clash of the Counter-bureaucracy and Development | Center For Global Development らしい。
+
+      これ書籍中で一番印象に残った。(これ自体が引用の引用)
+
+      透明性について
+      この本の著者は透明性が高すぎると議論が難しくなるから、不透明の状態が必要だという話をしていた。
+      例えば、情報公開要求であらゆるものが要求されたり、国家間の繋がりも不透明の上に成り立っている的な部分があるよという話をしていた。
+      過程まで全て公開してしまうと、水面下での交渉とかが難しくなるので、交渉が成立した時だけ透明化した方がいいのではという感じの話。
+      (WikiLeaksとかのスノーデンの話も否定的だった)
+
+      給料はあなたの価値なのかでも公平性についてで少し関連した話があって、透明性が高くなれば短期的には不満をもつ人が出るといった問題はあるけど、結果的に格差の問題は起きにくくなるという話をしていた。
+      格差の問題というのは不透明な情勢から発生することがほとんどだから、逆に透明性が高いとその格差を是正(公平性)する議論が行えるようになる(慣性が働く)という話があったのを思い出した
+
+      Release 給料はあなたの価値なのか を読んだ · azu/book-review
+      どちらも、透明性と人間の感情の話ではあったなーと思った。
+
+      透明性が高いだけでは全ては上手くいくわけじゃないという話はみる気がする。
+
+      たとえば、Open Collectiveは透明性が高いけど、そこに溜まったお金を取り出すには収支報告(経費申請)が必要で、個人から見ると少しハードルか高く感じるという話を聞いたことがある。(これは透明性に対するコストの話と捉えることができる)
+      後は、SlackでPrivateなチャンネルは禁止してPublicチャンネルのみにしたときに、Publicなチャンネルで発言するのが怖いので発言しないという話とかも見る(これは透明性と心理的安全性みたいな話と捉えることができる)
+
+      DM禁止、原則オープン、ZOZOテクノロジーズが｢デジタル心理的安全性｣のためにやったこと | Business Insider Japan
+      内的動機と外的動機
+      この本は、自然科学や工学的なものに対しては測定することは重要で信頼性がある。
+      一方で、人間に関することを測定してもその測定結果の使われ方によって、人間がハックしてしまって意味ある測定にならない可能性があるよって話しだった。
+
+      人間が測定をハックするケースというのが色々紹介されていて、主に外的報酬(お金とか)が測定結果に関わってくると大体おかしくなるよって話しだった。(報酬と懲罰を測定に紐づけるとハックされるよという感じ)
+
+      一方で測定結果が人間の内的動機(好奇心、探求心、向上心など)を強化するのに役立つことはあるよという話をしていた。
+      また、測定したデータを評価するプロセスには現場のグループが参加した方が良いという話が面白かった。
+      測定のシステムが機能するのは、その測定される対象の人がその測定の価値を信じている場合に機能するということ(これも内的動機っぽい)。
+
+      透明性をもって意味ある測定するのは難しい
+      透明性だけを目的とすると人間はそれを回避する行動を取ったり、
+      外的報酬と測定を紐づけると人間はそれをハックする行動を取ったりと難しい。
+
+      機械的な作業に対するログ(行動)は透明性を高めにもっても良さそう。
+      一方でそのログ(行動)に人間が介在する場合は、微妙なことが起きるのかもという感じ。
+
+      Certificate Transparencyログとかの透明性の仕組みによって互いの説明コストを減らせたり、互いを評価して安全性を担保する仕組み(人間が介在するとこれをハックするという話でもあるけど…)とかみたいなバランスの良い仕組みがあるといいのかもしれないけど、このバランスが難しいなーと思った。(この辺についていい感じの書籍とか研究とかあってあるのかなー)
+
+      Certificate Transparency : Certificate Transparency
+      データ化すれば客観的に評価できるという考えの落とし穴──『測りすぎ──なぜパフォーマンス評価は失敗するのか？』 - 基本読書
+      この書籍はThe Costs of Accountability - The American Interestという記事をベースにして書かれたとのことだった。
+      最後まで読んで(聞いて)、パフォーマンス評価とコストの話をしていたのは、説明責任に対するコストの記事がベースになってちょっとバランス悪かったなとおもった
+      (後書きにこれが書いてあってやっぱりそうなのかと思った。タイトルをそっちに寄せて欲しかった)
+
+      This discussion was created from the release 測りすぎ――なぜパフォーマンス評価は失敗するのか? を読んだ.
+
   - link: 
     text: |
       
-      ウワサのClaude Design、使ってみた
+      Microsoft Build 2026まとめ ～コンテキストの海をAIが泳ぐ時代に、業務基盤屋は何を考えるか～
+      すかんく
+      すかんく
+      クラウドセキュリティアーキテクト
 
-      Yu Hamano
-      エンジニアブログ
-      2026.04.28
-      #AI駆動開発
-      #Claude
-      #Claude Code
-      #Claude Design
-      #UIデザイン
-      #生成AI
 
       はじめに
-      こんにちは。DX開発事業部でUIデザイナーをしているYuです。
-      Anthropicが新しくリリースし、話題になっている「Claude Design」をさっそく使ってみたので、本記事では機能と所感を共有します！
+      どうも、すかんくです。
 
-      6つの機能をご紹介
-      Claude Designを実際に使ってみて分かった、6つの機能と特徴をご紹介します！
-      お急ぎの方や全体像をスピーディーに把握したい方は、まずこちらのグラレコをご覧ください！
+      2026年6月2～3日、サンフランシスコで開催された Microsoft Build 2026 を追っていました。
+      キーノートはいつもどおりAI一色……なんですが、今年のそれは「AIをどう使うか」ではなく「AIが前提になった世界で、開発も業務もどう組み替わるか」という話になっていて、個人的にけっこう刺さるものがありました。
 
+      例によって発表は山ほどあるんですが、本記事では情報システム屋の視点から「これは押さえておきたい」というものに絞ってまとめつつ、正直な感想を残しておきたいと思います。
 
+      技術的な深掘りというより、「で、現場的にどう受け止めるの？」というレイヤーの話だと思って読んでもらえれば。では始めましょう。
 
+      全体テーマ：「Be yourself at work」と3つの軸
+      今年のBuildを貫くメッセージは「職場で自分らしく働く（Be yourself at work）」でした。Microsoftが整理していたアンカーは大きく3つ。
 
-      1.デザイン生成とヒアリング
-      Claude Designを開くと、4つの選択肢から選択するか、プロンプトを入力することで使用することができます。
+      本当の意味で“あなたのもの”であるインテリジェンス … Microsoft Agent Platform ＋ Microsoft IQ
+      フルスタックを自分流に … Silicon→OS→開発ツール→クラウド、その起点としてのWindows
+      その次に来るもの … エージェントが科学・研究の領域へ
+      開発者向けの祭典なので当然なんですが、裏を返すと「エージェントを前提にした業務基盤を、ガバナンスとセキュリティ込みでどう成立させるか」が全部のテーマに絡んでくる構図です。我々のような職務領域も追従が必要な話題になっているなと感じました。
 
+      ちなみに自前のMAIモデル群（推論の MAI-Thinking-1、コーディングの MAI-Code-1、MAI-Image-2.5、MAI-Transcribe-1.5）の発表もあって、「Microsoftといえば実質OpenAI」だった構図が変わりつつあるのも今年のトピックでした。ここは本筋から外れるので、また別の機会に。
 
+      注目ポイント：Microsoft IQ ～コンテキストの海をAIが泳ぐ～
+      今回の発表の肝であり、自分自身も「うわ、これは世界観が変わるやつだ」と感じたのが Microsoft IQ です。
 
-      ヒアリングから始まるデザイン: AIが「ブランドカラー」「ユーザー層」など、ユーザーの期待に沿ったDesign Systemを構築するための質問事項が多く用意されています。
-      「期待するもの」とのズレを防ぐ: デザイン案を提示し、納得感のあるビジュアルをスピーディーに作り上げます。
+      Microsoft Agent Platformの土台として、エージェントに“知能の源泉”を供給するレイヤー群、というのがざっくりした位置づけ。整理すると、概念的には次の層で構成されています。
 
+      レイヤー	ざっくり何を司るか
+      Work IQ	ユーザーの仕事の文脈（ワークフロー／業務の文脈）。API GAは6/16予定
+      Foundry IQ	ナレッジの文脈（社内外の知識を束ねる中間層）
+      Fabric IQ	データの文脈（データ基盤としての土台）
+      Web IQ	世界の知識（MCPネイティブで外の世界とつながる層）
+      注意点として、これらは「個別の製品」というより「AIの振る舞いを豊かにするために組織が到達したい状態（アウトカム）」として説明されているのが面白いところ。
 
-      私はよくデザイン生成やモックアップ作成に、Figma Makeを使用していますが、Figma Makeとの違いを感じた1番のポイントは、やはりヒアリング事項の多さです。
-      プロンプトで最初にある程度指定していても、Claudeからの問いかけによって自分では見落としていた視点を補完できると感じました。
+      GitHubでエージェントを作り、Foundryにデプロイし、最適なモデルで自動最適化して、Teams・M365・どこからでも呼び出す——その全工程に、IQが文脈を供給し続けるわけです。
 
-      また、プロンプトベースだけでなく、素材のインポートも行うことができます。
+      従来の「ユーザーがコンテキストを与えてAIを活用する」世界から、「コンテキストの海をAIが自分で泳ぐ」イメージに世界観が変わってきたなぁ
+      という感触を持ちました。これ、地味なようでパラダイムが完全に裏返ってるんですよね。
 
+      これまでのAI活用は、極論すると「人間がプロンプトという名のバケツで、必要なコンテキストをAIに手渡す」作業でした。RAGにしたって、結局「どの情報を、どう渡すか」を人間（か、人間が組んだパイプライン）が設計していた。
 
-      現在選べるモデルはこちら↓
+      ところがMicrosoft IQの世界観は、Work / Foundry / Fabric / Webという形でコンテキストが最初から海として存在していて、エージェントがそこを能動的に泳ぐ（学んでいる）。
+      人間がバケツで水を運ぶんじゃなくて、AIが海に飛び込んで必要な水を自分で見つけてくる。発想の主語がひっくり返っているのが本質だと思います。
 
+      正確にはWork IQの時点からMicrosoftのAI戦略としてはこの傾向が顕著でしたが、今回のBuildを経てワークロードがMicrosoft Scoutによってエンドポイントまで拡張されたことにより、この世界観の中にいるイメージがより鮮明に描けるようになりました。
 
-      2.選べる編集モード
-      チャットによる編集: プロンプトに「全体を暖色系に」などと入力することで、自然言語での変更が可能です。
-      インラインコメント: 「Edit」ボタンで左側にパネルが開き、部分的な変更が可能です。
+      これ、マルチベンダー戦略が“不利”になる世界では？
+      ここからが情シスとしては悩ましいポイント。
 
-      また、Tweaksという機能もあり、ONにすると、画像のようなパネルが出てきて、そこからスタイルを変えることが可能です。ON/OFFの切り替えはいつでも可能。
+      こうなってくると、業務基盤で下手にマルチベンダー戦略を採るほうがデメリットに見えてくる。ベンダーロックインが事業リスク、なんて言っていられるんだろうか……？
+      長年「特定ベンダーに寄せすぎるとロックインで身動きが取れなくなる」というのが基盤設計において語られてきたと思います。調達の交渉力、可搬性、リスク分散——どれも正論です。
 
+      でもMicrosoft IQの世界観だと、価値の源泉が「個々のツールの良し悪し」から「コンテキストが、どれだけ深く・滑らかにつながっているか」に移る。
+      Work IQがM365の業務文脈を、Fabric IQがデータ基盤を、Foundry IQがナレッジを、シームレスに束ねてエージェントに供給する。この “つながりの深さ” は、同一スタックに寄せているほど効いてくるわけです。
 
-      3.バージョン管理が可能
-      これも、他のツールにもありますが、別の案を試したい時も、現在の状態を保存しながら別軸の制作が可能でした。
+      ここでマルチベンダーを採ると、ベンダー間の境界ごとにコンテキストの “継ぎ目” ができる。その継ぎ目こそがエージェントの泳ぎを止める。つまり「分散させたこと自体が、コンテキストの分断＝競争力の低下」として跳ね返ってくる構図になりかねない。
 
-      できたデザインがこちら↓
+      この世界観で働く環境と、これまでの業務環境とでは、生産性のベースラインが違いすぎるのではないか。
+      正直、これは煽りではなく本気でそう思っています。もちろん「だから全部Microsoftに寄せろ」という単純な話にする気はない（後述のセキュリティの “工夫の余地” がまさにそこ）。ただ、ロックインのリスク評価そのものを、コンテキスト時代の物差しで測り直す必要があるのは間違いない。「ロックインは悪」という前提を思考停止で握りしめていると、足元をすくわれる気がしました。
 
+      AIガバナンス・セキュリティは“手堅い”の一言
+      ここはわたしの本丸なので、しっかり見ました。結論から言うと、エージェント時代のガバナンス/セキュリティは手堅く揃ってきたという印象です。
 
+      エージェントのID・統制：Entra Agent ID / Agent 365
+      Agent 365 が、エージェントの可観測性・アクセス制御・コンプライアンスを束ねる統制基盤として前進。Agent 365 SDK がGAし、開発の段階から統制を“組み込み”で入れられるように。
+      Agent 365 Agent Registry が、Microsoft Defender・Entra・Intuneが連携して見つけ出した未管理のローカルエージェントまで可視化。コーディングエージェントやMCPサーバーなど20種類以上に対応。シャドーAI対策の本命ですね。
+      ランタイム保護も Defender / Entra / Intune の三位一体。エージェントの活動をDefenderのadvanced huntingで追えるらしい。
+      エージェントに Entra Agent ID で “身元” を与え、人間と同じ統制の土俵に乗せる——という方向性が、今年でだいぶ具体化しました。ID領域の業務に携わる身としては、ここがいちばん腹落ちする設計思想です。
 
-      
+      コード・モデルの保護
+      MDASH（コードネーム）：100以上の専門AIエージェントをアンサンブルで動かす、マルチモデルのagentic脆弱性スキャン基盤。CyberGymベンチで96.55%まで来たとのこと。
+      Microsoft Defender × GitHub Code Security 連携がGA。実行時の本番シグナル（インターネット露出・データ機微度）で脆弱性の優先度づけ→Copilot Autofixで修正、まで一気通貫。
+      Defender AI model scanning（プレビュー）：デプロイ前にモデルアーティファクトの完全性を検証。
+      実行環境の隔離（Windows）
+      Windows 365 for Agents がGA。完全に隔離されたポリシー統制下のCloud PCでエージェントを動かせる。
+      Microsoft Execution Container（MXC）SDK：OSレベルでエージェント実行をプロセス/セッション隔離。
+      データ保護：Purview
+      Foundry Control Plane に Purview のデータリスクシグナルを埋め込み（GD）。開発・テスト中に機微データの露出をリアルタイムで警告。
+      エージェントプロンプト向けのランタイムDLP（Foundry、Agent 365連携プレビュー）。機微情報がモデルに渡る前に検知・ブロック・監査。
+      で、ユーザー（私個人）の感想
+      Entra Agent IDやエンドポイントの保護はもちろん、Entra Suite（Private Access / Internet Access）でトラフィックを抑え、PurviewやMCAS（Defender for Cloud Apps）でデータと振る舞いを統制する——という多層防御の絵姿は、全体としてよく描けている。
+      エージェントという“新しいプリンシパルタイプ”を、ID（Entra）／ネットワーク（Entra Suite）／データ（Purview）／アプリ振る舞い（MCAS）の各レイヤーで包む、という構図。守りの絵としては、ちゃんと多層になっている。ここはいつも通りのMicrosoftオールインワンを評価したいところです。
 
-      4.Claude Codeへの連携
-      ここがClaude Designの最大の強みではないかと思います。デザインした成果物は、そのままClaude Codeへ移行することができます！
+      ……とはいえ、現場目線での“工夫の余地”
+      ベタ褒めで終わるとらしくないので、率直なところを。
 
+      個人的には、Entra Private Access / Internet Accessはまだエンタープライズで通用する水準に達しきっていないと感じている。加えて、MCASやPurviewも“全部入り（全対応）”というわけではないので、この辺はアーキテクチャ的に工夫の余地がありそうですな。
+      絵姿はキレイなんですが、構成要素を一つずつ現場の要求水準で見ていくと、まだ詰めが要ります。
 
+      Entra Private Access / Internet Access：SSE/SASE文脈の本命候補ではあるものの、既存の成熟したプロキシ/ZTNA製品と並べたとき、機能網羅性・運用の作り込み・例外ハンドリングの面でまだ“伸びしろ”が大きい。「Entraで全部まかなえます」と言い切れるかというと、エンプラ要件だと現状はまだ慎重に見たい。というか、自分がアーキテクトでPoCをやったりしたら絶対に採用しないと言い切れる。
+      Purview / MCAS のカバレッジ：対象アプリ・操作・データ経路のすべてに均一に効くわけではない。「対応している前提」で設計図を引くと、いざ蓋を開けたときに保護の“穴”が残る。特にエージェント経由の非定型なデータアクセスは、まさにこれから埋まっていく領域ですし、Purview Endpointみたいな一見強力そうなソリューションも、実際に使ってみると痒い所に手が届かないどころか、痒い所しかないのが現状。
+      なので実務的には、「Microsoftの絵姿をそのまま敷くのではなく、効くところ・効かないところを見極めて、足りない部分を別解で補うアーキテクチャ設計」が当面の腕の見せどころになりそうです。多層防御の“層”のうち、どこが実戦投入レベルで、どこがまだプレビュー品質なのかを冷静に仕分けする——ここを雑にやると、紙の上だけ堅牢な統制になってしまう。
 
+      そして話が冒頭の「マルチベンダー問題」に戻ってくるのが面白いところで。コンテキストの観点では同一スタックに寄せる引力が強い一方、セキュリティの観点では “まだ全部はMicrosoftで賄いきれない” 現実がある。この引力と現実のあいだで、どうバランスを取るか。情シス・基盤屋の次の数年の仕事は、けっこうここに集約される気がしています。
 
-
-      実際は、青のラインの部分にプロジェクトごとにユニークなURLが記載されています！
-
-      試してみた結果、コピーしたコマンドをターミナルに打つだけで、簡単にClaude Codeへ移行することができました！
-      初稿はClaude Designでデザインベースで。そのあとは開発へ移行して機能の追加やコードもしっかりと書いていきたい場合は、かなりスムーズに移行することができます。
-      また、このあとにもご紹介しますが、現在は同じプランのTeamメンバーでの共有が可能なので、「デザイナーがClaude Designでデザイン作成　→　エンジニアがClaude Codeで開発」といったこともシームレスに実現します！
-
-      5.チーム内外への連携
-      【チーム内への共有】
-      チーム内では、URL一つでシームレスな共同作業が可能です。また、権限設定も4パターンあるため、使い分けることができます。
-
-      閲覧可能
-      コメント可能
-      編集可能
-      閲覧不可
-
-      【チーム外への共有】
-      Claudeプランに入っていない人や、特定の形式で資料が欲しいクライアントに対しても、豊富な書き出しオプションが用意されています。
-
-      ZIPファイル (HTML/CSSコード一式)
-      PDF / PPTX (PowerPoint)
-      Canvaに送信
-      スタンドアロンHTML
-      Claude Codeへ（上で説明）
-
-
-      6.利用できる人
-      現在はResearch Previewとして提供されており、以下のプランのユーザーがアクセス可能です。
-
-      Proプラン
-      Maxプラン
-      Teamプラン
-      Enterpriseプラン
+      まとめ
+      Microsoft IQは「人がコンテキストを渡す」から「AIがコンテキストの海を泳ぐ」へのパラダイム反転。地味だけど本質的。
+      その世界観では、マルチベンダー＝コンテキストの分断として競争力に跳ね返る可能性があり、「ロックイン＝悪」の前提を測り直す必要がある。
+      ガバナンス/セキュリティ（Entra Agent ID / Agent 365 / MDASH / Purview / 各種隔離）は手堅く前進。エージェントを “身元あるプリンシパル” として統制に乗せる思想は腹落ちする。
+      ただしEntra Private/Internet AccessやPurview・MCASは、まだ全要件をカバーしきれていない。絵姿を鵜呑みにせず、効く/効かないを仕分けして補完するアーキテクチャ設計が現場の勝負どころ。
+      新しい世界観にワクワクしつつ、足元の“工夫の余地”もちゃんと見る。このバランス感覚が、これからのアーキテクトには求められそうだなぁ、と思ったBuild 2026でした。ではまた！
       
   - link: 
     text: |
-      Bun が 6 日で Rust に書き換わった件
-      2026/05/15に公開
-      2026/05/17
+      クック氏、WWDCで最後の舞台――Gemini搭載Siriで起死回生なるか、アップルAIは「遅刻」の汚名を返上できるか
+      2026-06-06 19:26 (GMT+9)
+      Google の優先する情報源に追加
+      アップルの2026年WWDCが間もなく開幕する。これはティム・クック氏がCEOとして指揮を執る最後の開発者会議であり、同社にとってAI分野での重要な「追試」となる。最大の焦点はSiriの抜本的な再構築だ。新SiriはグーグルのGeminiモデルを基盤とし、独立したアプリ、ダイナミックアイランドとの深い統合、アプリを横断した複数ステップの指示実行といった能力を備え、アップルがクローズドな自社開発からオープンな協業へと舵を切ったことを示す。iOS 27などのシステムアップデートでは、サードパーティの大規模言語モデルの自由な切り替え、AIによる画像拡張、折りたたみ端末への対応といった機能も導入される。ウォール街は今回のWWDCに大きな期待を寄せ、アップルがAI時代の「料金所」になり得ると見る向きがある一方、新Siriの「ベータ版」という位置づけやハードウェア面でのサプライズ不足が株価の短期的な押し上げ要因にはならないとの懸念も出ている。クック氏が退任前にアップルのAI戦略に一定の成果を示せるか、正念場を迎える。
+      重要要素
+      クック氏、WWDCで最後の舞台――Gemini搭載Siriで起死回生なるか、アップルAIは「遅刻」の汚名を返上できるか
+      日本時間6月9日未明、アップルの2026年世界開発者会議（WWDC26）が正式に開幕する。これはティム・クック（Tim Cook）氏がアップルのCEOとして指揮を執る最後のWWDCであると同時に、人工知能（AI）競争における同社の、遅ればせながらの「背水の陣」でもある。
 
+      2年前、アップルはWWDCで「アップルインテリジェンス（Apple Intelligence）」という大きな構想を華々しく打ち上げたが、結果として技術は期待に届かず、製品のリリースは相次いで延期された。現在、株価は過去最高値近辺にあり、時価総額は4.6兆ドル（約736兆円）に達する中、クック氏と彼のチームは同じ舞台で、AIに関する新たな解答を提示しなければならない。
 
+      今回のWWDCの中核は、全面的に再構築される音声アシスタント「Siri」であることは間違いない。ブルームバーグの著名アナリスト、マーク・ガーマン（Mark Gurman）氏などの複数の情報によると、新Siriの内部コードネームは「Campo」で、単なる受動的な音声コマンドツールから、常時稼働する「AIパートナー」へと変貌を遂げるという。
 
-      AI
+      Siriの歴史的再構築：「人工無能」からシステムレベルのAIオーケストレーターへ
 
-      Rust
+      新Siriの最も直感的な変化は、ついにiPhone内に専用の「居場所」を得たことだ。アップルはSiriを、2022年に初めて導入された「ダイナミックアイランド（Dynamic Island）」に深く統合した。ユーザーが「Siri」と呼びかけるか、電源ボタンを長押しすると、ダイナミックアイランドが展開し、新しいダークカラーのアニメーションが表示される。また、画面中央上部から下にスワイプすると、新しい「検索または質問」インターフェースが表示される。これは、音声ではなくタイピングでAIを利用したいユーザーのための専用入り口であり、通知センターは画面左側から呼び出す方式に変更された。
 
-      Zig
+      機能面では、Siriが初めてアプリを横断した複数ステップの指示に対応する。ユーザーは「明日の天気を調べて、午前10時から11時までの予定を作成し、母親に明日行くというメッセージを送って」と、すべてのリクエストを一つのプロンプトで完了させることができる。さらに、Siriは初めて独立したアプリとしても登場し、ChatGPTのようなチャットインターフェースを備え、履歴を保持した継続的な会話や、画像やファイルをアップロードしての分析も可能になる。
 
-      Bun
+      さらに注目すべきは、基盤アーキテクチャの大変革だ。アップルは今回、フルスタック自社開発へのこだわりを捨て、グーグルの「Gemini」モデルをSiriの中核頭脳として採用した。The Informationの報道によると、新Siriのサービスの大部分はグーグルのクラウドサーバー上でホストされ、エヌビディア（Nvidia）のチップが使用されているという。ソフトウェアとハードウェアの統合、そしてプライバシーを長年重視してきたアップルにとって、これは間違いなく重大な戦略転換である。
 
-      Anthropic
+      エコシステムの大開放：閉ざされた壁からAI配信プラットフォームへ
 
-      idea
-      はじめに
-      2026年5月14日、JavaScript ランタイム Bun の Zig→Rust 大規模移植 PR が main ブランチにマージされた。約 96 万行のコードを、6 日間で、AI（Claude）が書いた。テストは 99.8% パス、バイナリサイズも縮小されているが、unsafe ブロックは 13,000 箇所を超え、Sumner 本人も「全部破棄する可能性が高い」と発言している。
+      Siri自体の再構築に加え、アップルはエコシステムの開放において、これまでにないほど大きな一歩を踏み出している。情報によると、iOS 27には「Extensions」と呼ばれる全く新しい基盤フレームワークが導入され、ユーザーは入力方式を切り替えるように、ChatGPTやClaudeといったサードパーティの大規模言語モデルを自由に利用できるようになる。
 
-      この一連の動きを追いかけながら、初見で抱いた 5 つの素朴な疑問 を整理した。
+      これは、アップルインテリジェンスが、もはや自社モデルとChatGPTだけの「二人舞台」ではなくなることを意味する。アップルは自らをAIクエリの配信プラットフォームへと変貌させようとしている。ユーザーは文章作成をClaudeに任せ、プログラミングの問題をGeminiに処理させるといった選択が可能になり、その入り口は常に使い慣れたSiriであり続ける。この転換の背景には、EUのデジタル市場法（DMA）などの規制圧力もあるが、モデルの進化が極めて速い現代において、リスクを一つの選択肢に集中させないというアップル自身の保険でもある。
 
-      まず、何が起きたか
-      時系列で圧縮するとこうなる。
+      クック氏のAI遺産と「技術的負債の返済」
 
-      2026/05/05：Bun 創業者 Jarred Sumner、「Anthropic 内で Zig→Rust の試験ポートを進めている」と公表
-      2026/05/09：Linux x64 (glibc) で テスト 99.8% パス を本人がアナウンス
-      2026/05/12：Bun 1.3.14 リリース。Sumner「もしマージされたら、これが最後の Zig 版」と発言
-      2026/05/14：100 万行超の単一 PR が main にマージ
-      サイズ感を数字で並べる。
+      9月に会長職へ異動する予定のクック氏にとって、今回の発表会は強い別れの意味合いを帯びている。The Futurum Groupのダン・ニューマン（Dan Newman）CEOはCNBCに対し、アップルインテリジェンスはクック氏の任期中における「大きな汚点」であり、ハードウェアエンジニアリング責任者のジョン・ターナス（John Ternus）氏がCEOを引き継ぐ前に、AIの変曲点を引き起こす最後の機会だと指摘した。
 
-      項目	数値
-      追加された Rust コード	約 96 万行
-      削除された Zig コード	約 60 万行
-      工数	6 日（AI ベース）
-      テスト通過率	99.8%（Linux x64 glibc）
-      バイナリサイズ削減	3〜8 MB
-      unsafe ブロック	13,000 箇所超
-      なお、Bun は Anthropic に買収済み のプロジェクトで、AI コーディングツールとしては Claude（Anthropic 自社製） が使われている。つまりこれは、Anthropic が自社の AI で自社のランタイムを書き換えた という構図でもある。この点は疑問③以降で何度か顔を出す。
+      過去1年間、アップルのAIチームは混乱に見舞われた。8年間AIを統括してきたジョン・ジャナンドレア（John Giannandrea）氏が退任し、Siri責任者のロビー・ウォーカー（Robby Walker）氏もメタ（Meta）に引き抜かれた。差を埋めるため、アップルはグーグルと複数年にわたるAI提携契約を結ばざるを得なかった。ロイター通信によると、アップルはグーグルに対し、自社向けにカスタマイズされた1.2兆パラメータのGeminiモデルを使用するために、年間約10億ドル（約1,600億円）を支払うという。
 
-      公式の詳細ブログは 2026/05/15 時点では未公開。情報は Sumner の X 投稿、PR タイムライン、The Register などの報道に散らばっている。
+      Siri以外にも、アップルインテリジェンスはシステム全体に浸透しつつある。カメラアプリには栄養成分表示や植物などの物体を認識する「ビジュアルインテリジェンス」が統合され、写真アプリにはAIによる画像拡張、再構図、そして大幅に改善された「消しゴム」機能が追加される。Safariブラウザは、AIがタブを自動整理する機能を獲得する。しかし、これらの機能の大部分は、中国のAndroidスマートフォンではすでに目新しいものではなく、アップルは「技術的負債」を返済しているに過ぎない。
 
-      疑問① 100万行、誰も読んでないやん
-      率直に言って、これが最初の引っかかりだった。100 万行のコードを 6 日で生成して、誰がレビューしたんだろう。
+      ウォール街の期待と懸念
 
-      「読める」物理量の話
-      仮に 1 秒で 1 行レビューできるとして、100 万行は 約 11.5 日。風呂もトイレも睡眠もなしで、文字通り目で追うだけの速度。実際のレビューでは「読む」「考える」「テストする」「文脈を遡る」が入るので、60 行 / 時間 あたりが現実的という統計もある。それを使うと、100 万行は 約 1.9 年間、フルタイムでレビューし続けてやっと一周 という規模になる。
+      アップルの株価は過去1年間で53%も急騰し、市場全体を大きく上回った。市場は既に極めて高いAIへの期待をバリュエーションに織り込んでいる。モルガン・スタンレーは今回のWWDCを、アップルが「AI勝者」の称号を得られるかどうかを決める重要な一戦と位置づけている。
 
-      Bun はこれを 6 日で生成し、5 日で main に入れた。
+      バンク・オブ・アメリカのアナリスト、ワムシ・モハン（Wamsi Mohan）氏はリポートで、アップルがAIエージェント呼び出しの「料金所」になる可能性があると指摘する。同氏は、仮にウーバー（Uber）がSiriに配車リクエストを送信させたい場合、アップルに高額な手数料を支払わなければならなくなるかもしれないと例示した。これは、App Storeの手数料問題で長年デベロッパーとの関係が緊張してきたアップルにとって、新たな収入源を開拓する一方で、新たな摩擦を生む可能性もある。
 
-      GitHub も困っている
-      実際の PR で、Bun リポジトリの Zig 削除 PR が GitHub の自動システムによって "AI slop" フラグを立てられた という小さな事件が起きている。GitHub が「これは AI 生成の低品質コードでは？」と自動的に疑った、ということだ。
+      しかし、WWDCがすぐに株価を押し上げると見るアナリストばかりではない。UBSのアナリストは、新Siriが「ベータ版」または「プレビュー版」として発表される可能性が高く、ハードウェアのサプライズもないことから、WWDCが株価の「積極的なカタリスト」になるのは難しいと指摘する。MoffettNathansonのアナリスト、クレイグ・モフェット（Craig Moffett）氏は、より優れたSiriが、既にその成功を前提とした現在の超高バリュエーションを正当化できるかどうかこそが核心的な問題だと、鋭く指摘した。
 
-      つまり AI 自身が、AI 生成コードの大規模な削除を見て怪しんだ という、ややシュールな状況が発生している。
+      ハードウェアへの伏線：折りたたみ端末とタッチスクリーンMac
 
-      「読めない」を分解する
-      「誰も読んでない」を分解するとこうなる。
+      WWDCはソフトウェアの祭典だが、今回のアップデートには将来のハードウェアへの伏線も埋め込まれている。iOS 27は、iPadのような「アプリの並列表示」というマルチタスクのウィンドウ処理機能を前例のない形で導入するが、これは明らかに、噂される折りたたみ式iPhoneに合わせてカスタマイズされたものだ。
 
-      「読む」の意味	100 万行に対して成立する？
-      各行の文法・意味を目で追う	物理的に不可能
-      自動テストで挙動を確認	99.8% パス、一定の担保はある
-      設計意図・抽象を理解する	サンプリングなら可能、全部はやれてない
-      バグの早期発見（traditional code review）	機能していないと思われる
-      つまり Bun の Rust 移植では、「自動テストが通る」を「レビューが通った」に静かに置き換えている、と読める。これは伝統的なコードレビューの観念とは違う何かだ。
+      macOS 27はさらに急進的で、インテル（Intel）プロセッサを搭載したすべてのMacのサポートを完全に終了するだけでなく、タッチ操作対応モジュールを内蔵し、今年後半に発売予定の初のタッチスクリーン搭載MacBook Proに備える。これは、16年前にスティーブ・ジョブズ氏が「MacBookにタッチスクリーンは絶対に搭載しない」と述べた鉄則を、自ら覆すものだ。
 
-      所感：すごいのは AI じゃなくレビュー概念のほう
-      私が驚いたのは「AI が 96 万行書ける」ことよりも、「人間がコードを読まずにマージできる、と判断したこと」 の方だ。レビューの定義が、コードを読むことから「テストと AI の再生成可能性を信じること」に、静かにスライドしている。
+      AIのローカル処理能力に対する需要が爆発的に高まる中、アップルは新たな融合アーキテクチャに基づく「M5 Ultra」チップも発表し、大規模言語モデルをローカルで実行する際のMacのコストパフォーマンス優位性をさらに強固にする見込みだ。
 
-      これが Bun だから許される特殊例なのか、これからの標準なのか。私には分からない。 ただ、AI 時代のレビューって何だっけ、という問いは、もう避けて通れないところに来ている気がする。
+      ウォール・ストリート・ジャーナルが指摘するように、アップルは実際には良い手札を握っている。iPhoneは誰よりもユーザーを理解しており、数千億ドルを投じてAIモデルを構築する企業も、最終的にはアップルという入り口を通じて消費者にリーチせざるを得ないだろう。真にインテリジェントなSiriは、AI時代にアップルが新たな「課金の関所」を設けることを十分に可能にする。しかし、その前提は、Siriが本当に使い物になることだ。16年前に誕生した当初、人々はレストランの予約や使い走りができるインテリジェントエージェントを思い描いていたが、アップルによる買収後、そのビジョンが実現したことは一度もない。
 
-      疑問② 動いてるのに、なぜ書き換える？
-      Bun は すでに本番で動いている JS ランタイム だ。それを 6 日でゼロから別言語に書き換える、というのは普通の意思決定ではない。なぜ今、これを？
-
-      報道と Sumner 発信を読むと、動機は 1 つではなく、少なくとも 3 つが重なっている ことが分かる。
-
-      動機 ①：Claude Code が Bun のメモリリークで死んでいた
-      これが一番直接的な引き金らしい。
-
-      何が起きていたか
-      メモリリークとは、確保したメモリを解放し忘れて、不要なメモリがプロセス内に溜まっていく現象 のこと。長時間動くサーバーやエディタが徐々に重くなる原因のひとつだ。Zig は 手動でメモリ管理する 言語で、allocator.free() を呼び忘れるとリークする。
-
-      Bun には 慢性的なメモリリーク問題 があり、Bun の 最大顧客である Claude Code（Anthropic 自社製の AI コーディングツール） のセッションで、メモリ使用量が 14GB、ひどい時は 23GB まで膨らむ 事象が報告されていた。
-
-      ※「Rust にすればリークは全部消えるのか？」については疑問④で深掘りする。先に結論だけ言うと、消えるのは一部だけ だ。
-
-      余談：実は私も同じ問題と戦っていた
-      正直に書いておく。私の手元でも Claude Code は重かった。Bun プロセスのメモリが膨らみ続け、シェルや MCP サーバーなどの子プロセスもゾンビ化して残る。我慢できなくなって、claude clean という自作シェルコマンド で Claude Code 関連プロセスを毎回全部 kill する運用に落ち着いていた。
-
-      つまり、Anthropic が ランタイムごと書き直して解決しようとしていた問題 と、私が claude clean で対症療法していた問題 は、根っこを共有していた ことになる。当事者として書ける記事になってしまった。
-
-      構図
-      Anthropic が 2026 年に Bun を買収したことを思い出すと、構図はこうなる。
-
-      Anthropic が買収した Bun が、Anthropic の主力 AI コーディングツール Claude Code を不安定にしていた
-      解決策として、Anthropic の AI（Claude） を使って Bun 自体をメモリ安全な言語（Rust）に書き換えた
-      dogfooding が極端に効いた、というよりは、自社の問題を自社の AI に自社の手で解かせた、という構図に近い。透明性は高い一方、外部から見ると「Bun の意思決定は今や Anthropic のプロダクト都合と強く結びついている」とも読める。
-
-      !
-      後ほどXを眺めていたところ、Bunの作者 Jarred Summer が本件について言及しており、「メモリリークの多発には元から悩まされており、Anthropicの都合は関係ない」とのことでした。
-      参照：https://x.com/jarredsumner/status/2055796104302858694?s=46
-
-      動機 ②：Rust エコシステムの「contributor pool」
-      Sumner 本人が繰り返し言及しているのは、Rust = コントリビューター人口が桁違いに大きい という現実的な計算だ。
-
-      観点	Zig	Rust
-      言語の安定性	1.0 未発表	1.0 リリース済（2015年〜）
-      コントリビューター人口	数千人規模	数十万人規模
-      採用しやすさ（求人で集まる人材）	困難	比較的容易
-      周辺ツール（lint, fmt, IDE, セキュリティスキャナ）	未成熟	成熟
-      Sumner は「Rust への移行は raw performance ではなく エコシステム統合のため」と明言している。買収後の Bun は「個人 OSS」から「会社プロダクト」へ性格が変わっており、会社プロダクトとして必要な人を雇える言語に移った、というのが現実的な読み方だ。
-
-      動機 ③：Zig コミュニティの「AI コントリビューション禁止」方針
-      これは見落とされがちだが重要な要素だ。
-
-      Zig は公式に 「AI 生成コードによるコントリビューションを受け付けない」 という方針を出している。Bun は Zig のフォーク版を使っていたが、Zig メンテナは「AI 抜きでも Bun の上流マージは歓迎しない」 と表明していた。
-
-      つまり Bun は、自分たちの開発スタイル（AI を全面活用）が上流の Zig と相容れない という政治的な袋小路にいた。Rust への移行は、技術判断であると同時に、「AI を堂々と使えるコミュニティ」への移住 でもある。
-
-      整理：3 つの動機の重み
-      並べるとこうなる。
-
-      動機	種類	緊急度
-      ① Claude Code のメモリリーク	自社事業の損害	高（即時）
-      ② エコシステム / 採用	中長期の経営判断	中
-      ③ Zig コミュニティとの政治	思想・運営上の摩擦	中
-      ①が「なぜ今やったか」、②③が「なぜ Rust なのか」 を説明している、と読むのが自然だろう。
-
-      所感：合理性はあるが、急ぐ必要はあったか
-      3 つの動機はどれもそれなりに筋が通っている。「無謀に見えてビジネス的には合理的」 という典型例だ。
-
-      ただ、①の解決策として「ランタイム全体を別言語に書き換える」は オーバーキル にも見える。リークの根本原因を特定して個別修正する、という選択肢もあったはずだ。それを採らなかったのは、「人力で直し続けるより AI に書き直させる方が速い」 と判断した、ということだろう。
-
-      この判断が正しかったかどうかは、これから半年〜1年で答えが出る。 私としては「合理性は分かる、ただし健全性は別物」というところで止めておきたい。
-
-      疑問③ パフォーマンス落ちないのか？
-      ランタイム全体を別言語に書き換えたら、普通は 速度が落ちないか心配する はず。Bun の場合はどうなのか。
-
-      Sumner 本人の発言
-      Sumner は「performance is neutral or faster（性能は同等か速くなる）」と発言している。ただし、2026/05/15 時点で具体的なベンチマーク数値は未公開。公式ブログでの詳細発表が予告されている段階だ。
-
-      つまり、「現時点で性能は落ちていないと本人は言っている、ただし第三者の独立検証はまだ存在しない」 というのが正確な状況。
-
-      なぜそんなに変わらないと言えるのか？
-      実は Bun の速さの大半は、Zig/Rust という言語選択ではなく、アーキテクチャ的な決定 から来ている。これが今回の移植で重要な前提になる。
-
-      Bun が速い理由	移植で変わる？
-      JavaScriptCore を採用（V8 ではなく）	変わらない
-      libuv なしの内蔵 HTTP サーバー	変わらない
-      統合ネイティブバンドラ	変わらない
-      データ構造・アルゴリズム	同じ設計を Rust に移植
-      つまり「JS の実行速度」「HTTP throughput」のような ユーザーが体感するメトリクス は、ランタイムの実装言語を変えても 構造的にほぼ動かないはず、というのが理屈だ。
-
-      補足：JavaScriptCore とは何者か
-
-      JavaScriptCore（JSC）は C++ で書かれた JS エンジン。Apple 製で、Safari に積まれている。Bun は Zig 時代も Rust 時代も「JSC を呼び出すホスト言語」というポジションで、JS の高速実行は JSC の手柄。つまり Bun の「JS が速い」は Zig や Rust の手柄ではなく、JSC を選んだという建築的決定の手柄だ。
-
-      コンパイル時間
-      Sumner によると、コンパイル時間は次のような関係になっている。
-
-      Bun の custom Zig compiler を使った場合 → Rust 版は Zig 版と同等
-      上流の Zig compiler を使った場合 → Rust 版の方が速く コンパイルされる
-      「ビルドが激遅になる」というネガティブインパクトは、現時点では報告されていない。
-
-      独立検証はまだ存在しない
-      ここまでの主張は すべて Sumner 自身か Anthropic 由来。第三者による「Rust Bun vs Zig Bun」の差分ベンチマークは、2026/05/15 時点では公開されていない。
-
-      dev.to などに早期ベンチマーク記事はあるが、それらは 「Bun vs Node」の比較 であり、「Rust Bun vs Zig Bun の差分検証」ではない。両者を混同しないよう注意が必要だ。
-
-      所感：性能はもう論点じゃない
-      性能観点で言えば、「Rust にしたから速くなる」という売り方は弱い。Sumner 自身もそう売っていない（エコシステム判断だと明言している）。「同等のパフォーマンスを、より管理しやすいコードベースで」 が今回の Rust 移植の現実的な spin だ。
-
-      これ、フロント勢に翻訳すると 「React vs Vue は性能差ではなく開発体験で選ぶ」 という議論と構造が似ている。性能の最大化は別レイヤー（JSC 等）でやる、ランタイム本体は開発しやすさで選ぶ、というレイヤー分けが綺麗に出ている例とも読める。
-
-      性能は 落ちていない が、性能のために Rust にしたわけでもない。論点はもうそこにない、というのが疑問③の暫定回答だ。
-
-      疑問④ そんなに一気に変えてバグ大丈夫？
-      ここが、たぶん 一番ヒリヒリする論点 だ。
-
-      Sumner 本人の保険発言
-      まず重要な事実として、Sumner 自身が「全部破棄の可能性が高い」と発言している。Phase A と呼ばれる現在の段階は 「intent capture」、つまり 「とりあえずコンパイル通らなくてもいいから意図を Rust で表現する」フェーズ と位置付けられている。
-
-      つまり、main にマージはされたが「これで確定」ではない、というのが Sumner 本人の認識だ。これは作者なりの保険であり、同時に 「現時点での品質保証は限定的」というシグナル でもある。
-
-      unsafe 13,044 という数字の重み
-      公開された情報によると、Rust 版 Bun には unsafe ブロックが 13,044 個 存在する。比較のために、libuv の Rust 互換実装である UV（同程度の役割のライブラリ）は約 73 個。約 178 倍 だ。
-
-      これに対して、Theo Browne（t3.gg）の評価が刺さる。
-
-      "They aren't really writing Rust. They are writing C++ with Rust syntax."
-      （彼らが書いているのは本当の意味で Rust ではない。Rust の文法で C++ を書いているのだ）
-
-      これは技術的にも妥当な指摘で、Rust の安全性保証の大半は unsafe の外側でしか効かない。13,044 箇所で「コンパイラ、お前のチェックいらない」と言ってる状態、ということになる。「Zig だった部分の安全性問題が、unsafe Rust という形に移動しただけ」 という読み方も成り立つ。
-
-      Rust にしてもメモリリークは消えない（疑問②の伏線回収）
-      疑問②で「Rust にすれば全部のリークが消えるわけではない」と予告した部分の答え合わせ。
-
-      Rust が 構造的に防いでくれる のは、次の 3 つに限られる。
-
-      防げる	防げない
-      use-after-free	メモリリーク全般
-      double-free	Rc の循環参照
-      データ競合	長寿命キャッシュ
-      バッファオーバーフロー（一部）	「使ってないけど参照を持ち続ける」状態
-      Rust 公式も 「メモリリークは safe Rust でも起きうる」と明言 している（Box::leak() というわざと漏らす API すら存在する）。Sumner 本人も The Register に「Rust がすべてのリークを捕捉するわけではない」と認めるコメントを残している。
-
-      つまり、Bun のリーク問題が 「解放忘れタイプ」 だったなら Rust 移行で大きく改善するが、「長寿命参照タイプ」 だったなら言語を変えても残る。「Zig で起きやすかったタイプのリーク」を Rust が構造的に防ぐ、というのが正しい解像度だ。
-
-      Charlie Marsh（Ruff/uv の作者）の問い
-      これに関連して、Charlie Marsh（Astral CEO、Ruff / uv の作者）が極めて鋭い疑問を投げかけている。
-
-      "One fear I have… are you trading 200 known issues for an unknown number of unknown issues?"
-      （ひとつ怖いのは、200 個の既知の問題を、未知個の未知の問題に交換しているのではないか、ということだ）
-
-      これが疑問④の核心だ。
-
-      Zig 版 Bun には 既知のバグが大量にあった（だからリーク問題が起きていた）。だが、既知の問題には対策できる。報告されたバグを潰せばいい。
-
-      Rust 版 Bun では、それらの既知バグの一部は消えるかもしれない。だが、AI が 6 日で生成した 96 万行には、誰も検出していないバグが何個入っているか分からない。テスト 99.8% パスは「既存のテストが通る」という意味であって、「新規バグがない」という意味ではない。
-
-      テストカバレッジが完璧でない限り、99.8% パスは「分からないことが分からない」状態を解消しない。
-
-      所感：意図的に「分からない」へ踏み込んでいる
-      「バグ大丈夫？」への私の暫定回答は、「分からない、というより意図的に分からない状態に踏み込んでいる」 だ。
-
-      Sumner は「破棄の可能性高い」と保険を掛けている
-      unsafe 13k で Rust の安全性メリットを半分捨てている
-      既知バグを未知バグに交換している可能性がある
-      これらは どれも個別には合理的な判断 で、全体としては大きな賭け に見える。速いほうへの賭け、というより、「速くやるしかないところまで来てた」という賭け、というほうが近いかもしれない。
-
-      少なくとも、「Rust だから安全になりました」という単純な物語ではない ことは確かだ。
-
-      疑問⑤ ちゃんと動くか、どう検証した？
-      「テスト 99.8% パス」が独り歩きしているが、この数字が何を意味して、何を意味しないか を整理する。
-
-      検証されたのは何か
-      公開されている検証情報を並べるとこうなる。
-
-      検証項目	内容
-      Linux x64 (glibc)	既存テスト 99.8% パス
-      他プラットフォーム（macOS / Windows / ARM）	「全プラットフォームで通る」と Sumner 発言、ただし 具体的数値の独立公表は限定的
-      ベンチマーク	「neutral or faster」発言、詳細は公式ブログ待ち
-      長時間運用 / 本番負荷	Anthropic 社内の Claude Code dogfooding
-      要するに、公式に "99.8%" と数字が出ているのは Linux x64 glibc のテストパス率だけ。それ以外は 発言ベース か 内部運用 に拠っている。
-
-      テストが担保するもの／しないもの
-      ここが地味に大事。
-
-      テストが担保する	テストが担保しない
-      書かれているテストケースが通る挙動	テストが書かれていない挙動
-      既知の入力に対する既知の出力	競合状態（race condition）
-      同期的・短時間の正しさ	長時間運用時のメモリ漸減
-      単一プロセスの正しさ	プラットフォーム間の細かな差異
-      「壊れた」を検出	「微妙に違う」を検出（性能、メモリプロファイル）
-      99.8% という数字は、「Zig 時代に書かれたテストスイートを Rust 版が通せる」 ということ。これは 「Rust 版は Zig 版とほぼ同じ挙動をする」 の証明にはなるが、「Rust 版に新規バグがない」の証明にはならない。
-
-      特に メモリリーク はテストで捕まえにくい。長時間動かして初めて滲み出る タイプの問題だからだ。皮肉なことに、Bun の Rust 化の動機がまさにこれ だった。
-
-      Phase A は「intent capture」段階
-      ここで疑問④の Sumner 発言を別の角度で見直す。
-
-      Phase A は 「コンパイル通らなくてもいいから、まず Zig の意図を Rust で表現する」 フェーズと位置付けられている。コンパイルを通すこと、ましてや厳密な検証を済ませることは、Phase A の目的ではない。
-
-      つまり今 main にあるコードは、「Phase A の暫定的なスナップショット」 であり、「Phase B でちゃんと検証するからね」という前提つきの仮配置 に近い。
-
-      Anthropic の dogfooding が事実上の本番検証
-      ここで Anthropic 買収が再び効いてくる。
-
-      Claude Code は Bun で動いている。Anthropic 社内では Claude Code が 毎日数百万ユーザーの手で動かされている。これは事実上、テストでは絶対に捕まえられないタイプの問題を炙り出す巨大な本番検証 になっている。
-
-      ただし、これには 2 つの注意点がある。
-
-      Claude Code 用途に特化したパスしか潰せない — Bun の他の使い方（バンドラ、HTTP サーバー、CLI 等）の検証は別途必要
-      Anthropic 内のフィードバックループは外から見えにくい — 「内部では動いてる」を信じるしかない部分が残る
-      Charlie Marsh の "trading 200 known issues for unknown unknowns" が、検証の文脈で再び響く。外部から検証されていないコードは、内部でどれだけ動いていても "unknown unknowns" のまま だ。
-
-      所感：99.8% は数字としては立派、意味としては限定的
-      「ちゃんと検証したのか？」という問いに、「数字としては検証した、意味としては検証はこれから」 と答えるのが正直なところだ。
-
-      99.8% は 「Zig 版との挙動互換性」 の指標であって、「品質保証」 ではない
-      真の検証は マルチプラットフォーム / コミュニティでの長期使用 / 第三者ベンチマーク で行われる
-      Phase A が「intent capture」で「Phase B で書き直す可能性」を含む以上、今の Rust 版で本番採用判断するのは時期尚早
-      つまり、「Bun を使っている人は、もうしばらく Zig 版 1.3.14 で様子を見るのが合理的」 という解釈もできる。これは技術判断の話で、Bun を批判しているわけではない。新しいコードはまず誰かが踏み抜いてからが本番、というだけのことだ。
-
-      残された問い
-      5 つの疑問を追いかけたが、答えは出ていない。記事を閉じる前に、持ち帰りたい問い を 4 つ並べておく。
-
-      AI 生成コードの「レビュー」って、これから何を意味するんだろう？
-      人間がコードを読まずに、テストと AI の再生成可能性を信じるレビュー、それが当たり前になるのか。
-      「既知のバグを大量に抱える安定版」と「未知のバグを抱える書き直し版」、どちらが信頼できるか？
-      Charlie Marsh の "200 known issues vs unknown unknowns" は、AI 大規模生成時代の中心的な問いだと思う。
-      これは Bun の特例なのか、新しい標準なのか？
-      Anthropic という巨大スポンサー、Claude という強力な AI、Bun という比較的若いコードベース。3 つの条件が重なって初めて可能になった話 とも見える。
-      オープンソースが「単一企業の都合」で大改造される時、コミュニティはどう関わるのか？
-      Bun は OSS だが、今回の意思決定はほぼ Anthropic 単独で行われた。OSS の意思決定モデルが揺らいでいる ように見える。
-      私の暫定的な気持ちは、「すごい」と「怖い」が半々 だ。AI で 96 万行を 6 日で書けてしまう時代の入り口に立っている、ということは認めざるを得ない。一方で、それを本番ブランチに入れる判断は、誰でも真似していい話ではない とも思う。
-
-      私はもう少しだけ、自分でコードを見つめる生活を続けたいと思う。
-
-      参考リンク
-      Anthropic's Bun Rust rewrite merged at speed of AI - The Register (2026/05/14)
-      Anthrophic's Bun team trials port from Zig to Rust - The Register (2026/05/05)
-      The Great Zig-to-Rust Experiment - Rust Bytes
-      Theo: Bun Rewrites 960,000 Lines From Zig to Rust in Six Days — 13,000 Unsafe Blocks Remain - BigGo Finance
-      Bun Migrates from Zig to Rust: What My Real Benchmarks Say - dev.to
-      Bun v1.3.14 - Bun Blog
+      今回ばかりは、アップルに成果を出せない言い訳は通用しない。
 
       
   - link: 
     text: |
-      Hardening TanStack After the npm Compromise
-      Copy page
+      AIが買い物を代行する「エージェント・コマース」時代、Googleが提唱するUniversal Cartとは
+      TOP > 人工知能（AI） > AIが買い物を代行する「エージェント・コマース」時代、Googleが提唱するUniversal Cartとは
+      企業：グーグル（Google）
+      AIが買い物を代行する「エージェント・コマース」時代、Googleが提唱するUniversal Cartとは
+      2026年5月、Google I/Oで発表された「Universal Cart」が、世界の小売・流通業界に静かな衝撃を与えている。
 
-      by Sarah Gerrard, Corbin Crutchley, Jack Herrington, Tanner Linsley, Florian Pellet, and Harry Whorlow on May 12, 2026.
+      これは、どこで見つけた商品でも同じ1つのカートに集約できるという新たなショッピングの構想だ。
 
-      Status (2026-05-15): All clear ✅
+      最終的には、Googleのほぼすべての主要消費者プロダクトを横断し、どこで見つけた商品でも同じ1つのカートに集約されることで、シームレスな買い物体験を目指すというものだ。
 
-      After a three-day full security sweep and hardening pass, we're issuing an official all-clear on TanStack repo and package security.
+      しかもそのカートは何日経っても消えず、デバイスを変えても引き継がれる「永続カート」として設計されている。
 
-      Only the Router/Start repo was affected — 42 monorepo packages, 2 versions each. All were deprecated within the hour and removed by npm shortly after.
-      All other TanStack repos and packages were unaffected and remain secure: Query, DB, Store, AI, Table, Form, HotKeys, Virtual, Pacer, Config, Devtools, CLI, Intent, etc.
-      Every currently-available published version of every TanStack package — Router and Start included — is safe to install.
-      Last updated 2026-05-15 — see Changelog.
+      つまり、AIが消費者に代わって商品を探し、比較し、買い物を完結させる問いう「エージェント・コマース」時代の幕開けを告げる発表だった。
 
-      This week, 42 of our packages were republished to npm with malware baked into the published artifacts. The releases were triggered by our normal release pipeline after changes landed on main, but the malicious code was not authored, reviewed, or approved by us. By the time the first report reached our issue tracker, those compromised versions had already been available on the registry for about 20 to 26 minutes.
+      しかし、これはGoogle単独の戦略ではない。
 
-      We've already published the full incident postmortem, and if you want the timeline, the attack chain, the exact package list, the IOCs, and the "what to do if you installed a bad version" guidance, that's the source of truth. Read that first.
+      Amazon、OpenAI、Microsoft、Anthropic、そしてVisa・Mastercard・PayPalといった決済ネットワークまでもが、それぞれの陣営でエージェント・コマースの覇権を狙って動き始めている。
 
-      This post is the companion piece. The postmortem covered what happened. This one is about what we're changing because of it.
+      本稿では、Universal Cartを支える「Universal Commerce Protocol（UCP）」と「Agent Payments Protocol（AP2）」を起点に、OpenAI/Stripe陣営の対抗標準「Agentic Commerce Protocol（ACP）」、そして各プラットフォーマーの戦略を整理し、小売・流通業者が今後対峙すべき構造変化を読み解く。
 
-      The shortest possible recap#
-      Just enough context so this post makes sense on its own:
+      エージェント・コマースとは何か
+      エージェント・コマース（Agentic Commerce）とは、ユーザーから自然言語で目的を受け取ったAIエージェントが、商品の探索、複数候補の比較、購入の意思決定、決済の実行、さらにはアフターサービスまでを自律的に代行する、新しい買い物様式だ。
 
-      Someone opened a pull request from a throwaway fork. While we never got a chance to see the PR since it was immediately closed, it had still triggered a workflow that checked out the contributor's code and ran it in a job that had write access to our shared CI cache.
+      従来のECが「人間が画面をクリックして商品を選ぶ」→「レジに進む」→「カード情報を入力する」という前提で設計されてきたのに対し、エージェント・コマースではAIエージェント自体が「買い手」となる。
 
-      The attacker's code poisoned the cache and later, when an entirely legitimate merge to main, from a different PR, ran our release workflow, it restored that poisoned cache, extracted our short-lived publish token out of the runner's memory, and used it to push malicious versions across our router-family packages.
+      商品ページもチェックアウトフローも、人間ではなくAIが解釈しやすい形に再設計される必要があるという点で、これはEC業界全体のインターフェース革命と言ってよい。
 
-      Just to be clear, no maintainer was phished, had a password leak, or a token stolen from their account. Since this attack rode in through a trusted cache, it didn't need to. The attacker managed to engineer a path where our own CI pipeline stole its own publish token for them, at the exact moment it was created, by way of a cache that everyone in the chain implicitly trusted. It is a sophisticated approach that we hadn't anticipated and that we're taking very seriously.
+      市場規模の予測も大きい。AI時代の認証標準を担うFIDO Allianceは、一部のアナリスト予測として、エージェント・コマースが2030年までに世界で5兆ドル規模に達する可能性を指摘している。（※）
 
-      How our releases normally work#
-      In order to understand how this attack worked against us, it's important to understand how the release process for TanStack packages typically works. Every release that ships to npm under a @tanstack/* name goes through a staged process:
+      生成AIの実用化が消費者の検索・購買行動を変え、決済技術もエージェントを認証主体として扱えるレベルまで成熟しつつある今、各プラットフォーマーが一斉に動き始めたのは必然と言える。
 
-      Through a reviewed pull request, a change lands on main that includes a version bump and a changelog update. That PR is reviewed and merged by a maintainer, just like any other PR.
-      Releases are cut from main by a CI workflow (when it works), not by a person running npm publish from a laptop.
-      The workflow authenticates to npm through GitHub's OIDC trusted-publisher integration, which means there is no long-lived npm publish token sitting waiting to be stolen.
-      The publish credential is minted at release time, scoped to that workflow, and expires almost immediately.
-      The distinction that there was no publish token to be stolen is important. A large class of npm supply-chain attacks work by stealing a maintainer's publish token, often from their local machine or a compromised dev environment, that are then used to publish malicious versions directly.
+      ※出典：FIDO Alliance 「FIDO Alliance to Develop Standards for Trusted AI Agent Interactions」
 
-      Our setup was designed specifically to make that path a non-starter. With no long-lived npm publish token sitting on a maintainer machine, an attacker couldn't simply compromise a laptop, steal credentials from a local environment, and publish malicious packages at will. That matters especially in the context of the current wave of malware and infostealer campaigns targeting developer machines and browser-stored secrets.
+      Googleが描く未来図：Universal Cartの「賢さ」
+      Universal Cartは、2026年5月19日にGoogle I/Oで発表された、Googleが描く「AI時代の買い物体験」の中核に位置するサービスだ。
 
-      OIDC-based publishing also gave us tighter control over who could release packages and under what conditions. Releases were tied to specific GitHub workflows running from specific repositories and branches, rather than to a reusable credential that could be copied, shared, or quietly reused elsewhere.
+      Search、Gemini、YouTube、Gmailという、Googleのほぼ全ての主要消費者プロダクトを横断し、ユーザーが見つけた商品を単一の永続カートに集約する。
 
-      With publishes tied back to workflow runs instead of a token, we also had a much easier time understanding the scope of the attack once we had the first report. It showed us exactly what workflow run triggered the publish, which branch it ran from, and when it ran. That audit trail was a significant advantage during incident response and helped us scope the what had happened much more quickly.
+      Universal Cartは米国で2026年夏より順次展開され、まずSearchとGeminiアプリから、続いてYouTubeとGmailへと拡張される計画だ。
 
-      The honest part#
-      The way we had our workflow structured was inevitably how this was attack was made possible. The attack vector was a workflow that ran on pull_request_target, which is a special event that runs in the context of the base repository instead of the fork. That means the fork, which was renamed to avoid being detected as a fork of the repo, had write access to the cache that our release workflow later read from. While this has been documented as a known-bad pattern by GitHub's own security team for over three years, we still had it in our workflow and it was the root cause of this attack.
+      Universal Cartの真価は、単なる「カート統合」ではなく、Geminiが裏で動き続ける「賢いショッピングアシスタント」である点にある。
 
-      Knowing we had added in production is something we have to sit with now. While there are many things we had in place that worked as intended, not being on top of the fact that this pattern was in our workflow is a failure on our part. We had the information we needed to know that this was a potential problem, but we didn't connect the dots to our own setup.
+      具体的には次のような機能を備えている。
 
-      While we can say that the npm provenance, SLSA, OIDC, and 2FA all worked as advertised and still didn't stop this attack, that's not the whole story. The workflow shape itself was the hole, and that's what we're rebuilding now.
+      価格履歴の継続監視と値下げアラート
+      在庫切れ商品の再入荷通知
+      AIによる商品間の互換性チェック
+      特に印象的なのが互換性チェックの具体例だ。
 
-      Modern supply-chain defences are important, but they're not always enough on their own. We have to be more proactive about identifying and closing any holes in our workflows that could be exploited, rather than relying solely on the security features of the tools we use.
+      Googleの説明によると、ユーザーが複数の小売業者からカスタムPCを組み立てるためのパーツをカートに追加した場合、Geminiがパーツ同士の互換性を自律的に検証し、組み合わせに問題があれば代替品を提案する。
 
-      Knowing that we had a known-bad pattern in our workflow, and it wasn't on our radar, means there was a breakdown in our internal processes and that's where we have to do better. We have to be more proactive about identifying and closing any holes in our workflows that could be exploited, rather than relying solely on the security features of the tools we use.
+      これまで知識のあるユーザーしか判断できなかった「規格の整合性チェック」を、AIが肩代わりする。
 
-      What we've already done#
-      These are the changes that have landed since the incident. They're not the whole plan — they're the things we could do quickly.
+      複数の商品を組み合わせて使うシナリオ、例えば「PCパーツ」「家具のサイズ」「家電の電源規格」「衣服のコーディネート」などにおいて、購買前の不安や失敗リスクを劇的に下げる仕組みである。
 
-      Disabled the pnpm cache in our release pipeline. We are still evaluating exactly what role the cache played here, whether it can be safely reintroduced (or if we even want it), and what additional hardening would be required if it is.
-      Removed all caches from GitHub Actions across the affected workflows. Same reasoning.
-      Pinned every action in the org to a commit SHA. No more actions/checkout@v6.0.2. A retargeted tag has the same blast radius as cache poisoning, and we'd just lived through cache poisoning, so we'd rather not open that wound again.
-      Enforced non-SMS 2FA across npm and GitHub. 2FA was already required, but SMS was still allowed as a factor. It isn't anymore.
-      Removed every use of pull_request_target from our CI. It was never in our CD pipeline but it shouldn't have been in CI either. If we need base-repo permissions to react to a PR, we'll do it through workflow_run against artefacts from a sandboxed pull_request job — the GitHub-recommended pattern for this exact scenario.
-      Upgraded every repo to pnpm 11, so we inherit the ecosystem install-cooldown behaviour. It's not a fix on its own. It buys us a window.
-      Most of those are blast-radius reductions rather than root-cause fixes; they shrink what a similar attack could reach, but the workflow shape itself is what we're rebuilding in the next round.
+      この設計が普及すれば、価格比較サイトやクーポンサイト、レビューサイトといった「購買前の意思決定支援」を担ってきた既存プレイヤーは、軒並み存在意義の再定義を迫られることになる。
 
-      What we're working on next#
-      Some of the changes we're making take more than a hotfix to land properly, and a few of them are still open questions we're working through together. We're including the unresolved ones because how we're thinking about them feels as relevant as what we've already shipped.
+      つまりUniversal Cartは、「Googleが買い物の入口を取りに来た」という宣戦布告と捉えることができる。
 
-      Adding zizmor as a required PR check on every repo. It's a static analyser for GitHub Actions workflows, and there's a chance if we had it running against the workflow this incident exploited, it could have flagged the pull_request_target + fork-checkout pattern before any of this happened.
-      Putting CODEOWNERS on .github folders, restricting workflow changes to core maintainers. We're leaning toward "yes" on this one; workflow files are code that runs with our credentials, and that means they should be treated like the most privileged code in the repo, because that's effectively what they are.
-      Replacing the pnpm setup cache with actions/cache/restore, which has more conservative defaults: explicit restore, no implicit write-on-exit. The auto-save behaviour of actions/cache@v5 is what allowed the cache write to happen regardless of our permissions: block, and we want that path closed by design instead of by accident.
-      And then the more difficult thing...
+      Universal Cartを支える2つの技術基盤
+      Universal Cartは単独のプロダクトではなく、2つの開放型プロトコルの上に立つ。
 
-      The PR question#
-      This is the change we're least sure about.
+      商品の発見・比較を司る「UCP」と、決済の安全性を担保する「AP2」だ。
 
-      We've been talking about closing the ability for external contributors to open pull requests against TanStack repos. Not closing source (to be very clear, we are absolutely not going closed source) but shifting from "PRs welcome from anyone" to something closer to "issues and discussions welcome from anyone, PRs from non-maintainers by invitation." Contributors who want to land code might do it by filing a detailed issue or patch suggestion, or by doing the kind of investigative and review work that earns a path into a committer role over time.
+      「UCP」商品発見から決済までの共通言語
+      UCP（Universal Commerce Protocol）は、2026年1月11日、米小売業界最大の見本市「NRF 2026」で、Google親会社であるAlphabetの最高経営責任者Sundar Pichai氏が発表した、エージェント・コマースのオープン標準である。
 
-      We have complicated feelings about this, because open PRs are part of how a lot of us became maintainers in the first place. The path from "user with a fix" to "trusted committer" tends to run straight through opening a PR and having someone review it, and closing that path narrows what it means to participate in the project in ways that aren't only about us. There's also a version of this where it doesn't actually solve the underlying problem; the attack vector wasn't "a malicious PR got merged," it was "a malicious PR ran in CI," and you can keep PRs open and still close the CI side of that hole, which is what most of the changes earlier in this post are doing.
+      AIエージェントが商品の発見、カート構築、チェックアウト、購入後のサポートまで処理する一連のフロー全体を、プラットフォームと決済処理業者を横断する共通言語として規定する。
 
-      So with that in mind... we haven't decided. The discussion is ongoing, and we're flagging it here because we'd rather you hear about it from us, with the context attached, than read about it sideways somewhere later. If we do go that route, it'll come with its own post about how the new contribution model actually works in practice since telling people to "send a patch via an issue" without the infrastructure to make that a real path is just a polite way of telling them to go away.
+      UCPの共同開発企業は、Shopify、Etsy、Wayfair、Target、Walmartの5社。これに加え、Adyen、American Express、Best Buy、Flipkart、Macy's、Mastercard、Stripe、The Home Depot、Visa、Zalandoなど20社以上が賛同パートナーとして名を連ねている。
 
-      What we're taking from this#
-      It's tempting, after something like this, to end on a paragraph about how the ecosystem needs to change (and it does). Cache scoping in GitHub Actions shouldn't silently bridge fork PRs and base-repo branches. Provenance shouldn't be confused with innocence. The gap between "this is a known-bad pattern" and "this pattern is hard to write by accident" is a gap the platform itself should be closing, not one every project should have to notice on its own. All of that is true, and we'll be advocating for it where we can.
+      AIが買い物を代行する「エージェント・コマース」時代、Googleが提唱するUniversal Cartとは
+      UCPの共同開発企業と、エコシステム全体にわたる20社以上の企業。
+      そして大きな転換点となったのが、2026年5月11日の発表である。
 
-      But it's not what we're sitting with right now. What we're sitting with is that the workflow shape that got exploited had been quietly working for a long time, and the parts of our security posture we actively thought about — OIDC, lockfiles, 2FA, signed commits — were the parts we'd already invested in. CI was the part we hadn't, and that's the part we're rebuilding now.
+      Amazon、Meta、Microsoft、Salesforce、Stripeの5社が、UCPの技術評議会（Tech Council）に新たに参画した。
 
-      To everyone who reported, verified, and helped triage — thank you. The fact that an independent researcher caught the dead-man's switch in the payload and warned responders before anyone started revoking tokens is the single reason this incident isn't significantly worse (even though it is bad). That kind of work doesn't tend to make the headline, but it makes the difference, and we noticed.
+      これにより、創設メンバー（Google、Shopify、Etsy、Target、Wayfair）と合わせ、AI時代の主要プレイヤーがそろってUCPのガバナンスに加わった構図となる。
 
-      We'll do better.
+      Shopifyはこの発表に際し「UCPに対する業界の収束が一層進んだ」と総括しており、業界全体の方向性が単一のオープン標準へ大きく傾きつつあることを示している。
 
-  - link: 
+      ただし後述するように、これら参画企業の一部はOpenAI/Stripe陣営の「ACP（Agentic Commerce Protocol）」にも並行して関与しており、現時点では「UCPに加わりつつACPも使う」という複線戦略が主流である。
+
+      「AP2」安全な決済を担保
+      UCPが商品の「発見と購入意思決定」を扱うとすれば、AP2（Agent Payments Protocol）は、「決済の実行」を担うプロトコルである。
+
+      Googleが2025年9月に発表し、PayPal、Mastercard、American Expressなど60社以上のパートナーが参加している。
+
+      AP2の核心は「Mandates（マンデート、任務指示書）」と呼ばれる仕組みだ。
+
+      ユーザーがAIエージェントに「この条件の範囲内で買い物を任せる」という意思表示をすると、その指示が暗号署名済みのデジタル契約として記録される。
+
+      これにより、AIエージェントが代理で実行したすべての取引について、改ざん不能な監査証跡が残る。
+
+      エージェントが勝手に高額商品を購入したり、意図しない店舗で決済したりするリスクを、技術的に抑え込む設計だ。
+
+      また、2026年4月にリリースされたv0.2.0では、「Human Not Present」決済が追加された。
+
+      これは、人間がその場にいなくともAIエージェントが自律的に決済できるモードで、例えば「限定発売のチケットが解禁された瞬間に購入する」「特定価格まで値下がりしたら即座に発注する」といったユースケースが想定されている。
+
+      さらに重要な動きとして、GoogleはAP2の仕様をFIDO Allianceに寄贈した。
+
+      FIDO Allianceは、認証技術の業界標準化を進める非営利団体であり、AP2を「Google独自の仕様」ではなく「業界全体の標準」へと押し上げる狙いが見える。
+
+      もう一つの標準「ACP」、OpenAIとStripeが率いる対抗陣営
+      ここまで読むと、エージェント・コマースを支えるプロトコルは「UCPとAP2が業界標準として収束に向かっている」と感じるかもしれない。
+
+      しかし、現実はそう単純ではない。実は、Googleが大規模発表を行う数か月前、別の陣営がすでに動き出していた。
+
+      ACPの概要
+      それが、OpenAIと決済プラットフォームのStripeが2025年9月29日に発表したAgentic Commerce Protocol（ACP）である。
+
+      ACPは、AIエージェントと小売・流通業者・決済事業者が共通の方法で通信するためのオープン標準で、「Shared Payment Tokens」と呼ばれる仕組みが中核となっている。
+
+      ユーザーの実際のカード情報やPayPal口座情報を、AIエージェントや小売事業者にそのまま渡すのではなく、トークン化された決済認可だけを受け渡す。
+
+      商品が売れる側の小売・流通業者は、自社の決済プロバイダを変更することなくACPに対応でき、ブランドの見え方や注文処理のフローを自社でコントロールし続けることが可能だ。
+
+      ACPの採用企業はすでに広範囲に及ぶ。Etsy、Shopify、Salesforceがいずれも公式にACP対応を表明している。
+
+      [ChatGPTを通じて、米国の電子商取引サイト「Etsy」の商品を直接検索、閲覧、購入している様子]
+      仕様はGitHubでオープンソースとして公開されており、OpenAIとStripeが共同で保守している。
+
+      実装面での試行錯誤
+      なお、OpenAIはACPを使った最初の実装として、ACPが発表された同日に、ChatGPTに「Instant Checkout」機能を組み込んでいる。
+
+      この機能は、ユーザーがチャット画面を離れずに購入まで完結できる仕組みで、まず米国のEtsy店舗の商品をChatGPT内で直接購入できるようになった。
+
+      Shopify店舗については当初「近日対応」とアナウンスされていたが、複数商品カートや売上税対応などのEC基本機能が整わず、Shopify加盟店との統合も大きく遅延したため、OpenAIはInstant Checkoutを2026年3月4日に撤退した。
+
+      代わって、アプリ内ブラウザ等で処理するShopifyの「Agentic Storefronts」を経由する形で、数百万のShopify加盟店がChatGPTで販売可能になる新しい仕組みへと移行している。
+
+      同時にこの「Agentic Storefronts」はMicrosoft Copilot、Google AI Mode、Geminiにも対応しており、Shopifyを中核としたマルチプラットフォーム接続の起点となっている。
+
+      このように、実装面の試行錯誤はあったものの、ACPというプロトコル仕様そのものはオープン標準として残り、その後も複数のプレイヤーに採用され続けている形だ。
+
+      UCPとACP、両陣営に関与する企業の現実主義
+      ここで興味深いのは、UCPとACPの両方に関与する企業が複数存在するという点だ。Shopify、Etsy、StripeはUCP・ACP両陣営に参加している。
+
+      さらに、2026年5月にUCP Tech Councilへ参画したMicrosoftとSalesforceも、両プロトコルに同時に関わっている。
+
+      Microsoftは自社のMerchant Center経由でUCPに対応しつつ、Copilot CheckoutではACPも採用しており、SalesforceはUCP Tech Councilのメンバーであり、同時にStripeと組んでACPサポートも表明している。
+
+      これらの企業の戦略的判断は明確で、「どちらが勝つかわからない以上、両方に対応する」という現実主義である。小売・流通業者の視点に立てば、当面はUCPとACPの両プロトコル対応を前提に設計する必要があるということになる。
+
+      「プロトコルが乱立する時代」は、過去のEC業界でも繰り返し見られた構図だ。
+
+      決済APIやログイン認証、商品データフィードのフォーマットなど、複数の標準が並走し、徐々に淘汰や統合が進む。
+
+      今回もおそらく同じ経路をたどる形で、現時点では「単一標準への収束」を待つよりも「複数対応」を前提にした事業設計の方が現実的だろう。
+
+      プラットフォーマー各社の独自エージェント戦略
+      プロトコル戦争の背後では、各プラットフォーマーが独自のAIエージェントとショッピング機能を急速に展開している。
+
+      主要プレイヤーの動きを整理すると、次の通りだ。
+
+      プラットフォーマー	主要サービス	キーポイント
+      OpenAI	ChatGPT内ショッピング体験（旧Instant Checkout、現Agentic Storefronts等）	Instant Checkoutは2026年3月4日に撤退、ShopifyのAgentic Storefronts経由で再構成。ACPの旗振り役
+      Amazon	Alexa for Shopping（Rufus統合）	「Buy for Me」でAmazon外のECも代理購入、2026年5月にUCP Tech Councilへ参画
+      Microsoft	Copilot Checkout / Brand Agents	PayPal・Shopify・Stripe連携、Microsoft Merchant Center経由でUCP対応
+      Perplexity	PayPalと共同「Instant Buy」	チャット内で直接チェックアウト可能
+      Anthropic	Claude for Small Business / Project Deal	QuickBooks・PayPal・HubSpot等の業務ツール連携、AI同士の取引実験
+      OpenAIは、ChatGPTの圧倒的なユーザーベースを武器に、「会話を起点に購買まで完結させる」戦略を取る。
+
+      前述したチャット画面を離れずに購入まで完結できる仕組み「Instant Checkout」は2026年3月に撤退したが、Shopifyとともにアプローチを刷新。Shopifyの「Agentic Storefronts」経由で数百万のShopify加盟店がChatGPTに接続される形へ移行している。
+
+      また、同時期に、ACPを拡張して商品探索に対応するとして、Target、Sephora、Nordstrom、Lowe’s、Best Buy、The Home Depot、WayfairなどがACPと連携していると発表された。
+
+      つまり、視覚的な商品比較や画像をもとにした類似商品検索など、購入直前の意思決定支援にも力を入れているということだ。
+
+      これは、「ChatGPT内で決済まで完結させる」モデルから、「ChatGPTで商品を探し・比べ・選ぶ場所として位置づけ直し、決済そのものは加盟店ECサイトに委ねる」というモデルへの転換を体現したアプローチと言える。
+
+      Amazonは当初、自社のRufusという生成AI型ショッピングアシスタントを「Amazon内に閉じた壁庭」として展開していた。
+
+      しかし「Buy for Me」機能が追加され、RufusがAmazon外のECサイトでも代理購入を実行することができるようになった。
+
+      これにより、ユーザーが欲しい商品をRufusに伝えると、外部の小売店サイトをブラウザエージェントとして訪問し、カートに追加し、決済まで完了させる。
+
+      AIが買い物を代行する「エージェント・コマース」時代、Googleが提唱するUniversal Cartとは
+      「Buy for Me」機能の利用イメージ
+      Amazonの公式説明によれば、ユーザーがAmazonに登録しているメインの住所とクレジットカードを使い、購入処理全体をRufusが代行する仕組みだ。
+
+      2026年5月にはRufusとAlexa+を統合し、「Alexa for Shopping」として一本化された。
+
+      さらに同月11日には、Meta、Microsoft、Salesforce、Stripeとともに、Google主導のUCP Tech Councilへ参画することが発表された。
+
+      長らく「閉じた壁庭」戦略を取ってきたAmazonが、業界横断のオープン標準のガバナンスに加わったことは、エージェント・コマース全体の重力場が大きく動き始めたことを示すシグナルである。
+
+      Microsoftは、2025年4月に加盟店向けの公式パートナープログラム「Copilot Merchant Program」を立ち上げ、2026年1月には「Copilot Checkout」と「Brand Agents」を発表した。
+
+      Copilot Checkoutは、Copilot.com上で見つけた商品を外部サイトに遷移せず購入できる機能で、PayPal・Shopify・Stripeをパートナーに据える。
+
+      [Copilot Checkoutのイメージ]
+      Brand Agentsは、各ブランドの商品カタログで訓練された「ブランド独自のAIエージェント」を、自社サイト上で消費者対応に使える仕組みだ。
+
+      「AIに自社ブランドの声で語らせる」という発想は、エージェント時代のブランディング戦略を象徴する。
+
+      [Brand Agentsのイメージ]
+      Perplexityは、検索体験そのものを購買体験に変える戦略を取っている。
+
+      2025年11月にはPayPalと共同で「Instant Buy」を立ち上げ、PayPalの決済インフラを介して、Perplexityのチャット内から離脱せずに直接チェックアウトできる体験を実現した。
+
+      これは、「答え」を返すエンジンが「購入」までを一気通貫で扱う方向性を象徴する動きだ。
+
+      [Instant Buyのイメージ]
+      Anthropicのアプローチは他と異なる。
+
+      OpenAIやAmazonのように「消費者がチャットで買い物をする」体験を作るのではなく、Claudeを各種業務ツールに接続する「コネクタ」（外部サービスとAIをつなぐ仕組み）を整備する戦略を取っている。
+
+      中小企業向けに打ち出した「Claude for Small Business」では、QuickBooks（会計）、PayPal（決済）、HubSpot（顧客管理）、Canva（デザイン）、Docusign（電子契約）、Google Workspace、Microsoft 365といった業務ツールをClaudeから操作可能にした。
+
+      つまり、経理、決済、顧客対応、契約処理といった企業の日常業務をClaudeが代行できる仕組みを目指しており、消費者の購買代行ではなく「企業の業務代行」を起点に、エージェント時代の主要プレイヤーを狙うアプローチである。
+
+      [Claude for Small Businessの紹介動画]
+      さらに同社は「Project Deal」という社内実験を実施しており、サンフランシスコ本社の従業員69名がClaudeエージェントに売買を委ねた結果、186件・約4,000ドルの取引を成立させている。
+
+      これは「AIエージェント同士が交渉して取引を成立させる」可能性を示す重要な実証であると言えるだろう。
+
+      決済ネットワークも一斉に動く
+      エージェント・コマースの普及には、AIエージェントを「決済主体」として安全に認証・認可する仕組みが不可欠だ。
+
+      世界の主要決済ネットワークは、いずれもこのレイヤーで積極的に動いている。
+
+      Visaは、統合されたAPIとパートナープログラムを提供する「Visa Intelligent Commerce」を旗艦サービスとして展開する。
+
+      具体的には、AIエージェントに発行される使い道や金額をあらかじめ制限した代替トークンをはじめ、AIからの支払いに最適化された認証、ユーザーが事前に承認した条件に基づく決済の実行といった仕組みを提供する。
+
+      さらに、エージェント型コマースへの入り口として機能する「Intelligent Commerce Connect」では、Visaカード以外のネットワークも含めた単一統合で、加盟店、エージェント開発者、決済イネーブラーがエージェント・コマース市場にアクセスできるようにした。
+
+      パイロット段階のパートナーとして、Aldar、AWS、Diddo、Highnote、Mesh、Payabli、Sumvinなどの企業が公式に名を挙げられており、今年中にさらに多くのパートナーに展開する予定だと公表している。
+
+      Mastercardは、2025年4月にエージェント決済プログラム「Agent Pay」を発表している。
+
+      これは、AIエージェントが代理で決済する際に使う、特殊な決済認証情報である「Agentic Tokens（エージェント用トークン）」と、パスワード不要の本人確認システム「Mastercard Payment Passkeys」による本人確認を組み合わせたものだ。
+
+      米国での導入を皮切りに、UAEおよびラテンアメリカでパイロット運用が始まり、オーストラリアでも実取引が実現している。
+
+      オーストラリアでの実取引では、CBA（Commonwealth Bank of Australia）発行のカードを使ったEvent Cinemasでのチケット購入、Westpac発行のカードを使ったThredboでの宿泊予約などが、Agent Pay経由で完了しているとのことだ。
+
+      PayPalは、2025年10月28日に「Agentic Commerce Services」を発表した。
+
+      これは、エージェント向け決済ソリューションの「Agent Ready」と、商品カタログ・注文管理機能の「Store Sync」を統合して提供するものだ。
+
+      Microsoftの「Copilot Checkout」の裏側でも決済処理を担うなど、複数のAIプラットフォームの決済層として組み込まれている。
+
+      また、2025年11月25日には、Perplexityと共同で、PayPal加盟店がPerplexity内で検索可能になる「Instant Buy」を立ち上げた。
+
+      これにより、Abercrombie&Fitch、Ashley Furniture、Fableticsといったブランドが、Perplexityのチャット内で直接決済できる体験を提供している。
+
+      決済ネットワークの動きを総合すると、彼らは単なる「カード会社」から「AIエージェントの認証・本人確認・取引監査を担うインフラ層」へと役割を再定義しつつあると言える。
+
+      エージェントが代理で行う決済の正当性を担保できるのは、すでに高度な認証・監査の仕組みを持つ既存決済ネットワークだという読みだ。
+
+      小売・流通業者・マーケターは何をすべきか
+      ここまで見てきた構造変化を、小売・流通業者やマーケターの実務に落とすと、次のような論点が浮かび上がる。
+
+      第一に、「どのプロトコルに対応するか」より「どの会話AIに商品を露出するか」が本質であると言える。
+
+      UCPもACPも、それ自体は技術仕様にすぎない。最終的に消費者と接する場所は、ChatGPT、Gemini、Copilot、Claude、Perplexityといった会話AIプラットフォームだ。
+
+      自社商品がそこで「発見され、答えられ、購入される」かどうかが事業成果を決める。
+
+      第二に、商品データの構造化が改めて死活問題になる。
+
+      AIエージェントが商品を理解するためには、「フィード」「属性」「在庫」「価格」「互換性情報」「サイズ」「素材」「保証条件」などの商品情報が、正確で網羅的に揃っている必要がある。
+
+      これまで「商品ページのSEO対策」として扱われてきた領域が、AIへの情報供給という観点から再評価される形だ。
+
+      第三に、ブランドエージェントの構築が新たな選択肢になる。
+
+      Microsoftの「Brand Agents」のように、自社ブランドの声で消費者に応答するAIエージェントを構築する動きが広がるだろう。
+
+      汎用AIに自社商品を「説明させる」のではなく、自社が用意したエージェントを介して「語らせる」アプローチだ。
+
+      第四に、決済の選択肢を冗長化する必要がある。
+
+      カード、PayPal、Stripeなど、複数の決済手段に対応していれば、UCPとACPの両プロトコルでも、各種会話AIプラットフォームでも、購入機会を逃さずに済む。
+
+      第五に、ShopifyのAgentic Storefrontsのような統合ソリューションの活用が現実解になる。
+
+      全てのプロトコルとプラットフォームに自力で対応するのは中小事業者には困難だ。
+
+      プラットフォーム側が「AIが会話する場所すべてで売れる」仕組みを用意するなら、それに乗ることで時間と開発リソースを節約できる。
+
+      第六に、SEOからAEO/GEOへの思考転換が必要になる。
+
+      これまでの検索エンジン最適化（SEO）は、Googleの検索結果上位に出ることを目指してきた。
+
+      これが今後は、AI回答エンジン最適化（AEO：Answer Engine Optimization）や生成エンジン最適化（GEO：Generative Engine Optimization）へとシフトする。
+
+      「検索結果に表示される」のではなく「AIが回答に含めてくれる」「AIが代理購入の選択肢に入れてくれる」ことが目標になるということだ。
+
+      そして最後に、ブランドのコントロール保持と発見性向上のジレンマがある。
+
+      UCPやACPに対応することで発見性は上がるが、その代わりに自社ブランドの体験設計の一部をAIエージェントに委ねることになる。
+
+      どこまでをAIに任せ、どこからを自社サイトで体験させるか。この線引きが、各社の戦略課題となるだろう。
+
+      まとめ
+      Universal Cartの登場、UCP・AP2・ACPといったプロトコル標準化の動き。これら一連の動きは単に新しい技術仕様の追加ではなく、「買い物の入口」が検索エンジンやECサイトのトップページから、会話AIへと移動するという、消費者行動の根本的な変化の兆しを反映している。
+
+      Googleは「ブラウザを再発明」しようとしており、SearchもYouTubeもGmailも、全てが買い物に接続するAIファーストの体験に再設計されつつある。
+
+      しかし、覇権争いはまだ決着していない。
+
+      Amazonは自社経済圏とエージェント代理購入の両輪で攻め、OpenAIは会話起点の購買体験で消費者の習慣を取りに行き、Anthropicはコネクタ経由のアプローチで企業との連携を深め、Microsoftはブランドエージェントという独自路線を切り拓いている。
+
+      異なるアプローチを取る各社に共通するのは、プロトコルがオープン標準化されつつあるという構造変化だ。
+
+      UCPは2026年5月にAmazon、Meta、Microsoft、Salesforce、StripeがTech Councilに加わり、AP2はFIDO Allianceに寄贈され、ACPはGitHubで公開されている。
+
+      閉じたエコシステムで囲い込むより、開かれた標準の上で消費者接点を競う方が、結果的に各社の利益にもかなうという判断が支配的になりつつある。
+
+      もちろん、OpenAIがChatGPTに組み込んだ即時決済機能「Instant Checkout」がわずか5カ月で撤退したように、エージェント・コマースが期待通りのスピードと形で普及するとは限らない。
+
+      初期実装のつまずき、消費者側の習慣形成、データ主権を巡る小売・流通業者の警戒など、不確実性は多く残されている。
+
+      それでも、Universal Cart、UCP、ACP、AP2という基盤が整い、Google・Amazon・Microsoft・OpenAI・Anthropicが揃って本気で投資している以上、この流れを「無視できる潮流」とは言えないだろう。
+
+      小売・流通業者にとっての問いは「来るかどうか」ではなく、「来たときにどこに立っているか」である。
+
+  - link:
     text: |
-      53年ぶり有人月周回に成功 アルテミス計画、4飛行士が無事帰還
-      2026.04.14
 
-      草下健夫 ／ サイエンスポータル編集部
+      スペースXが「スターシップ」第12回飛行試験を実施　第3世代が初飛行でインド洋に着水成功
+      2026-05-23
+      2026-05-23
+      sorae編集部sorae編集部
+      スペースXが「スターシップ」第12回飛行試験を実施　第3世代が初飛行でインド洋に着水成功
+      Facebook
+      post
+      はてブ
+      Feedly
+      宇宙動画と広告
 
-      宇宙
-      　「世界の希望を月に運んだ」――米国とカナダの飛行士4人を乗せた米宇宙船「オリオン」が月上空を周回し、地球に無事帰還した。有人月周回は、アポロ計画で最後の月面着陸だった1972年12月のアポロ17号以来、実に53年ぶりで、人類到達の最遠方記録を更新する歴史的な一歩となった。今回は米主導の国際月探査「アルテミス計画」の試験飛行「アルテミス2」で、2028年には有人月面着陸を目指す。その後、日本人が月面着陸することで日米が合意済みだ。米航空宇宙局（NASA）は月面基地建設に注力し、上空の周回基地建設を休止するとの、大幅な計画変更を発表している。
+      Google News
+      LINEで購読
+      MSNニュース
+      YouTube
+      アメリカ企業SpaceX（スペースX）は日本時間2026年5月23日、同社が開発中の新型ロケット「Starship（スターシップ）」による第12回飛行試験を実施しました。
 
-      地球に帰還し、オリオンを後にした4人の飛行士。機体の右に横付けされたいかだに、オレンジ色の宇宙服を着て座っている＝日本時間11日午前（NASAテレビから）
-      地球に帰還し、オリオンを後にした4人の飛行士。機体の右に横付けされたいかだに、オレンジ色の宇宙服を着て座っている＝日本時間11日午前（NASAテレビから）
-      「私たちは月に戻った」
-      　日本時間11日午前9時7分、3つのメインパラシュートを開いた円錐（えんすい）台形のオリオンが、カリフォルニア州サンディエゴ沖の海面に、水しぶきを上げて着水した。待ち構えていたNASAと海軍の合同チームが複数のボートで急行し、4人を順次、オリオンに横づけした“いかだ”へと救出。4人はその後、ヘリコプターで引き揚げられて海軍の揚陸艦に運ばれた。NASAは、帰還時の全システムが設計通り作動したことや、9日間、112万キロの旅を終えた4人が健康であることを明らかにした。
+      ペイロード放出試験の後にインド洋へ着水成功
+      アメリカ・テキサス州のStarbase（スターベース）から日本時間2026年5月23日7時30分（アメリカ中部夏時間2026年5月22日17時30分）にリフトオフしたStarshipは、2段目のStarship宇宙船が約9分15秒後にエンジンを停止して、軌道到達に成功しました（※リフトオフからの時刻等の情報はSpaceXのライブ配信を参照して確認、以下同様）。
 
-      　飛行したのは米国人で船長のリード・ワイズマン（50）のほかビクター・グローバー（49）、クリスティーナ・コック（47）、カナダ人のジェレミー・ハンセン（50）の各飛行士。コック氏は女性で電気技師、他の3人はいずれも男性で軍パイロットの経歴を持つ。
+      慣性飛行中には、SpaceXの衛星インターネットサービス「Starlink（スターリンク）」用の次世代通信衛星と同じサイズ・同じ重量を模倣した20基の「Starlinkシミュレーター」と、2基の改修型Starlink衛星を放出することに成功。リフトオフから約1時間06分後にはインド洋へ着水して飛行を終えました。
 
-      　トランプ米大統領はSNSに「旅全体が壮観で、帰還も完璧。これ以上誇りに思うことはない。次のステップは火星だ」と投稿し祝福した。
+      今回の飛行試験は、アップグレードされた第3世代Starshipの初飛行でした。1段目の大型ロケット「Super Heavy（スーパーヘビー）」ブースターに搭載される33基のエンジンと、Starship宇宙船に搭載される6基のエンジンは、すべて新型の「Raptor 3（ラプター3）」に変更。Super Heavyはグリッドフィンの形状・数・取り付け位置が変更され、Starship宇宙船にはドッキング用のハードウェアも搭載されています。
 
-      　NASAのジャレッド・アイザックマン長官は「4人が真に歴史的偉業を成し遂げたことをお祝いする。並外れた技能と勇気、献身を示した。今後は（次回飛行の）アルテミス3と月面への帰還、基地建設、そして月を諦めないという決意に向け、自信を持って取り組んでいく」と力説した。アミット・クシャトリヤ副長官は「4人は世界の希望を運んだ。私たちは月に戻った。未来は私たちの勝利のためのものだ」と成功を称えた。
+      宇宙船とブースターで推進システムに関連したトラブルか
+      新型の初飛行ということもあって、飛行中にはいくつかのトラブルも起きています。リフトオフから約2分30秒後にStarship宇宙船を分離したSuper Heavyブースターは、予定よりも30秒ほど早く、リフトオフから約6分15秒後に海上へ着水しました。分離後の減速噴射では点火できたエンジンの数が不足し、着水前の着陸噴射でも十分な減速が行えなかった可能性があります。
 
-      亡き大先輩からのメッセージ
-      オリオンの想像図。後ろのエンジンが手前に描かれている（ESA、D・デュクロス氏提供）
-      オリオンの想像図。後ろのエンジンが手前に描かれている（ESA、D・デュクロス氏提供）
-      　オリオンは円錐台形の有人モジュール（区画）と円筒形の機械モジュールが連結した、長さ8.1メートル、幅5メートルの宇宙船。4人乗りで、形状は3人乗りのアポロ宇宙船と似ている。米航空宇宙大手のロッキードマーチン社が開発を主導した。欧州が製造を担当した機械モジュールからは、翼状の4枚の太陽電池パネルが延びる。アルテミス2での打ち上げ時の重さは、燃料を含め26トン。飛行士の居住空間はミニバン2台分に相当する9.3立方メートルで、アポロに比べ60％拡大した。
+      一方、Starship宇宙船も真空用エンジン3基のうち1基が停止した状態で飛行することとなり、予定よりも1分ほど長いエンジン燃焼が行われました。SpaceXの公式ライブ配信では、エンジンの根元からガスが漏れているように見えました。また、軌道上では過去の飛行試験と同様にエンジン1基の再点火テストを行う予定でしたが、実際には行われないまま大気圏に再突入しています。
 
-      　元々、月探査を含む旧「コンステレーション計画」（2010年中止）などでの利用を主眼に開発が始まったが、アルテミス計画で日の目を見た形だ。米国人の発音に寄せて「オライオン」とも呼ばれる。
+      ミッション全体としては、Super HeavyブースターとStarship宇宙船の両方が上昇燃焼を終了し、最終的に宇宙船がインド洋への着水に成功。Starlinkシミュレーター22基の放出には成功したものの、エンジンの軌道上再点火は実施できず、となりました。ブースターと宇宙船のトラブルは、どちらもエンジンや推進剤の供給といった推進システムに関連するとみられ、次の飛行試験でクリアできるかが注目されます。
 
-      　日本時間2日午前7時35分、オリオンは大型ロケット「SLS」に搭載され米フロリダ州のケネディ宇宙センターから打ち上げられた。49分後、SLSの上段エンジンが点火し、地球上空の周回軌道に入った。オリオンがSLS上段機体から分離すると、飛行士らは操縦訓練や生命維持装置、通信システムの性能評価などを継続。翌日の3日午前には5分50秒かけてエンジンを噴射し、月に向かう遷移軌道に就いた。飛行5日目の6日午後1時41分、月の重力圏に突入した。
+      Starship第12回飛行試験については、SpaceXから新しい情報が発表され次第お伝えします。
 
-      オリオンを搭載し打ち上げられるSLS＝日本時間2日午前（NASA、ビル・インガルス氏提供）
-      オリオンを搭載し打ち上げられるSLS＝日本時間2日午前（NASA、ビル・インガルス氏提供）
-      　翌6日目は、月の裏側に回り最接近する飛行のハイライトを迎えた。この日、4人が目覚めると、地球から特別なメッセージが贈られた。史上初の月周回を果たした1968年のアポロ8号に搭乗したジム・ラベル氏が、昨年8月に死去する前に収録した声だった。「ようこそ私の古巣へ。私はアポロ8号で初めて月を間近に見て、世界中の人々が感動し団結した。皆さんが月を周回し、火星探査の基礎を築くにあたり、このバトンを渡せることを誇りに思う。今日は歴史的な日で忙しいが、景色を楽しむことを忘れないで」。ラベル氏は70年、飛行中に酸素タンクの爆発を起こしながら生還したアポロ13号で、船長を務めた人物だ。
+      【更新：2026年5月23日11時15分】本文を一部更新しました。
 
-      「この記録はすぐ破られるもの。次世代への挑戦状だ」
-      　7日午前2時56分、地球から40万170キロの距離を超え、ラベル氏のアポロ13号が樹立した記録を塗り替えた。この13号の記録は計画されたものではなく、爆発により月面着陸を断念したのを受けて経路を変更し、結果的に成立したものだった。オリオンは続いて午前8時頃、月面に約6545キロまで接近。その2分後、人類到達の最遠方記録を40万6770キロまで伸ばした。
+      関連画像・映像
+      アメリカ・テキサス州の「Starbase（スターベース）」から第12回飛行試験のために打ち上げられたSpaceXの新型ロケット「Starship（スターシップ）」。SpaceXのライブ配信から（Credit: SpaceX）
+      【▲ アメリカ・テキサス州の「Starbase（スターベース）」から第12回飛行試験のために打ち上げられたSpaceXの新型ロケット「Starship（スターシップ）」。SpaceXのライブ配信から（Credit: SpaceX）】
+      分離したSuper Heavy（スーパーヘビー）ブースター（左）と、Starship（スターシップ）宇宙船。SpaceXのライブ配信から（Credit: SpaceX）
+      【▲ 分離したSuper Heavy（スーパーヘビー）ブースター（左）と、Starship（スターシップ）宇宙船。SpaceXのライブ配信から（Credit: SpaceX）】
+      上昇燃焼中のStarship（スターシップ）宇宙船のエンジン搭載部分。右端のエンジン周辺に、白いガスがただよっているように見える。SpaceXのライブ配信から（Credit: SpaceX）
+      【▲ 上昇燃焼中のStarship（スターシップ）宇宙船のエンジン搭載部分。右端のエンジン周辺に、白いガスがただよっているように見える。SpaceXのライブ配信から（Credit: SpaceX）】
+      放出された改修型Starlink（スターリンク）衛星の1つに搭載されていたカメラで撮影した、軌道上のStarship（スターシップ）宇宙船。SpaceXのライブ配信から（Credit: SpaceX）
+      【▲ 放出された改修型Starlink（スターリンク）衛星の1つに搭載されていたカメラで撮影した、軌道上のStarship（スターシップ）宇宙船。SpaceXのライブ配信から（Credit: SpaceX）】
+      インド洋に着水したStarship（スターシップ）宇宙船。SpaceXのライブ配信から（Credit: SpaceX）
+      【▲ インド洋に着水したStarship（スターシップ）宇宙船。SpaceXのライブ配信から（Credit: SpaceX）】
+      
 
-      月（左）の縁に沈む地球。オリオンが月の裏側を通過し、地球との通信が一時途絶する直前に撮影された（NASA提供）
-      月（左）の縁に沈む地球。オリオンが月の裏側を通過し、地球との通信が一時途絶する直前に撮影された（NASA提供）
-      　ハンセン氏は船内から地球に向け、こう呼びかけた。「記録を突破するにあたり、先人たちの並外れた努力と偉業に敬意を表する。何より重要なのはこの瞬間、記録がすぐ破られるよう、今の世代や次世代へと挑戦状を送りつけたことだ」。月への接近中、飛行士らは月面の多彩な地形のほか、月が太陽を覆い隠す日食、月の向こうへと地球が沈む“地球の入り”など実に7000枚以上の写真を撮影したという。
-
-      　翌8日午前2時23分、オリオンは月の重力圏を離脱。軌道変更のエンジン噴射を繰り返して帰路に就いた。11日午前8時33分、有人モジュールと機械モジュールを分離した。有人モジュールは同53分、地上122キロで大気圏に突入。予定された6分間の通信途絶や、減速用パラシュートとメインパラシュートの開傘を経て、サンディエゴ沖で旅路を終えた。
-
-      飛行中、オリオン船内で過ごす4人の飛行士（NASA提供）
-      飛行中、オリオン船内で過ごす4人の飛行士（NASA提供）
-      アポロ以来…単なる再訪ではない
-      　アルテミス計画は、米国が国際宇宙ステーション（ISS）に続く大規模な国際宇宙探査として主導。1972年のアポロ17号以来となる有人月面着陸を目指す。月面や月上空に建設する基地を拠点に探査や実験をして、将来の火星探査も視野に技術実証を進める。日本は2019年に参画を決定。欧州やカナダも参画している。
-
-      　今回のアルテミス2は2022年、オリオンが無人月周回飛行に成功した「アルテミス1」に続く試験飛行。アルテミス計画では初の有人飛行で、生命維持システムの実証が最大の目的だった。NASAは今年2月末、計画変更を発表。来年の「アルテミス3」では、それまで予定していた月面着陸をせず、有人のオリオンが地球上空で民間着陸船とのドッキング試験をすることにした。28年の「アルテミス4」で着陸に挑み、その後は年2回以上の頻度で着陸を目指す。
-
-      1969年、アポロ11号により月面に立つバズ・オルドリン飛行士（NASA提供）
-      1969年、アポロ11号により月面に立つバズ・オルドリン飛行士（NASA提供）
-      　アポロ計画では1969～72年の11～17号（13号を除く）の6回で計12人が月面に立った。アルテミス計画で再び月面を目指すが、これは単なる再訪ではない。アポロ計画は東西冷戦下で米国と旧ソ連（ロシア）が、国家の威信を賭けた宇宙開発競争の性格が強かった。68年にソ連は宇宙船にカメを載せて月の上空に送り地球に生還させたが、これが米国を焦らせてアポロ計画の進展を早め、有人月面着陸での米国勝利の要因になったともみられている。
-
-      　アルテミス計画のコンセプトはアポロとは大きく異なり、米国が主導しつつ、日欧などの参画を得る国際探査の位置づけだ。有人月面着陸を実現するのは同じだが、“行って生きて帰ってくる”という行為以上に、基地を構築するなどして探査や開発を持続的に進める狙いが大きい。NASAが2企業の月着陸船を採用するなど、民間の役割も大きくなる。
-
-      　月の極域の水を採取し、太陽電池で水素と酸素に電気分解すれば、燃料として月面開発や火星飛行に使えるとの期待もあり、月探査の意義の一つとされる。ただ実際に資源として利用できるほどの水があるかどうかは、今後の探査や研究を通じた解明が必要だ。
-
-      アルテミス2以降の新しい計画概要のイラスト。月面着陸はアルテミス4から実現する（NASA提供）
-      アルテミス2以降の新しい計画概要のイラスト。月面着陸はアルテミス4から実現する（NASA提供）
-      「トランプ氏任期中に着陸」月面基地に注力
-      　アルテミス2の飛行に先立つ先月24日、NASAはアルテミス計画の大幅な変更を発表した。予定してきた月上空の周回基地「ゲートウェー」の建設を休止し、月面基地の構築を優先する。2月末にも有人月面着陸の時期や宇宙船の運用計画、SLSの機体構成の見直しを発表したのに続き、さらに踏み込んで計画を再編する内容となった。一連の変更は、昨年12月の大統領令を反映したものだ。
-
-      　発表でアイザックマン長官は「トランプ大統領の任期（2029年1月まで）中に月に戻り、米国の先導力確立に取り組む」と述べた。「大国間競争で、物事の成否は年単位でなく月単位で決まる。NASAの資源を国家宇宙政策のために集中させ、パートナーの国と労働力や産業力を解き放つ」とも語り、同様に月面着陸や基地建設を目指す中国への対抗意識をにじませた。月面基地建設に7年間で200億ドル（3兆2000億円）を投じるという。
-
-      　月面基地計画は次の3段階で進める。【1 建設、試験、学習段階】商業輸送と探査車により月面活動の頻度を上げ、探査車や機器類、発電や通信、航法などの技術実証機を送る。【2 初期インフラ構築】ある程度の居住ができるインフラと定期輸送を構築する。飛行士が地表で定期的に活動する。日本の有人与圧探査車などの国際貢献も採り入れる。【3 長期滞在】大規模なインフラにより、定期的探査から恒久的月面基地へと移行する。
-
-      月面基地「第3段階」の想像図（NASA提供）
-      月面基地「第3段階」の想像図（NASA提供）
-      上空基地ゲートウェーは「休止」
-      　ゲートウェーは探査や実験、訓練の拠点、月面着陸の中継地などとして計画されてきた。建設休止が解除される時期は明らかになっていない。元々の計画では、月面に着陸する飛行士はオリオンで地球を発った後、いったんゲートウェーに滞在。そこから着陸船で月面に降り立つことになっている。ゲートウェーがない段階では、オリオンが宇宙空間で直接、着陸船に結合することになる。
-
-      　わが国はゲートウェーの居住棟の環境制御・生命維持機構や、地球から物資を届ける補給機などを提供することが決まっている。このほか、内部で飛行士が暮らせる月面与圧探査車を、宇宙航空研究開発機構（JAXA）とトヨタ自動車が開発中だ。2024年には、日本人が2回、月面に着陸することで日米が合意した。
-
-      オリオン（左）とゲートウェーの想像図（NASA、アルベルト・ベルトリン氏提供）
-      オリオン（左）とゲートウェーの想像図（NASA、アルベルト・ベルトリン氏提供）
-      　ゲートウェーへの物資補給機は、ISSに使われているJAXAの「HTV-X」の改良型を活用する計画だが、そのゲートウェーの建設が当分、進まないことになった。今回の変更はこれを含め、わが国の役割分担に影響を与える可能性がある。なおHTV-X改良型は、ISSの後継として建設される地球上空の民間基地へも向かう見込みだ。
-
-      　JAXAの山川宏理事長は「ゲートウェーに関しNASAは『pause（ポーズ）』の言葉を使っており、一時停止の意味合いだろう。そのタイミングは分からないが、少なくとも現時点でゲートウェーの技術開発、活用について引き続き取り組んでいる。われわれは定められたものに取り組み、有人与圧探査車を含め着実に開発していく。具体的には、NASAを含め関係機関と協議していくことになると思う」との見方を示している。
-
-      　NASAがゲートウェー構想を明らかにしたのが2017年。翌年には「ゲートウェーを通じ米国の優位を確立する」「（各国の）14の宇宙機関が月や火星、太陽系深部への進出のためゲートウェーが重要と合意した」との文書をまとめていた。その後の19年、ゲートウェーを含む国際宇宙探査を「アルテミス計画」と命名。トランプ氏が月面着陸の前倒しを求めるなどして、着陸を重視する性格が強まっていった。
-
-      　国際宇宙探査はこれまでも技術的要因のみならず、主導する米国の政局や国内事情を背景に変遷してきた。悪い言い方をすれば、世界が“振り回される”形ではある。とはいえ、人類が目指す次のフロンティアが隣の星、月であるという大局の方向性は、もはや揺るがないだろう。2024年の日米首脳共同声明で「アルテミス計画で、日本人が月面に着陸する初の非米国人になるとの共通の目標」を発表したことは、わが国の技術や人材への信頼の高さを物語る。今後も、計画がどう変わろうと強みを発揮して世界に貢献できるよう、得意分野をしっかり磨いていくことが大切だ。アルテミス2の成功は、そのことを改めて意識する機会ともなった。
-
-      　ちなみにアルテミスはギリシャ神話の女神で、男神アポロンとは双子の関係だ。アルテミスの純潔を望んだアポロンにだまされ、愛するはずのオリオンを死なせてしまう。こんな神話の内容に関わらず、アルテミス計画の目標が実りますように…。
-
-      NASAがアルテミス2の飛行前に公表していた行程の解説図。地球上空を2周し、8の字を描くように月との間を行き来する計画で、順調に推移した（NASA提供）
-      NASAがアルテミス2の飛行前に公表していた行程の解説図。地球上空を2周し、8の字を描くように月との間を行き来する計画で、順調に推移した（NASA提供）
+      文・編集／sorae編集部
