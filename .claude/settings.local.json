@@ -3,7 +3,8 @@
     "allow": [
       "Bash(ffmpeg:*)",
       "Bash(whisper:*)",
-      "Bash(timeout:*)"
+      "Bash(timeout:*)",
+      "Bash(python src/run.py)"
     ],
     "deny": [],
     "ask": []
