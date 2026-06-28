@@ -1,594 +1,424 @@
-Date: 2026-05-17
+Date: 2026-06-28
 Topic:
 
+  - link:
+    text: |
+      
+      AWS Summit Japan
+      2026年6月25日～26日 | 幕張メッセ
+
+      オンデマンド視聴に登録する
+      AWS Summit Japan に参加する
+      AWS Summit Japan は、クラウドと AI イノベーションの最前線を体験できる 2 日間の無料イベントです。エージェンティック AI やサーバーレスコンピューティングなど、業界を変革し、デジタル時代においてビジネスの成長を支えるテクノロジーを体感しましょう。業界のリーダーとの交流、同業他社とのコラボレーション、そして AWS エキスパートへ直接質問し疑問を解消できる貴重な機会です。同じ興味・関心を持つプロフェッショナルとの交流を広げ、インタラクティブなワークショップやカスタマーショーケースなど、多彩なラインアップからご自身のビジネスニーズに最適な体験を自由にカスタマイズしましょう。
+
+
+      Missing alt text value
+      基調講演​
+      AWS は、ビルダーがあらゆるものを自由に創造できるべきだと信じています。今、実現できることの限界を AI エージェントが押し広げています。AWS がいかにしてエージェントの構築、デプロイ、スケーリングをかつてないほど容易にしているか、ぜひご覧ください。AI を業務に統合し、ブレークスルーを実現しているお客様の声をお聞きください。そして、エージェントが切り拓く未来と、想像力と現実の間にあるあらゆる障壁を取り除く AWS の挑戦をお確かめください。​
+
+      長﨑 忠雄 氏
+      Missing alt text value
+      OpenAI Japan合同会社 代表執行役社長
+      歌門 正師 氏
+      Missing alt text value
+      東京海上日動火災保険株式会社 常務執行役員（CITO・CISO）
+      横路 隆 氏
+      Missing alt text value
+      フリー株式会社 取締役 CAIO
+      デイブ・ブラウン
+      Missing alt text value
+      Amazon Web Services, Inc. ​コンピューティング・AI・サービス基盤担当シニアバイスプレジデント​
+      白幡 晶彦
+      Missing alt text value
+      アマゾン ウェブ サービス ジャパン合同会社 代表執行役員社長
+      スペシャルセッション：AI エージェントが変える企業の未来 ─ 構築から運用まで、ビルダーと創る自律型 AI の実践
+      生成 AI はエージェントの時代へと進化し、企業のビジネスプロセスを根本から変革しようとしています。本セッションでは、AI エージェントが自律的にタスクを遂行し、ビジネス成果を生み出すための最新テクノロジーを、AWS のお客様による数々の実践事例を通じてご紹介します。学習や推論に最適なコストパフォーマンスを提供する AI インフラ、AI エージェントをセキュアかつスケーラブルに実行する推論基盤、フロンティアエージェントによる開発・セキュリティ・運用の変革、そして人間と機械が協調して現実世界の課題を解決するフィジカル AI まで、革新を続ける AI をお客様の本番環境で実際に活用するために、いまビルダーの皆様と取り組むべきテクノロジーの全体像をお伝えします。​
+
+      菅野 信 氏
+      Missing alt text value
+      Anthropic Japan合同会社 Applied AI 本部長
+      牛久 祥孝 氏
+      Missing alt text value
+      オムロン サイニックエックス株式会社 Vice President for Research/株式会社NexaScience 代表取締役/一般社団法人AIロボット協会 理事
+      安部 健一郎 氏
+      Missing alt text value
+      ファナック株式会社 常務執行役員 ロボット研究開発統括本部長
+      長瀬 慶重 氏
+      Missing alt text value
+      株式会社サイバーエージェント 専務執行役員（技術担当）
+      田倉 聡史 氏
+      Missing alt text value
+      株式会社日本取引所グループ 常務執行役CIO
+      巨勢 泰宏
+      Missing alt text value
+      アマゾン ウェブ サービス ジャパン合同会社 常務執行役員 技術統括本部長
+      山内 晃
+      Missing alt text value
+      アマゾン ウェブ サービス ジャパン合同会社 技術統括本部 通信・メディア技術本部 本部長
+      イベントの見どころ
+      260 以上のセッション
+      Missing alt text value
+      お客様の成功事例から学ぶ。革新的なクラウドソリューションを発見。AWS のエキスパートに直接相談。
+      AWS Village
+      A large exhibition hall with colorful banners displaying "AWS Village" and "One - AWS," surrounded by booths and a crowd of attendees.
+      AWS の最新イノベーションを、クラウドジャーニー変革を支援するエキスパートのガイダンスとともに体験 。
+      AWS for Industries Zone
+      Yellow bicycle frame on an automated assembly line in a high-tech factory setting with digital screens in the background.
+      業界のエキスパートとともに、業界固有の課題に最適なソリューションを発見。
+      AWS Builders’ Fair
+      Missing alt text value
+      エンジニアがAI、IoT、サーバーレスなどを使って構築した革新的なAWSプロジェクトを紹介する、遊び心あふれるテクノロジーフェスティバル。
+      Developer Community Zone
+      Missing alt text value
+      開発者同士のディスカッション、Serverlesspresso コーヒー、そしてコミュニティとのつながりを育む、インタラクティブなラウンジ。
+      Startup Zone
+      Missing alt text value
+      スタートアップのための中心的なハブ。VCの洞察、創業者のストーリー、デモ、そしてAWS Activateのリソースを提供。
+      ワークショップ
+      Missing alt text value
+      AWS GameDay、AWS Jamなどの実践的なスキル構築のためのハンズオンワークショップ。
+      Partner Solution Expo​
+      Missing alt text value
+      AWSの専門パートナーが、革新的なソリューション、顧客成功事例、そしてライブデモンストレーションを紹介。
+      アジェンダ
+      様々なコンテンツをご用意
+      この2日間の無料イベントでは、基調講演、ハンズオン技術セッション、クラウド移行や AI など幅広いトピックをカバーするインタラクティブな学習機会を通じて、AWS の知識を深めることができます。他の参加者との交流を通じて、クラウドと AI テクノロジーを活用したビジネス変革の事例を学び、AWS コミュニティの最新イノベーションを活用して自社の難しいユースケースに取り組みましょう。AWS Summit Japan では、あらゆる知識レベルの方々が新たな学びを得ることができます。
+
+      セッションタイムテーブル
+
+      セッションカタログ
+
+      スケジュール
+      6 月 25 日 (木)
+      08:30                受付開始
+      10:00–11:10    基調講演
+      10:00–18:30    AWS Expo
+      10:00–18:30    Partner Expo
+      11:30–17:10    セッション
+      11:30–18:20    シアター
+      18:30                イベント終了
+
+      
+
+      6 月 26 日 (金)
+      08:30                受付開始
+      10:00–11:30    スペシャルセッション
+      10:00–19:00    AWS Expo
+      10:00–17:00    Partner Expo
+      12:00–16:40    セッション
+      12:00–16:50    シアター
+      17:30–19:00    ネットワーキングレセプション
+      19:00                イベント終了
+
+      参加する価値
+
+      AWS でビジネスを変革する方法を探る
+
+      将来のプロジェクトに必要なスキルを向上させる
+
+      新しいつながり、アイデア、可能性を生み出す
+
+
   - link: 
     text: |
       
-      ウワサのClaude Design、使ってみた
+      AI駆動開発ライフサイクル（AI-DLC）についての社内勉強会の内容を公開します
+      AI-DLC
+      swx-hariu 228日前
 
-      Yu Hamano
-      エンジニアブログ
-      2026.04.28
-      #AI駆動開発
-      #Claude
-      #Claude Code
-      #Claude Design
-      #UIデザイン
-      #生成AI
+      記事タイトルとURLをコピーする
 
-      はじめに
-      こんにちは。DX開発事業部でUIデザイナーをしているYuです。
-      Anthropicが新しくリリースし、話題になっている「Claude Design」をさっそく使ってみたので、本記事では機能と所感を共有します！
 
-      6つの機能をご紹介
-      Claude Designを実際に使ってみて分かった、6つの機能と特徴をご紹介します！
-      お急ぎの方や全体像をスピーディーに把握したい方は、まずこちらのグラレコをご覧ください！
+      この記事は約6分で読めます。
 
+      こんにちは、サーバーワークスで生成AIの活用推進を担当している針生です。
 
+      先日、AWS（Amazon Web Services）が提唱する新しいソフトウェア開発手法「AI駆動開発ライフサイクル（AI-DLC）」についての社内勉強会を実施しました。
 
+      本記事は、社内勉強会で紹介した内容の主要なポイントを書き起こしたブログとなります。
 
-      1.デザイン生成とヒアリング
-      Claude Designを開くと、4つの選択肢から選択するか、プロンプトを入力することで使用することができます。
+      ※ 社内勉強会で使用したスライド資料については、以下のリンク先にて全ページ分を公開しています。 
+      speakerdeck.com
 
+      AI-DLCとは何か
+      AI駆動開発ライフサイクル、AI-DLCについてご存じでしょうか？
 
+      AI-DLCは、AWSがホワイトペーパーで発表した、仕様駆動開発に対応する新しいソフトウェア開発手法です。従来の開発手法であるアジャイルやスクラムに「AIを後付け」するのではなく、ゼロベースでAIを前提として設計されている点が大きな特徴です。
 
-      ヒアリングから始まるデザイン: AIが「ブランドカラー」「ユーザー層」など、ユーザーの期待に沿ったDesign Systemを構築するための質問事項が多く用意されています。
-      「期待するもの」とのズレを防ぐ: デザイン案を提示し、納得感のあるビジュアルをスピーディーに作り上げます。
+      最も衝撃的なのは、従来数ヶ月かかっていた開発が数日で完了するという点でしょう。これは誇張ではなく、AI-DLCの設計思想に基づいた結果として、ホワイトペーパーにて提示されているものです。
 
+      10個の主要な設計原則
+      AI-DLCには10個の設計原則がありますが、今回の勉強会では特に重要な5つを紹介します。
 
-      私はよくデザイン生成やモックアップ作成に、Figma Makeを使用していますが、Figma Makeとの違いを感じた1番のポイントは、やはりヒアリング事項の多さです。
-      プロンプトで最初にある程度指定していても、Claudeからの問いかけによって自分では見落としていた視点を補完できると感じました。
+      1. 後付けではなく最初から設計
 
-      また、プロンプトベースだけでなく、素材のインポートも行うことができます。
 
+      既存の開発手法にAIを追加するのではなく、完全にゼロベースで設計されています。その結果、開発サイクルが数週間・数ヶ月単位から数時間・数日単位に短縮されます。
 
-      現在選べるモデルはこちら↓
+      ホワイトペーパーには印象的な言葉があります。
 
+      「必要なのは自動車であり、より速い馬車ではありません」
 
-      2.選べる編集モード
-      チャットによる編集: プロンプトに「全体を暖色系に」などと入力することで、自然言語での変更が可能です。
-      インラインコメント: 「Edit」ボタンで左側にパネルが開き、部分的な変更が可能です。
+      アジャイル/スクラムを「馬車」と例えるなら、AI-DLCは「自動車」です。馬車を速くするのではなく、まったく新しい移動手段に切り替える発想です。
 
-      また、Tweaksという機能もあり、ONにすると、画像のようなパネルが出てきて、そこからスタイルを変えることが可能です。ON/OFFの切り替えはいつでも可能。
+      この原則により、デイリースクラムなど従来のスクラムイベントの多くが不要になります。
 
+      2. 会話の方向性の逆転
 
-      3.バージョン管理が可能
-      これも、他のツールにもありますが、別の案を試したい時も、現在の状態を保存しながら別軸の制作が可能でした。
 
-      できたデザインがこちら↓
+      従来は人間がAIに指示していましたが、AI-DLCではAIが人間に問いかけるという関係に逆転します。
 
+      わかりやすい例えとして、Googleマップを考えてみてください。目的地を設定すれば、最適なルートは自動的に提案されます。私たちはそのルートを確認して承認するだけです。AI-DLCでも同様に、AIが全体像を示し、人間は重要な判断ポイントで意思決定を行う役割に徹します。
 
+      3. 設計技法のコアへの統合
 
-      
 
-      4.Claude Codeへの連携
-      ここがClaude Designの最大の強みではないかと思います。デザインした成果物は、そのままClaude Codeへ移行することができます！
+      従来のアジャイルフレームワークは、設計技法をチームの裁量に委ねていました。一方、AI-DLCは設計手法を中核に組み込んでいます。これにより、手探りの負担を減らしながら品質を維持し、高速なイテレーションを実現できます。
 
+      4. AIの能力に合わせた設計
 
 
+      完全自立動作を目指すのでもなく、人間がAIを補助するだけでもない。AI-DLCは、この両極端の中間を目指しています。
 
+      AIができることは最大限活用し、人間は検証・意思決定・最終確認に集中する。この役割分担により、AIの強みを最大限に引き出します。
 
-      実際は、青のラインの部分にプロジェクトごとにユニークなURLが記載されています！
+      5. 複雑なシステムの構築に対応
 
-      試してみた結果、コピーしたコマンドをターミナルに打つだけで、簡単にClaude Codeへ移行することができました！
-      初稿はClaude Designでデザインベースで。そのあとは開発へ移行して機能の追加やコードもしっかりと書いていきたい場合は、かなりスムーズに移行することができます。
-      また、このあとにもご紹介しますが、現在は同じプランのTeamメンバーでの共有が可能なので、「デザイナーがClaude Designでデザイン作成　→　エンジニアがClaude Codeで開発」といったこともシームレスに実現します！
 
-      5.チーム内外への連携
-      【チーム内への共有】
-      チーム内では、URL一つでシームレスな共同作業が可能です。また、権限設定も4パターンあるため、使い分けることができます。
+      AI-DLCは、エンタープライズレベルの複雑なシステム開発に特化しています。設計パターンをベースとし、単純なシステムや技術判断が少ないアプリケーションは対象外です（そうしたものはノーコード/ローコードツールで対応します）。
 
-      閲覧可能
-      コメント可能
-      編集可能
-      閲覧不可
+      ※ 残り主要原則についてはスライド資料に記載しています。
 
-      【チーム外への共有】
-      Claudeプランに入っていない人や、特定の形式で資料が欲しいクライアントに対しても、豊富な書き出しオプションが用意されています。
+      AI駆動開発ライフサイクル(AI-DLC)のホワイトペーパーを解説 - Speaker Deck
 
-      ZIPファイル (HTML/CSSコード一式)
-      PDF / PPTX (PowerPoint)
-      Canvaに送信
-      スタンドアロンHTML
-      Claude Codeへ（上で説明）
+      コアフレームワーク：3つのフェーズ
 
 
-      6.利用できる人
-      現在はResearch Previewとして提供されており、以下のプランのユーザーがアクセス可能です。
+      AI-DLCは、3つのフェーズで構成されています。
 
-      Proプラン
-      Maxプラン
-      Teamプラン
-      Enterpriseプラン
-      
-  - link: 
-    text: |
-      Bun が 6 日で Rust に書き換わった件
-      2026/05/15に公開
-      2026/05/17
+      用語の整理
+      まず、重要な用語を整理しましょう。
 
+      インテント（意図）: 目的を定義する（Googleマップで言う「目的地の設定」）
 
 
-      AI
 
-      Rust
+      ユニット: AIが分割した作業単位（スクラムのエピックに相当）
 
-      Zig
 
-      Bun
 
-      Anthropic
+      ボルト: 最小単位のイテレーション（スクラムのスプリントに相当。ただし数時間〜数日単位）
 
-      idea
-      はじめに
-      2026年5月14日、JavaScript ランタイム Bun の Zig→Rust 大規模移植 PR が main ブランチにマージされた。約 96 万行のコードを、6 日間で、AI（Claude）が書いた。テストは 99.8% パス、バイナリサイズも縮小されているが、unsafe ブロックは 13,000 箇所を超え、Sumner 本人も「全部破棄する可能性が高い」と発言している。
 
-      この一連の動きを追いかけながら、初見で抱いた 5 つの素朴な疑問 を整理した。
 
-      まず、何が起きたか
-      時系列で圧縮するとこうなる。
+      インセプションフェーズ：意図からユニットへ
 
-      2026/05/05：Bun 創業者 Jarred Sumner、「Anthropic 内で Zig→Rust の試験ポートを進めている」と公表
-      2026/05/09：Linux x64 (glibc) で テスト 99.8% パス を本人がアナウンス
-      2026/05/12：Bun 1.3.14 リリース。Sumner「もしマージされたら、これが最後の Zig 版」と発言
-      2026/05/14：100 万行超の単一 PR が main にマージ
-      サイズ感を数字で並べる。
 
-      項目	数値
-      追加された Rust コード	約 96 万行
-      削除された Zig コード	約 60 万行
-      工数	6 日（AI ベース）
-      テスト通過率	99.8%（Linux x64 glibc）
-      バイナリサイズ削減	3〜8 MB
-      unsafe ブロック	13,000 箇所超
-      なお、Bun は Anthropic に買収済み のプロジェクトで、AI コーディングツールとしては Claude（Anthropic 自社製） が使われている。つまりこれは、Anthropic が自社の AI で自社のランタイムを書き換えた という構図でもある。この点は疑問③以降で何度か顔を出す。
 
-      公式の詳細ブログは 2026/05/15 時点では未公開。情報は Sumner の X 投稿、PR タイムライン、The Register などの報道に散らばっている。
 
-      疑問① 100万行、誰も読んでないやん
-      率直に言って、これが最初の引っかかりだった。100 万行のコードを 6 日で生成して、誰がレビューしたんだろう。
+      プロジェクトの最初のフェーズです。ここではモブエラボレーションという作業イベントが発生します。チーム全員が1つの画面を共有しながら共同作業を行います。
 
-      「読める」物理量の話
-      仮に 1 秒で 1 行レビューできるとして、100 万行は 約 11.5 日。風呂もトイレも睡眠もなしで、文字通り目で追うだけの速度。実際のレビューでは「読む」「考える」「テストする」「文脈を遡る」が入るので、60 行 / 時間 あたりが現実的という統計もある。それを使うと、100 万行は 約 1.9 年間、フルタイムでレビューし続けてやっと一周 という規模になる。
+      AIが意図をもとにユーザーストーリー、受入れ基準、ユニットに分割し、人間がレビューや設計調整を行います。所要時間は数時間〜数日です。
 
-      Bun はこれを 6 日で生成し、5 日で main に入れた。
+      成果物として以下が生成されます。
 
-      GitHub も困っている
-      実際の PR で、Bun リポジトリの Zig 削除 PR が GitHub の自動システムによって "AI slop" フラグを立てられた という小さな事件が起きている。GitHub が「これは AI 生成の低品質コードでは？」と自動的に疑った、ということだ。
+      PRFAQ
+      ユーザーストーリー
+      非機能要件
+      リスクの説明
+      測定基準
+      提案されたポイント
+      コンストラクションフェーズ：ユニットからデプロイメントユニットへ
 
-      つまり AI 自身が、AI 生成コードの大規模な削除を見て怪しんだ という、ややシュールな状況が発生している。
 
-      「読めない」を分解する
-      「誰も読んでない」を分解するとこうなる。
 
-      「読む」の意味	100 万行に対して成立する？
-      各行の文法・意味を目で追う	物理的に不可能
-      自動テストで挙動を確認	99.8% パス、一定の担保はある
-      設計意図・抽象を理解する	サンプリングなら可能、全部はやれてない
-      バグの早期発見（traditional code review）	機能していないと思われる
-      つまり Bun の Rust 移植では、「自動テストが通る」を「レビューが通った」に静かに置き換えている、と読める。これは伝統的なコードレビューの観念とは違う何かだ。
 
-      所感：すごいのは AI じゃなくレビュー概念のほう
-      私が驚いたのは「AI が 96 万行書ける」ことよりも、「人間がコードを読まずにマージできる、と判断したこと」 の方だ。レビューの定義が、コードを読むことから「テストと AI の再生成可能性を信じること」に、静かにスライドしている。
+      インセプションで作成したユニットを、実際にデプロイ可能な形に変換するフェーズです。所要時間は数日です。
 
-      これが Bun だから許される特殊例なのか、これからの標準なのか。私には分からない。 ただ、AI 時代のレビューって何だっけ、という問いは、もう避けて通れないところに来ている気がする。
+      ここでは以下の作業が行われます。
 
-      疑問② 動いてるのに、なぜ書き換える？
-      Bun は すでに本番で動いている JS ランタイム だ。それを 6 日でゼロから別言語に書き換える、というのは普通の意思決定ではない。なぜ今、これを？
+      ドメイン設計
+      リリース設計
+      コード生成
+      自動テスト実行
+      デプロイメントユニット作成
+      AIがこれらを作成し、人間は検証と指摘を行います。
 
-      報道と Sumner 発信を読むと、動機は 1 つではなく、少なくとも 3 つが重なっている ことが分かる。
+      オペレーションフェーズ：デプロイから運用へ
 
-      動機 ①：Claude Code が Bun のメモリリークで死んでいた
-      これが一番直接的な引き金らしい。
 
-      何が起きていたか
-      メモリリークとは、確保したメモリを解放し忘れて、不要なメモリがプロセス内に溜まっていく現象 のこと。長時間動くサーバーやエディタが徐々に重くなる原因のひとつだ。Zig は 手動でメモリ管理する 言語で、allocator.free() を呼び忘れるとリークする。
 
-      Bun には 慢性的なメモリリーク問題 があり、Bun の 最大顧客である Claude Code（Anthropic 自社製の AI コーディングツール） のセッションで、メモリ使用量が 14GB、ひどい時は 23GB まで膨らむ 事象が報告されていた。
 
-      ※「Rust にすればリークは全部消えるのか？」については疑問④で深掘りする。先に結論だけ言うと、消えるのは一部だけ だ。
+      最終フェーズでは、デプロイと運用を行います。ここでもAIが主導します。
 
-      余談：実は私も同じ問題と戦っていた
-      正直に書いておく。私の手元でも Claude Code は重かった。Bun プロセスのメモリが膨らみ続け、シェルや MCP サーバーなどの子プロセスもゾンビ化して残る。我慢できなくなって、claude clean という自作シェルコマンド で Claude Code 関連プロセスを毎回全部 kill する運用に落ち着いていた。
+      テレメトリーデータをAIが積極的に分析し、異常検知や予測を行います。「こういう問題が起こっています」「こうした方がいいのでは」といった提案をAIが行い、人間はそれを見て承認や判断を下します。
 
-      つまり、Anthropic が ランタイムごと書き直して解決しようとしていた問題 と、私が claude clean で対症療法していた問題 は、根っこを共有していた ことになる。当事者として書ける記事になってしまった。
+      グリーンフィールドとブラウンフィールド
+      AI-DLCは、新規開発（グリーンフィールド）と既存システム変更（ブラウンフィールド）の両方に対応しています。
 
-      構図
-      Anthropic が 2026 年に Bun を買収したことを思い出すと、構図はこうなる。
+      ブラウンフィールド開発の場合、コンストラクションフェーズで「既存システムの理解」というステップが追加されます。既存コードや仕様設計をAIに読み込ませて学習した上で、構築を開始します。
 
-      Anthropic が買収した Bun が、Anthropic の主力 AI コーディングツール Claude Code を不安定にしていた
-      解決策として、Anthropic の AI（Claude） を使って Bun 自体をメモリ安全な言語（Rust）に書き換えた
-      dogfooding が極端に効いた、というよりは、自社の問題を自社の AI に自社の手で解かせた、という構図に近い。透明性は高い一方、外部から見ると「Bun の意思決定は今や Anthropic のプロダクト都合と強く結びついている」とも読める。
+      詳細なフローチャートについて、スライド資料に記載しています。
 
-      !
-      後ほどXを眺めていたところ、Bunの作者 Jarred Summer が本件について言及しており、「メモリリークの多発には元から悩まされており、Anthropicの都合は関係ない」とのことでした。
-      参照：https://x.com/jarredsumner/status/2055796104302858694?s=46
+      AI駆動開発ライフサイクル(AI-DLC)のホワイトペーパーを解説 - Speaker Deck
 
-      動機 ②：Rust エコシステムの「contributor pool」
-      Sumner 本人が繰り返し言及しているのは、Rust = コントリビューター人口が桁違いに大きい という現実的な計算だ。
 
-      観点	Zig	Rust
-      言語の安定性	1.0 未発表	1.0 リリース済（2015年〜）
-      コントリビューター人口	数千人規模	数十万人規模
-      採用しやすさ（求人で集まる人材）	困難	比較的容易
-      周辺ツール（lint, fmt, IDE, セキュリティスキャナ）	未成熟	成熟
-      Sumner は「Rust への移行は raw performance ではなく エコシステム統合のため」と明言している。買収後の Bun は「個人 OSS」から「会社プロダクト」へ性格が変わっており、会社プロダクトとして必要な人を雇える言語に移った、というのが現実的な読み方だ。
 
-      動機 ③：Zig コミュニティの「AI コントリビューション禁止」方針
-      これは見落とされがちだが重要な要素だ。
 
-      Zig は公式に 「AI 生成コードによるコントリビューションを受け付けない」 という方針を出している。Bun は Zig のフォーク版を使っていたが、Zig メンテナは「AI 抜きでも Bun の上流マージは歓迎しない」 と表明していた。
 
-      つまり Bun は、自分たちの開発スタイル（AI を全面活用）が上流の Zig と相容れない という政治的な袋小路にいた。Rust への移行は、技術判断であると同時に、「AI を堂々と使えるコミュニティ」への移住 でもある。
 
-      整理：3 つの動機の重み
-      並べるとこうなる。
 
-      動機	種類	緊急度
-      ① Claude Code のメモリリーク	自社事業の損害	高（即時）
-      ② エコシステム / 採用	中長期の経営判断	中
-      ③ Zig コミュニティとの政治	思想・運営上の摩擦	中
-      ①が「なぜ今やったか」、②③が「なぜ Rust なのか」 を説明している、と読むのが自然だろう。
 
-      所感：合理性はあるが、急ぐ必要はあったか
-      3 つの動機はどれもそれなりに筋が通っている。「無謀に見えてビジネス的には合理的」 という典型例だ。
 
-      ただ、①の解決策として「ランタイム全体を別言語に書き換える」は オーバーキル にも見える。リークの根本原因を特定して個別修正する、という選択肢もあったはずだ。それを採らなかったのは、「人力で直し続けるより AI に書き直させる方が速い」 と判断した、ということだろう。
+      プロンプトの活用
+      Amazon Q DeveloperやClaude Codeでも、適切なプロンプトを使うことでAI-DLCを実践できます。基本的な流れは以下の通りです。
 
-      この判断が正しかったかどうかは、これから半年〜1年で答えが出る。 私としては「合理性は分かる、ただし健全性は別物」というところで止めておきたい。
+      セットアッププロンプト: フォルダー構成や作業単位を指定
+      ユーザーストーリー作成プロンプト: 製品説明を記述して入力
+      対話的な進行: AIからの質問に答えながらインセプションフェーズを進める
+      順次プロンプト実行: ユニット分割、ドメインモデル作成、コード生成のプロンプトを順番に実行
 
-      疑問③ パフォーマンス落ちないのか？
-      ランタイム全体を別言語に書き換えたら、普通は 速度が落ちないか心配する はず。Bun の場合はどうなのか。
 
-      Sumner 本人の発言
-      Sumner は「performance is neutral or faster（性能は同等か速くなる）」と発言している。ただし、2026/05/15 時点で具体的なベンチマーク数値は未公開。公式ブログでの詳細発表が予告されている段階だ。
+      ※ 残りのプロンプトついては、スライド資料に掲載しています。
 
-      つまり、「現時点で性能は落ちていないと本人は言っている、ただし第三者の独立検証はまだ存在しない」 というのが正確な状況。
+      AI駆動開発ライフサイクル(AI-DLC)のホワイトペーパーを解説 - Speaker Deck
 
-      なぜそんなに変わらないと言えるのか？
-      実は Bun の速さの大半は、Zig/Rust という言語選択ではなく、アーキテクチャ的な決定 から来ている。これが今回の移植で重要な前提になる。
+      所感：これは本当に実現可能なのか
+      正直なところ、初めてこの内容を読んだとき、「本当にこんなことが可能なのか？」と疑問に思いました。数ヶ月の開発が数日で完了するというのは、にわかには信じがたいです。
 
-      Bun が速い理由	移植で変わる？
-      JavaScriptCore を採用（V8 ではなく）	変わらない
-      libuv なしの内蔵 HTTP サーバー	変わらない
-      統合ネイティブバンドラ	変わらない
-      データ構造・アルゴリズム	同じ設計を Rust に移植
-      つまり「JS の実行速度」「HTTP throughput」のような ユーザーが体感するメトリクス は、ランタイムの実装言語を変えても 構造的にほぼ動かないはず、というのが理屈だ。
+      しかし、AWSのホワイトペーパーを読み込むうちに、これは単なる理想論ではなく、AIの能力を最大限に引き出すための体系的なフレームワークだと理解できました。
 
-      補足：JavaScriptCore とは何者か
+      重要なのは、これまでの開発手法に「AIを追加する」のではなく、AIを前提としてゼロから設計し直すという発想の転換です。馬車を速くするのではなく、自動車を使う。この比喩が、AI-DLCの本質を表しています。
 
-      JavaScriptCore（JSC）は C++ で書かれた JS エンジン。Apple 製で、Safari に積まれている。Bun は Zig 時代も Rust 時代も「JSC を呼び出すホスト言語」というポジションで、JS の高速実行は JSC の手柄。つまり Bun の「JS が速い」は Zig や Rust の手柄ではなく、JSC を選んだという建築的決定の手柄だ。
+      おわりに
+      AI-DLCは、アジャイルやスクラムに慣れ親しんだ開発者にとっては、まさに衝撃的な内容だと思います。デイリースクラムが不要になり、スプリントが数時間単位になり、AIが開発を主導する。これまでの常識が覆される開発手法です。
 
-      コンパイル時間
-      Sumner によると、コンパイル時間は次のような関係になっている。
+      しかし、AIの進化を考えると、こうした開発手法が主流になる日は、そう遠くないのかもしれません。
 
-      Bun の custom Zig compiler を使った場合 → Rust 版は Zig 版と同等
-      上流の Zig compiler を使った場合 → Rust 版の方が速く コンパイルされる
-      「ビルドが激遅になる」というネガティブインパクトは、現時点では報告されていない。
-
-      独立検証はまだ存在しない
-      ここまでの主張は すべて Sumner 自身か Anthropic 由来。第三者による「Rust Bun vs Zig Bun」の差分ベンチマークは、2026/05/15 時点では公開されていない。
-
-      dev.to などに早期ベンチマーク記事はあるが、それらは 「Bun vs Node」の比較 であり、「Rust Bun vs Zig Bun の差分検証」ではない。両者を混同しないよう注意が必要だ。
-
-      所感：性能はもう論点じゃない
-      性能観点で言えば、「Rust にしたから速くなる」という売り方は弱い。Sumner 自身もそう売っていない（エコシステム判断だと明言している）。「同等のパフォーマンスを、より管理しやすいコードベースで」 が今回の Rust 移植の現実的な spin だ。
-
-      これ、フロント勢に翻訳すると 「React vs Vue は性能差ではなく開発体験で選ぶ」 という議論と構造が似ている。性能の最大化は別レイヤー（JSC 等）でやる、ランタイム本体は開発しやすさで選ぶ、というレイヤー分けが綺麗に出ている例とも読める。
-
-      性能は 落ちていない が、性能のために Rust にしたわけでもない。論点はもうそこにない、というのが疑問③の暫定回答だ。
-
-      疑問④ そんなに一気に変えてバグ大丈夫？
-      ここが、たぶん 一番ヒリヒリする論点 だ。
-
-      Sumner 本人の保険発言
-      まず重要な事実として、Sumner 自身が「全部破棄の可能性が高い」と発言している。Phase A と呼ばれる現在の段階は 「intent capture」、つまり 「とりあえずコンパイル通らなくてもいいから意図を Rust で表現する」フェーズ と位置付けられている。
-
-      つまり、main にマージはされたが「これで確定」ではない、というのが Sumner 本人の認識だ。これは作者なりの保険であり、同時に 「現時点での品質保証は限定的」というシグナル でもある。
-
-      unsafe 13,044 という数字の重み
-      公開された情報によると、Rust 版 Bun には unsafe ブロックが 13,044 個 存在する。比較のために、libuv の Rust 互換実装である UV（同程度の役割のライブラリ）は約 73 個。約 178 倍 だ。
-
-      これに対して、Theo Browne（t3.gg）の評価が刺さる。
-
-      "They aren't really writing Rust. They are writing C++ with Rust syntax."
-      （彼らが書いているのは本当の意味で Rust ではない。Rust の文法で C++ を書いているのだ）
-
-      これは技術的にも妥当な指摘で、Rust の安全性保証の大半は unsafe の外側でしか効かない。13,044 箇所で「コンパイラ、お前のチェックいらない」と言ってる状態、ということになる。「Zig だった部分の安全性問題が、unsafe Rust という形に移動しただけ」 という読み方も成り立つ。
-
-      Rust にしてもメモリリークは消えない（疑問②の伏線回収）
-      疑問②で「Rust にすれば全部のリークが消えるわけではない」と予告した部分の答え合わせ。
-
-      Rust が 構造的に防いでくれる のは、次の 3 つに限られる。
-
-      防げる	防げない
-      use-after-free	メモリリーク全般
-      double-free	Rc の循環参照
-      データ競合	長寿命キャッシュ
-      バッファオーバーフロー（一部）	「使ってないけど参照を持ち続ける」状態
-      Rust 公式も 「メモリリークは safe Rust でも起きうる」と明言 している（Box::leak() というわざと漏らす API すら存在する）。Sumner 本人も The Register に「Rust がすべてのリークを捕捉するわけではない」と認めるコメントを残している。
-
-      つまり、Bun のリーク問題が 「解放忘れタイプ」 だったなら Rust 移行で大きく改善するが、「長寿命参照タイプ」 だったなら言語を変えても残る。「Zig で起きやすかったタイプのリーク」を Rust が構造的に防ぐ、というのが正しい解像度だ。
-
-      Charlie Marsh（Ruff/uv の作者）の問い
-      これに関連して、Charlie Marsh（Astral CEO、Ruff / uv の作者）が極めて鋭い疑問を投げかけている。
-
-      "One fear I have… are you trading 200 known issues for an unknown number of unknown issues?"
-      （ひとつ怖いのは、200 個の既知の問題を、未知個の未知の問題に交換しているのではないか、ということだ）
-
-      これが疑問④の核心だ。
-
-      Zig 版 Bun には 既知のバグが大量にあった（だからリーク問題が起きていた）。だが、既知の問題には対策できる。報告されたバグを潰せばいい。
-
-      Rust 版 Bun では、それらの既知バグの一部は消えるかもしれない。だが、AI が 6 日で生成した 96 万行には、誰も検出していないバグが何個入っているか分からない。テスト 99.8% パスは「既存のテストが通る」という意味であって、「新規バグがない」という意味ではない。
-
-      テストカバレッジが完璧でない限り、99.8% パスは「分からないことが分からない」状態を解消しない。
-
-      所感：意図的に「分からない」へ踏み込んでいる
-      「バグ大丈夫？」への私の暫定回答は、「分からない、というより意図的に分からない状態に踏み込んでいる」 だ。
-
-      Sumner は「破棄の可能性高い」と保険を掛けている
-      unsafe 13k で Rust の安全性メリットを半分捨てている
-      既知バグを未知バグに交換している可能性がある
-      これらは どれも個別には合理的な判断 で、全体としては大きな賭け に見える。速いほうへの賭け、というより、「速くやるしかないところまで来てた」という賭け、というほうが近いかもしれない。
-
-      少なくとも、「Rust だから安全になりました」という単純な物語ではない ことは確かだ。
-
-      疑問⑤ ちゃんと動くか、どう検証した？
-      「テスト 99.8% パス」が独り歩きしているが、この数字が何を意味して、何を意味しないか を整理する。
-
-      検証されたのは何か
-      公開されている検証情報を並べるとこうなる。
-
-      検証項目	内容
-      Linux x64 (glibc)	既存テスト 99.8% パス
-      他プラットフォーム（macOS / Windows / ARM）	「全プラットフォームで通る」と Sumner 発言、ただし 具体的数値の独立公表は限定的
-      ベンチマーク	「neutral or faster」発言、詳細は公式ブログ待ち
-      長時間運用 / 本番負荷	Anthropic 社内の Claude Code dogfooding
-      要するに、公式に "99.8%" と数字が出ているのは Linux x64 glibc のテストパス率だけ。それ以外は 発言ベース か 内部運用 に拠っている。
-
-      テストが担保するもの／しないもの
-      ここが地味に大事。
-
-      テストが担保する	テストが担保しない
-      書かれているテストケースが通る挙動	テストが書かれていない挙動
-      既知の入力に対する既知の出力	競合状態（race condition）
-      同期的・短時間の正しさ	長時間運用時のメモリ漸減
-      単一プロセスの正しさ	プラットフォーム間の細かな差異
-      「壊れた」を検出	「微妙に違う」を検出（性能、メモリプロファイル）
-      99.8% という数字は、「Zig 時代に書かれたテストスイートを Rust 版が通せる」 ということ。これは 「Rust 版は Zig 版とほぼ同じ挙動をする」 の証明にはなるが、「Rust 版に新規バグがない」の証明にはならない。
-
-      特に メモリリーク はテストで捕まえにくい。長時間動かして初めて滲み出る タイプの問題だからだ。皮肉なことに、Bun の Rust 化の動機がまさにこれ だった。
-
-      Phase A は「intent capture」段階
-      ここで疑問④の Sumner 発言を別の角度で見直す。
-
-      Phase A は 「コンパイル通らなくてもいいから、まず Zig の意図を Rust で表現する」 フェーズと位置付けられている。コンパイルを通すこと、ましてや厳密な検証を済ませることは、Phase A の目的ではない。
-
-      つまり今 main にあるコードは、「Phase A の暫定的なスナップショット」 であり、「Phase B でちゃんと検証するからね」という前提つきの仮配置 に近い。
-
-      Anthropic の dogfooding が事実上の本番検証
-      ここで Anthropic 買収が再び効いてくる。
-
-      Claude Code は Bun で動いている。Anthropic 社内では Claude Code が 毎日数百万ユーザーの手で動かされている。これは事実上、テストでは絶対に捕まえられないタイプの問題を炙り出す巨大な本番検証 になっている。
-
-      ただし、これには 2 つの注意点がある。
-
-      Claude Code 用途に特化したパスしか潰せない — Bun の他の使い方（バンドラ、HTTP サーバー、CLI 等）の検証は別途必要
-      Anthropic 内のフィードバックループは外から見えにくい — 「内部では動いてる」を信じるしかない部分が残る
-      Charlie Marsh の "trading 200 known issues for unknown unknowns" が、検証の文脈で再び響く。外部から検証されていないコードは、内部でどれだけ動いていても "unknown unknowns" のまま だ。
-
-      所感：99.8% は数字としては立派、意味としては限定的
-      「ちゃんと検証したのか？」という問いに、「数字としては検証した、意味としては検証はこれから」 と答えるのが正直なところだ。
-
-      99.8% は 「Zig 版との挙動互換性」 の指標であって、「品質保証」 ではない
-      真の検証は マルチプラットフォーム / コミュニティでの長期使用 / 第三者ベンチマーク で行われる
-      Phase A が「intent capture」で「Phase B で書き直す可能性」を含む以上、今の Rust 版で本番採用判断するのは時期尚早
-      つまり、「Bun を使っている人は、もうしばらく Zig 版 1.3.14 で様子を見るのが合理的」 という解釈もできる。これは技術判断の話で、Bun を批判しているわけではない。新しいコードはまず誰かが踏み抜いてからが本番、というだけのことだ。
-
-      残された問い
-      5 つの疑問を追いかけたが、答えは出ていない。記事を閉じる前に、持ち帰りたい問い を 4 つ並べておく。
-
-      AI 生成コードの「レビュー」って、これから何を意味するんだろう？
-      人間がコードを読まずに、テストと AI の再生成可能性を信じるレビュー、それが当たり前になるのか。
-      「既知のバグを大量に抱える安定版」と「未知のバグを抱える書き直し版」、どちらが信頼できるか？
-      Charlie Marsh の "200 known issues vs unknown unknowns" は、AI 大規模生成時代の中心的な問いだと思う。
-      これは Bun の特例なのか、新しい標準なのか？
-      Anthropic という巨大スポンサー、Claude という強力な AI、Bun という比較的若いコードベース。3 つの条件が重なって初めて可能になった話 とも見える。
-      オープンソースが「単一企業の都合」で大改造される時、コミュニティはどう関わるのか？
-      Bun は OSS だが、今回の意思決定はほぼ Anthropic 単独で行われた。OSS の意思決定モデルが揺らいでいる ように見える。
-      私の暫定的な気持ちは、「すごい」と「怖い」が半々 だ。AI で 96 万行を 6 日で書けてしまう時代の入り口に立っている、ということは認めざるを得ない。一方で、それを本番ブランチに入れる判断は、誰でも真似していい話ではない とも思う。
-
-      私はもう少しだけ、自分でコードを見つめる生活を続けたいと思う。
-
-      参考リンク
-      Anthropic's Bun Rust rewrite merged at speed of AI - The Register (2026/05/14)
-      Anthrophic's Bun team trials port from Zig to Rust - The Register (2026/05/05)
-      The Great Zig-to-Rust Experiment - Rust Bytes
-      Theo: Bun Rewrites 960,000 Lines From Zig to Rust in Six Days — 13,000 Unsafe Blocks Remain - BigGo Finance
-      Bun Migrates from Zig to Rust: What My Real Benchmarks Say - dev.to
-      Bun v1.3.14 - Bun Blog
-
-      
-  - link: 
-    text: |
-      Hardening TanStack After the npm Compromise
-      Copy page
-
-      by Sarah Gerrard, Corbin Crutchley, Jack Herrington, Tanner Linsley, Florian Pellet, and Harry Whorlow on May 12, 2026.
-
-      Status (2026-05-15): All clear ✅
-
-      After a three-day full security sweep and hardening pass, we're issuing an official all-clear on TanStack repo and package security.
-
-      Only the Router/Start repo was affected — 42 monorepo packages, 2 versions each. All were deprecated within the hour and removed by npm shortly after.
-      All other TanStack repos and packages were unaffected and remain secure: Query, DB, Store, AI, Table, Form, HotKeys, Virtual, Pacer, Config, Devtools, CLI, Intent, etc.
-      Every currently-available published version of every TanStack package — Router and Start included — is safe to install.
-      Last updated 2026-05-15 — see Changelog.
-
-      This week, 42 of our packages were republished to npm with malware baked into the published artifacts. The releases were triggered by our normal release pipeline after changes landed on main, but the malicious code was not authored, reviewed, or approved by us. By the time the first report reached our issue tracker, those compromised versions had already been available on the registry for about 20 to 26 minutes.
-
-      We've already published the full incident postmortem, and if you want the timeline, the attack chain, the exact package list, the IOCs, and the "what to do if you installed a bad version" guidance, that's the source of truth. Read that first.
-
-      This post is the companion piece. The postmortem covered what happened. This one is about what we're changing because of it.
-
-      The shortest possible recap#
-      Just enough context so this post makes sense on its own:
-
-      Someone opened a pull request from a throwaway fork. While we never got a chance to see the PR since it was immediately closed, it had still triggered a workflow that checked out the contributor's code and ran it in a job that had write access to our shared CI cache.
-
-      The attacker's code poisoned the cache and later, when an entirely legitimate merge to main, from a different PR, ran our release workflow, it restored that poisoned cache, extracted our short-lived publish token out of the runner's memory, and used it to push malicious versions across our router-family packages.
-
-      Just to be clear, no maintainer was phished, had a password leak, or a token stolen from their account. Since this attack rode in through a trusted cache, it didn't need to. The attacker managed to engineer a path where our own CI pipeline stole its own publish token for them, at the exact moment it was created, by way of a cache that everyone in the chain implicitly trusted. It is a sophisticated approach that we hadn't anticipated and that we're taking very seriously.
-
-      How our releases normally work#
-      In order to understand how this attack worked against us, it's important to understand how the release process for TanStack packages typically works. Every release that ships to npm under a @tanstack/* name goes through a staged process:
-
-      Through a reviewed pull request, a change lands on main that includes a version bump and a changelog update. That PR is reviewed and merged by a maintainer, just like any other PR.
-      Releases are cut from main by a CI workflow (when it works), not by a person running npm publish from a laptop.
-      The workflow authenticates to npm through GitHub's OIDC trusted-publisher integration, which means there is no long-lived npm publish token sitting waiting to be stolen.
-      The publish credential is minted at release time, scoped to that workflow, and expires almost immediately.
-      The distinction that there was no publish token to be stolen is important. A large class of npm supply-chain attacks work by stealing a maintainer's publish token, often from their local machine or a compromised dev environment, that are then used to publish malicious versions directly.
-
-      Our setup was designed specifically to make that path a non-starter. With no long-lived npm publish token sitting on a maintainer machine, an attacker couldn't simply compromise a laptop, steal credentials from a local environment, and publish malicious packages at will. That matters especially in the context of the current wave of malware and infostealer campaigns targeting developer machines and browser-stored secrets.
-
-      OIDC-based publishing also gave us tighter control over who could release packages and under what conditions. Releases were tied to specific GitHub workflows running from specific repositories and branches, rather than to a reusable credential that could be copied, shared, or quietly reused elsewhere.
-
-      With publishes tied back to workflow runs instead of a token, we also had a much easier time understanding the scope of the attack once we had the first report. It showed us exactly what workflow run triggered the publish, which branch it ran from, and when it ran. That audit trail was a significant advantage during incident response and helped us scope the what had happened much more quickly.
-
-      The honest part#
-      The way we had our workflow structured was inevitably how this was attack was made possible. The attack vector was a workflow that ran on pull_request_target, which is a special event that runs in the context of the base repository instead of the fork. That means the fork, which was renamed to avoid being detected as a fork of the repo, had write access to the cache that our release workflow later read from. While this has been documented as a known-bad pattern by GitHub's own security team for over three years, we still had it in our workflow and it was the root cause of this attack.
-
-      Knowing we had added in production is something we have to sit with now. While there are many things we had in place that worked as intended, not being on top of the fact that this pattern was in our workflow is a failure on our part. We had the information we needed to know that this was a potential problem, but we didn't connect the dots to our own setup.
-
-      While we can say that the npm provenance, SLSA, OIDC, and 2FA all worked as advertised and still didn't stop this attack, that's not the whole story. The workflow shape itself was the hole, and that's what we're rebuilding now.
-
-      Modern supply-chain defences are important, but they're not always enough on their own. We have to be more proactive about identifying and closing any holes in our workflows that could be exploited, rather than relying solely on the security features of the tools we use.
-
-      Knowing that we had a known-bad pattern in our workflow, and it wasn't on our radar, means there was a breakdown in our internal processes and that's where we have to do better. We have to be more proactive about identifying and closing any holes in our workflows that could be exploited, rather than relying solely on the security features of the tools we use.
-
-      What we've already done#
-      These are the changes that have landed since the incident. They're not the whole plan — they're the things we could do quickly.
-
-      Disabled the pnpm cache in our release pipeline. We are still evaluating exactly what role the cache played here, whether it can be safely reintroduced (or if we even want it), and what additional hardening would be required if it is.
-      Removed all caches from GitHub Actions across the affected workflows. Same reasoning.
-      Pinned every action in the org to a commit SHA. No more actions/checkout@v6.0.2. A retargeted tag has the same blast radius as cache poisoning, and we'd just lived through cache poisoning, so we'd rather not open that wound again.
-      Enforced non-SMS 2FA across npm and GitHub. 2FA was already required, but SMS was still allowed as a factor. It isn't anymore.
-      Removed every use of pull_request_target from our CI. It was never in our CD pipeline but it shouldn't have been in CI either. If we need base-repo permissions to react to a PR, we'll do it through workflow_run against artefacts from a sandboxed pull_request job — the GitHub-recommended pattern for this exact scenario.
-      Upgraded every repo to pnpm 11, so we inherit the ecosystem install-cooldown behaviour. It's not a fix on its own. It buys us a window.
-      Most of those are blast-radius reductions rather than root-cause fixes; they shrink what a similar attack could reach, but the workflow shape itself is what we're rebuilding in the next round.
-
-      What we're working on next#
-      Some of the changes we're making take more than a hotfix to land properly, and a few of them are still open questions we're working through together. We're including the unresolved ones because how we're thinking about them feels as relevant as what we've already shipped.
-
-      Adding zizmor as a required PR check on every repo. It's a static analyser for GitHub Actions workflows, and there's a chance if we had it running against the workflow this incident exploited, it could have flagged the pull_request_target + fork-checkout pattern before any of this happened.
-      Putting CODEOWNERS on .github folders, restricting workflow changes to core maintainers. We're leaning toward "yes" on this one; workflow files are code that runs with our credentials, and that means they should be treated like the most privileged code in the repo, because that's effectively what they are.
-      Replacing the pnpm setup cache with actions/cache/restore, which has more conservative defaults: explicit restore, no implicit write-on-exit. The auto-save behaviour of actions/cache@v5 is what allowed the cache write to happen regardless of our permissions: block, and we want that path closed by design instead of by accident.
-      And then the more difficult thing...
-
-      The PR question#
-      This is the change we're least sure about.
-
-      We've been talking about closing the ability for external contributors to open pull requests against TanStack repos. Not closing source (to be very clear, we are absolutely not going closed source) but shifting from "PRs welcome from anyone" to something closer to "issues and discussions welcome from anyone, PRs from non-maintainers by invitation." Contributors who want to land code might do it by filing a detailed issue or patch suggestion, or by doing the kind of investigative and review work that earns a path into a committer role over time.
-
-      We have complicated feelings about this, because open PRs are part of how a lot of us became maintainers in the first place. The path from "user with a fix" to "trusted committer" tends to run straight through opening a PR and having someone review it, and closing that path narrows what it means to participate in the project in ways that aren't only about us. There's also a version of this where it doesn't actually solve the underlying problem; the attack vector wasn't "a malicious PR got merged," it was "a malicious PR ran in CI," and you can keep PRs open and still close the CI side of that hole, which is what most of the changes earlier in this post are doing.
-
-      So with that in mind... we haven't decided. The discussion is ongoing, and we're flagging it here because we'd rather you hear about it from us, with the context attached, than read about it sideways somewhere later. If we do go that route, it'll come with its own post about how the new contribution model actually works in practice since telling people to "send a patch via an issue" without the infrastructure to make that a real path is just a polite way of telling them to go away.
-
-      What we're taking from this#
-      It's tempting, after something like this, to end on a paragraph about how the ecosystem needs to change (and it does). Cache scoping in GitHub Actions shouldn't silently bridge fork PRs and base-repo branches. Provenance shouldn't be confused with innocence. The gap between "this is a known-bad pattern" and "this pattern is hard to write by accident" is a gap the platform itself should be closing, not one every project should have to notice on its own. All of that is true, and we'll be advocating for it where we can.
-
-      But it's not what we're sitting with right now. What we're sitting with is that the workflow shape that got exploited had been quietly working for a long time, and the parts of our security posture we actively thought about — OIDC, lockfiles, 2FA, signed commits — were the parts we'd already invested in. CI was the part we hadn't, and that's the part we're rebuilding now.
-
-      To everyone who reported, verified, and helped triage — thank you. The fact that an independent researcher caught the dead-man's switch in the payload and warned responders before anyone started revoking tokens is the single reason this incident isn't significantly worse (even though it is bad). That kind of work doesn't tend to make the headline, but it makes the difference, and we noticed.
-
-      We'll do better.
+      詳細に興味のある方は、ぜひAWSのホワイトペーパーをご覧ください。
 
   - link: 
     text: |
-      53年ぶり有人月周回に成功 アルテミス計画、4飛行士が無事帰還
-      2026.04.14
+      
+      Anthropic、研究者らの猛反発を受けClaude Fable 5の「見えない制限」を修正
+      Y Kobayashi
+      2026年6月12日
+      約 9 分
+      あとで読む
+      Anthropic、研究者らの猛反発を受けClaude Fable 5の「見えない制限」を修正
+      この記事のポイント
+      何が起きた: AnthropicがClaude Fable 5のAI開発向け制限を、拒否理由や代替モデルを示す方式へ改めた。
+      なぜ重要か: 最上位モデルの安全策は、悪用防止だけでなく研究者の信頼と競争条件も左右する。
+      次に見るべき点: 可視化で増える誤検知を抑え、Mythos級能力を誰に開くかが焦点となる。
+      Anthropicが、Claude Fable 5に組み込んだAI開発向けの安全策を公開直後に修正した。問題になったのは、危険なサイバー攻撃や生物化学の悪用を防ぐための通常の拒否ではない。大規模言語モデルの訓練基盤、分散学習インフラ、MLアクセラレータ設計など、フロンティアAI開発に近い依頼で、ユーザーに知らせず応答の有効性を落とす仕組みを入れていた点である。
 
-      草下健夫 ／ サイエンスポータル編集部
+      同社は6月11日、Claude Fable 5のフロンティアLLM開発向け安全策をユーザーに見える形へ変えると説明した。該当する依頼は拒否理由を返すか、Claude Opus 4.8へフォールバックする。Anthropicは複数の米メディアに対し「誤ったトレードオフだった」と認め、バランスを取れなかったことを謝罪した。制限そのものをなくしたわけではない。隠れて効き目を落とす設計から、発動した事実を見せる設計へ移したことが今回の変化である。
 
-      宇宙
-      　「世界の希望を月に運んだ」――米国とカナダの飛行士4人を乗せた米宇宙船「オリオン」が月上空を周回し、地球に無事帰還した。有人月周回は、アポロ計画で最後の月面着陸だった1972年12月のアポロ17号以来、実に53年ぶりで、人類到達の最遠方記録を更新する歴史的な一歩となった。今回は米主導の国際月探査「アルテミス計画」の試験飛行「アルテミス2」で、2028年には有人月面着陸を目指す。その後、日本人が月面着陸することで日米が合意済みだ。米航空宇宙局（NASA）は月面基地建設に注力し、上空の周回基地建設を休止するとの、大幅な計画変更を発表している。
+      AD
 
-      地球に帰還し、オリオンを後にした4人の飛行士。機体の右に横付けされたいかだに、オレンジ色の宇宙服を着て座っている＝日本時間11日午前（NASAテレビから）
-      地球に帰還し、オリオンを後にした4人の飛行士。機体の右に横付けされたいかだに、オレンジ色の宇宙服を着て座っている＝日本時間11日午前（NASAテレビから）
-      「私たちは月に戻った」
-      　日本時間11日午前9時7分、3つのメインパラシュートを開いた円錐（えんすい）台形のオリオンが、カリフォルニア州サンディエゴ沖の海面に、水しぶきを上げて着水した。待ち構えていたNASAと海軍の合同チームが複数のボートで急行し、4人を順次、オリオンに横づけした“いかだ”へと救出。4人はその後、ヘリコプターで引き揚げられて海軍の揚陸艦に運ばれた。NASAは、帰還時の全システムが設計通り作動したことや、9日間、112万キロの旅を終えた4人が健康であることを明らかにした。
+      Fable 5は一般公開されたMythos級モデルである
+      Claude Fable 5は、Anthropicが6月に発表したMythosクラスの一般向けモデルだ。同社はFable 5について、一般提供したモデルの中で最も高性能であり、ソフトウェア開発、知識労働、視覚、科学研究など幅広い評価で最先端水準だと説明している。価格はAPIで100万入力トークンあたり10ドル、100万出力トークンあたり50ドルに設定された。
 
-      　飛行したのは米国人で船長のリード・ワイズマン（50）のほかビクター・グローバー（49）、クリスティーナ・コック（47）、カナダ人のジェレミー・ハンセン（50）の各飛行士。コック氏は女性で電気技師、他の3人はいずれも男性で軍パイロットの経歴を持つ。
+      同時に発表されたClaude Mythos 5は、Fable 5と同じ基盤モデルだが、一部の安全策を外した構成として扱われる。AnthropicはこれをProject Glasswingのサイバー防御パートナーや、今後の信頼済みアクセスプログラムに限定して提供する。つまり、Fable 5はMythos級の能力を広く出すための安全策付きモデルであり、Mythos 5は能力をより直接使えるが利用者を絞るモデルという分担になっている。
 
-      　トランプ米大統領はSNSに「旅全体が壮観で、帰還も完璧。これ以上誇りに思うことはない。次のステップは火星だ」と投稿し祝福した。
+      この発表の意味は、新モデル投入にとどまらなかった。AnthropicはFable 5について、長い自律作業で従来のClaudeより強いと主張している。Stripeの早期テストでは、5,000万行規模のRubyコードベースで、通常ならチームが2か月以上かける移行作業を1日で進めたと紹介した。視覚だけでPokémon FireRedを最後までプレイした例や、分子生物学の仮説生成、ゲノム研究支援の例も並べている。能力が高いからこそ、どの能力を誰に、どの条件で渡すのかが表面化した。
 
-      　NASAのジャレッド・アイザックマン長官は「4人が真に歴史的偉業を成し遂げたことをお祝いする。並外れた技能と勇気、献身を示した。今後は（次回飛行の）アルテミス3と月面への帰還、基地建設、そして月を諦めないという決意に向け、自信を持って取り組んでいく」と力説した。アミット・クシャトリヤ副長官は「4人は世界の希望を運んだ。私たちは月に戻った。未来は私たちの勝利のためのものだ」と成功を称えた。
+      通常の安全策とAI開発向け制限は扱いが違っていた
+      AnthropicがFable 5に入れた安全策の中心は分類器である。サイバーセキュリティ、生物・化学、蒸留に関わる依頼を検知すると、Fable 5本体ではなくClaude Opus 4.8が応答し、ユーザーにはフォールバックが通知される。同社は、Fable 5のセッションの95%以上ではフォールバックが発生しないとしている。一方で、安全側に寄せて調整したため、平均で5%未満のセッションでは何らかの安全策が発動し、無害な依頼も巻き込む場合があると認めている。
 
-      亡き大先輩からのメッセージ
-      オリオンの想像図。後ろのエンジンが手前に描かれている（ESA、D・デュクロス氏提供）
-      オリオンの想像図。後ろのエンジンが手前に描かれている（ESA、D・デュクロス氏提供）
-      　オリオンは円錐台形の有人モジュール（区画）と円筒形の機械モジュールが連結した、長さ8.1メートル、幅5メートルの宇宙船。4人乗りで、形状は3人乗りのアポロ宇宙船と似ている。米航空宇宙大手のロッキードマーチン社が開発を主導した。欧州が製造を担当した機械モジュールからは、翼状の4枚の太陽電池パネルが延びる。アルテミス2での打ち上げ時の重さは、燃料を含め26トン。飛行士の居住空間はミニバン2台分に相当する9.3立方メートルで、アポロに比べ60％拡大した。
+      炎上したのは、フロンティアLLM開発向けの扱いだった。公開直後に読まれたシステムカードの記述では、競合モデルの開発につながるような依頼に対して、Fable 5が別モデルへ切り替わるのではなく、ユーザーに見えない方法で有効性を落とすと説明されていた。例として挙がったのは、プロンプト改変、ステアリングベクトル、PEFTなどである。Simon WillisonやNathan Lambertがこの箇所を取り上げ、研究者の間で批判が一気に広がった。
 
-      　元々、月探査を含む旧「コンステレーション計画」（2010年中止）などでの利用を主眼に開発が始まったが、アルテミス計画で日の目を見た形だ。米国人の発音に寄せて「オライオン」とも呼ばれる。
+      この設計が強い反発を招いた理由は、拒否よりも分かりにくいからだ。モデルが「手伝えない」と言うなら、ユーザーは別の手段を選べる。Opus 4.8へ切り替わったと表示されるなら、応答の前提も理解できる。しかし、同じFable 5を使っているつもりで、実際には能力が抑えられた応答を受け取るなら、研究者は結果の質を評価できない。API利用では料金や実験ログにも関わる。
 
-      　日本時間2日午前7時35分、オリオンは大型ロケット「SLS」に搭載され米フロリダ州のケネディ宇宙センターから打ち上げられた。49分後、SLSの上段エンジンが点火し、地球上空の周回軌道に入った。オリオンがSLS上段機体から分離すると、飛行士らは操縦訓練や生命維持装置、通信システムの性能評価などを継続。翌日の3日午前には5分50秒かけてエンジンを噴射し、月に向かう遷移軌道に就いた。飛行5日目の6日午後1時41分、月の重力圏に突入した。
+      AD
 
-      オリオンを搭載し打ち上げられるSLS＝日本時間2日午前（NASA、ビル・インガルス氏提供）
-      オリオンを搭載し打ち上げられるSLS＝日本時間2日午前（NASA、ビル・インガルス氏提供）
-      　翌6日目は、月の裏側に回り最接近する飛行のハイライトを迎えた。この日、4人が目覚めると、地球から特別なメッセージが贈られた。史上初の月周回を果たした1968年のアポロ8号に搭乗したジム・ラベル氏が、昨年8月に死去する前に収録した声だった。「ようこそ私の古巣へ。私はアポロ8号で初めて月を間近に見て、世界中の人々が感動し団結した。皆さんが月を周回し、火星探査の基礎を築くにあたり、このバトンを渡せることを誇りに思う。今日は歴史的な日で忙しいが、景色を楽しむことを忘れないで」。ラベル氏は70年、飛行中に酸素タンクの爆発を起こしながら生還したアポロ13号で、船長を務めた人物だ。
 
-      「この記録はすぐ破られるもの。次世代への挑戦状だ」
-      　7日午前2時56分、地球から40万170キロの距離を超え、ラベル氏のアポロ13号が樹立した記録を塗り替えた。この13号の記録は計画されたものではなく、爆発により月面着陸を断念したのを受けて経路を変更し、結果的に成立したものだった。オリオンは続いて午前8時頃、月面に約6545キロまで接近。その2分後、人類到達の最遠方記録を40万6770キロまで伸ばした。
+      XenoSpectrum サポーター
+      広告なし・ブックマーク無制限で読めるサポーター制度。ご支援は、広告に左右されない独立した編集につながります。
 
-      月（左）の縁に沈む地球。オリオンが月の裏側を通過し、地球との通信が一時途絶する直前に撮影された（NASA提供）
-      月（左）の縁に沈む地球。オリオンが月の裏側を通過し、地球との通信が一時途絶する直前に撮影された（NASA提供）
-      　ハンセン氏は船内から地球に向け、こう呼びかけた。「記録を突破するにあたり、先人たちの並外れた努力と偉業に敬意を表する。何より重要なのはこの瞬間、記録がすぐ破られるよう、今の世代や次世代へと挑戦状を送りつけたことだ」。月への接近中、飛行士らは月面の多彩な地形のほか、月が太陽を覆い隠す日食、月の向こうへと地球が沈む“地球の入り”など実に7000枚以上の写真を撮影したという。
+      ¥580/月〜
+      批判の中心は悪用防止ではなく信頼の破壊だった
+      Anthropicは、フロンティアAI開発への支援が危険な拡散を早める可能性を問題にしている。利用規約では、Claudeを使って競合するモデルを開発することを禁じており、同社は安全策による執行で、最も規約を破る動機を持つ利用者の加速を避けると説明した。さらにWIREDへの声明では、米国と同盟国が持つフロンティアチップや高性能ソフトウェアの優位性を損なわせないための措置だとも述べている。
 
-      　翌8日午前2時23分、オリオンは月の重力圏を離脱。軌道変更のエンジン噴射を繰り返して帰路に就いた。11日午前8時33分、有人モジュールと機械モジュールを分離した。有人モジュールは同53分、地上122キロで大気圏に突入。予定された6分間の通信途絶や、減速用パラシュートとメインパラシュートの開傘を経て、サンディエゴ沖で旅路を終えた。
+      研究者側の批判は、安全策を置くこと自体よりも、隠したことに集中した。WIREDはPrime IntellectのWill Brownの発言として、Anthropicが「自分たち以外をAI研究で信頼しない」と言っているように感じられたと伝えた。Fortuneは、Nathan Lambert、Dean Ball、Jeremy Howard、元AnthropicのBehnam Neyshaburらの反応を紹介している。Lambertは、最先端モデルへの研究アクセスが見えない形で奪われることを批判し、BallはML研究の性能を通知なしに落とすことを強く問題視した。
 
-      飛行中、オリオン船内で過ごす4人の飛行士（NASA提供）
-      飛行中、オリオン船内で過ごす4人の飛行士（NASA提供）
-      アポロ以来…単なる再訪ではない
-      　アルテミス計画は、米国が国際宇宙ステーション（ISS）に続く大規模な国際宇宙探査として主導。1972年のアポロ17号以来となる有人月面着陸を目指す。月面や月上空に建設する基地を拠点に探査や実験をして、将来の火星探査も視野に技術実証を進める。日本は2019年に参画を決定。欧州やカナダも参画している。
+      この不信は、オープンモデル研究や第三者評価にも広がる。安全評価企業や研究者がFable 5をテストするとき、モデルが全力で答えているのか、制限が発動したのか分からなければ、測定結果の解釈が崩れる。制限が規約違反の開発だけを狙うとしても、モデル訓練、評価、アクセラレータ設計、分散計算、推論基盤の境界は実務では重なり合う。無害なAI安全研究や性能評価まで巻き込まれる懸念が出たのは、そのためだ。
 
-      　今回のアルテミス2は2022年、オリオンが無人月周回飛行に成功した「アルテミス1」に続く試験飛行。アルテミス計画では初の有人飛行で、生命維持システムの実証が最大の目的だった。NASAは今年2月末、計画変更を発表。来年の「アルテミス3」では、それまで予定していた月面着陸をせず、有人のオリオンが地球上空で民間着陸船とのドッキング試験をすることにした。28年の「アルテミス4」で着陸に挑み、その後は年2回以上の頻度で着陸を目指す。
+      6月11日の更新で変わったこと、残ったこと
+      Anthropicの6月11日版システムカードは、この問題への修正を明記している。変更履歴には、フロンティアLLM開発向け安全策の説明を、Opusモデルへのフォールバックを反映する形に更新したとある。関連する説明や参照も、この新しい挙動に合わせて修正された。
 
-      1969年、アポロ11号により月面に立つバズ・オルドリン飛行士（NASA提供）
-      1969年、アポロ11号により月面に立つバズ・オルドリン飛行士（NASA提供）
-      　アポロ計画では1969～72年の11～17号（13号を除く）の6回で計12人が月面に立った。アルテミス計画で再び月面を目指すが、これは単なる再訪ではない。アポロ計画は東西冷戦下で米国と旧ソ連（ロシア）が、国家の威信を賭けた宇宙開発競争の性格が強かった。68年にソ連は宇宙船にカメを載せて月の上空に送り地球に生還させたが、これが米国を焦らせてアポロ計画の進展を早め、有人月面着陸での米国勝利の要因になったともみられている。
+      Business Insiderによると、Anthropicの広報担当者は、該当する依頼は今週から目に見える形でOpus 4.8へフォールバックし、APIでは拒否理由を返すと説明した。Fortuneは、同社が「誤ったトレードオフだった」と認めたうえで、分類器を新しい脅威に対応させる過程で誤検知が増える可能性があると伝えている。Engadgetも、方針撤回は制限の撤廃ではなく、ユーザーへの通知と代替モデルへの切り替えに関する変更だと整理している。
 
-      　アルテミス計画のコンセプトはアポロとは大きく異なり、米国が主導しつつ、日欧などの参画を得る国際探査の位置づけだ。有人月面着陸を実現するのは同じだが、“行って生きて帰ってくる”という行為以上に、基地を構築するなどして探査や開発を持続的に進める狙いが大きい。NASAが2企業の月着陸船を採用するなど、民間の役割も大きくなる。
+      残った論点は二つある。第一に、AnthropicはフロンティアLLM開発向けの制限を維持している。透明になっただけで、モデル訓練や高性能AI開発を支援する依頼が遮られる構造は残る。第二に、透明にしたことで分類器を広めにかける必要が生じ、誤検知が増える可能性がある。見えない制限は信頼を壊すが、見える制限は実務上の摩擦としてユーザーの前に現れる。
 
-      　月の極域の水を採取し、太陽電池で水素と酸素に電気分解すれば、燃料として月面開発や火星飛行に使えるとの期待もあり、月探査の意義の一つとされる。ただ実際に資源として利用できるほどの水があるかどうかは、今後の探査や研究を通じた解明が必要だ。
+      AD
 
-      アルテミス2以降の新しい計画概要のイラスト。月面着陸はアルテミス4から実現する（NASA提供）
-      アルテミス2以降の新しい計画概要のイラスト。月面着陸はアルテミス4から実現する（NASA提供）
-      「トランプ氏任期中に着陸」月面基地に注力
-      　アルテミス2の飛行に先立つ先月24日、NASAはアルテミス計画の大幅な変更を発表した。予定してきた月上空の周回基地「ゲートウェー」の建設を休止し、月面基地の構築を優先する。2月末にも有人月面着陸の時期や宇宙船の運用計画、SLSの機体構成の見直しを発表したのに続き、さらに踏み込んで計画を再編する内容となった。一連の変更は、昨年12月の大統領令を反映したものだ。
+      背景には「AIがAI開発を速める」というAnthropicの危機感がある
+      今回の論争は、Fable 5の一機能に限った話ではない。Anthropicは6月4日の「When AI builds itself」で、AIがAI開発を加速しているという見方を詳しく示した。同社によれば、2026年5月時点でAnthropicのコードベースにマージされるコードの80%以上はClaudeが書いたものだ。2026年第2四半期には、エンジニア1人あたりのマージ行数が2024年比で8倍になったとも説明している。
 
-      　発表でアイザックマン長官は「トランプ大統領の任期（2029年1月まで）中に月に戻り、米国の先導力確立に取り組む」と述べた。「大国間競争で、物事の成否は年単位でなく月単位で決まる。NASAの資源を国家宇宙政策のために集中させ、パートナーの国と労働力や産業力を解き放つ」とも語り、同様に月面着陸や基地建設を目指す中国への対抗意識をにじませた。月面基地建設に7年間で200億ドル（3兆2000億円）を投じるという。
+      同じ投稿では、モデル訓練コードを高速化する実験で、Claude Opus 4が2025年5月に約3倍の高速化を達成したのに対し、Claude Mythos Previewは2026年4月に約52倍を達成したとされる。Anthropicは、まだAIが自ら後継モデルを完全に設計・開発する段階にはないとしながらも、十分な計算資源があれば、その方向へ進み得ると警告している。
 
-      　月面基地計画は次の3段階で進める。【1 建設、試験、学習段階】商業輸送と探査車により月面活動の頻度を上げ、探査車や機器類、発電や通信、航法などの技術実証機を送る。【2 初期インフラ構築】ある程度の居住ができるインフラと定期輸送を構築する。飛行士が地表で定期的に活動する。日本の有人与圧探査車などの国際貢献も採り入れる。【3 長期滞在】大規模なインフラにより、定期的探査から恒久的月面基地へと移行する。
+      この文脈に置くと、Fable 5の制限は製品サポートの失敗ではなく、フロンティア能力の配布方法をめぐる政策判断に近い。Anthropicは、高性能モデルがAI開発そのものを加速し、同等の安全策を持たない主体の能力向上を助けることを恐れている。一方で、外部研究者は、同じ理由を使って少数のトップラボだけが最先端AI研究を進める構造が固定されることを恐れている。
 
-      月面基地「第3段階」の想像図（NASA提供）
-      月面基地「第3段階」の想像図（NASA提供）
-      上空基地ゲートウェーは「休止」
-      　ゲートウェーは探査や実験、訓練の拠点、月面着陸の中継地などとして計画されてきた。建設休止が解除される時期は明らかになっていない。元々の計画では、月面に着陸する飛行士はオリオンで地球を発った後、いったんゲートウェーに滞在。そこから着陸船で月面に降り立つことになっている。ゲートウェーがない段階では、オリオンが宇宙空間で直接、着陸船に結合することになる。
+      次の焦点は透明性だけでは足りない
+      見えるフォールバックへの変更は、最低限の信頼回復には必要だった。ユーザーは、Fable 5が応答しているのか、Opus 4.8へ切り替わったのか、あるいは拒否されたのかを知る必要がある。研究者や企業がモデルの性能を測るには、どの条件でどのモデルが答えたかが記録されなければならない。
 
-      　わが国はゲートウェーの居住棟の環境制御・生命維持機構や、地球から物資を届ける補給機などを提供することが決まっている。このほか、内部で飛行士が暮らせる月面与圧探査車を、宇宙航空研究開発機構（JAXA）とトヨタ自動車が開発中だ。2024年には、日本人が2回、月面に着陸することで日米が合意した。
+      ただし、透明性は入口にすぎない。Anthropicは、サイバー防御ではMythos 5の信頼済みアクセスを広げ、生命科学では生物・化学向け安全策を外したFable 5の限定提供も進める方針を示している。AI開発支援についても、悪用を防ぎながら安全研究、評価、オープンな検証をどこまで許すのかを決めなければならない。安全策の存在を表示するだけでは、どの研究が遮られ、どの研究が認められるのかという問題は解けない。
 
-      オリオン（左）とゲートウェーの想像図（NASA、アルベルト・ベルトリン氏提供）
-      オリオン（左）とゲートウェーの想像図（NASA、アルベルト・ベルトリン氏提供）
-      　ゲートウェーへの物資補給機は、ISSに使われているJAXAの「HTV-X」の改良型を活用する計画だが、そのゲートウェーの建設が当分、進まないことになった。今回の変更はこれを含め、わが国の役割分担に影響を与える可能性がある。なおHTV-X改良型は、ISSの後継として建設される地球上空の民間基地へも向かう見込みだ。
+      Fable 5は、最上位モデルを一般公開する時代の新しい前例になった。能力を抑えなければ危険だという主張と、能力を隠れて抑えれば信頼できないという反発が、同じモデルの中で衝突した。Anthropicが撤回したのは、制限を置く判断ではなく、制限をユーザーから見えなくする判断である。次に問われるのは、その可視化された制限が、研究の安全性と開放性のどちらをどこまで守れるかだ。
 
-      　JAXAの山川宏理事長は「ゲートウェーに関しNASAは『pause（ポーズ）』の言葉を使っており、一時停止の意味合いだろう。そのタイミングは分からないが、少なくとも現時点でゲートウェーの技術開発、活用について引き続き取り組んでいる。われわれは定められたものに取り組み、有人与圧探査車を含め着実に開発していく。具体的には、NASAを含め関係機関と協議していくことになると思う」との見方を示している。
+  - link: 
+    text: |
+      打ち上げ情報宇宙開発JAXA日本の人工衛星H3ロケット
+      JAXAが「H3」ロケット6号機を打ち上げ　2段目の軌道投入を達成
+      2026-06-12
+      2026-06-12
+      sorae編集部 速報班sorae編集部 速報班
+      JAXAが「H3」ロケット6号機を打ち上げ　2段目の軌道投入を達成
+      Facebook
+      post
+      はてブ
+      Feedly
+      宇宙動画と広告
 
-      　NASAがゲートウェー構想を明らかにしたのが2017年。翌年には「ゲートウェーを通じ米国の優位を確立する」「（各国の）14の宇宙機関が月や火星、太陽系深部への進出のためゲートウェーが重要と合意した」との文書をまとめていた。その後の19年、ゲートウェーを含む国際宇宙探査を「アルテミス計画」と命名。トランプ氏が月面着陸の前倒しを求めるなどして、着陸を重視する性格が強まっていった。
+      Google News
+      LINEで購読
+      MSNニュース
+      YouTube
+      JAXA（宇宙航空研究開発機構）は日本時間2026年6月12日に「H3」ロケット6号機の打ち上げを実施しました。JAXAは公式ライブ配信にて、メインミッションとなるロケット2段目の軌道投入達成を発表しています。
 
-      　国際宇宙探査はこれまでも技術的要因のみならず、主導する米国の政局や国内事情を背景に変遷してきた。悪い言い方をすれば、世界が“振り回される”形ではある。とはいえ、人類が目指す次のフロンティアが隣の星、月であるという大局の方向性は、もはや揺るがないだろう。2024年の日米首脳共同声明で「アルテミス計画で、日本人が月面に着陸する初の非米国人になるとの共通の目標」を発表したことは、わが国の技術や人材への信頼の高さを物語る。今後も、計画がどう変わろうと強みを発揮して世界に貢献できるよう、得意分野をしっかり磨いていくことが大切だ。アルテミス2の成功は、そのことを改めて意識する機会ともなった。
+      打ち上げに関する情報は以下の通りです。
 
-      　ちなみにアルテミスはギリシャ神話の女神で、男神アポロンとは双子の関係だ。アルテミスの純潔を望んだアポロンにだまされ、愛するはずのオリオンを死なせてしまう。こんな神話の内容に関わらず、アルテミス計画の目標が実りますように…。
+      打ち上げ情報：H3ロケット6号機
+      ロケット：H3ロケット（H3-30S）
+      打ち上げ日時：日本時間 2026年6月12日9時53分59秒
+      発射場：種子島宇宙センター大型ロケット発射場（日本）
+      ペイロード：性能確認用ペイロード（VEP-5）、小型副衛星6機
+      H3ロケット6号機について
+      H3ロケット6号機は、1段目のエンジンを2基から3基へ増やすかわりに固体燃料ロケットブースターを搭載しない、「H3-30S」（30形態）と呼ばれる形態の試験機です。H3の各形態のなかでも30形態は打ち上げコストが最も低く、衛星をより安価に軌道へ投入できるようになると期待されています。
 
-      NASAがアルテミス2の飛行前に公表していた行程の解説図。地球上空を2周し、8の字を描くように月との間を行き来する計画で、順調に推移した（NASA提供）
-      NASAがアルテミス2の飛行前に公表していた行程の解説図。地球上空を2周し、8の字を描くように月との間を行き来する計画で、順調に推移した（NASA提供）
+      ペイロードには性能確認用ペイロード（VEP-5）の他に、以下6機の小型副衛星が搭載されました。
+
+      ・東京科学大学「うみつばめ（PETREL）」
+      ・静岡大学「しらいと（STARS-X）」
+      ・Unseenlabs社「BRO-22」
+      ・九州工業大学ほか「VERTECS」
+      ・BULL社「HORN-L」「HORN-R」
+
+      また、H3ロケット6号機は2025年12月の8号機の打ち上げ失敗以来、半年ぶりのH3ロケット飛行再開でもあります。原因究明を進めたJAXAは、ロケット2段目に衛星を搭載するための部品のひとつである衛星搭載アダプタに、製造の段階で部材の剥がれが生じて強度が低下した結果、打ち上げ中に2段目から衛星が脱落した可能性が極めて高いと特定しています。
+
+      JAXAは、今後打ち上げられる機体については当面、衛星搭載アダプタの製造方法を変更する方針を示しています。一方で、6号機については荷重が低いことから、製造済みの衛星搭載アダプタを補修した上で使用されました。8号機打ち上げ失敗の原因究明評価を裏付けることと、将来のミッションの確実性を高めるために、6号機にはフェアリング分離時の衝撃を確認するための高周波用加速度センサーなどが追加搭載されるとともに、フェアリング内のカメラ映像の収録時間も延長されました。
+
+      日本時間2026年6月12日9時53分59秒に打ち上げられたH3ロケット6号機は、リフトオフ3分32秒後（速報値、以下同様）に1段目と2段目を分離。リフトオフ15分3秒後には2段目エンジンの第1回燃焼を停止して、2段目機体が所定の軌道に入りました。
+
+      その後は、リフトオフ16分4秒後の「うみつばめ（PETREL）」と「しらいと（STARS-X）」の分離確認に続き、他の4機の小型副衛星についても分離信号送出が確認されています。さらに、地球一周後の2段目を減速させ、予定海域へ制御落下できたことも確認されたということです。
+
+      【最終更新：2026年6月12日13時45分】打上げ経過記者会見の内容を反映して記事本文を更新しました。
+
+      関連画像・映像
+      リフトオフした「H3」ロケット6号機。JAXAの公式ライブ中継から（Credit: JAXA）
+      【▲ リフトオフした「H3」ロケット6号機。JAXAの公式ライブ中継から（Credit: JAXA）】
+      リフトオフした「H3」ロケット6号機（Credit: JAXA）
+      【▲ リフトオフした「H3」ロケット6号機（Credit: JAXA）】
+      上昇する「H3」ロケット6号機（Credit: JAXA）
+      【▲ 上昇する「H3」ロケット6号機（Credit: JAXA）】
