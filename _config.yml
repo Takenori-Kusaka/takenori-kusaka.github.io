@@ -17,6 +17,18 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
+  # Source material / working files not served by the site (excluded from the
+  # published artifact to keep it small and speed up the build).
+  - doc
+  - other
+  - src
+  - youtube
+  - diarizers
+  - pyannote
+  - punctuators
+  - work
+  - package.json
+  - package-lock.json
 hashtag: Recalog
 itunes_podcast_url:
 keywords: comma,separated,keywords
