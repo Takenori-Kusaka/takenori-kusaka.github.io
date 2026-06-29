@@ -138,3 +138,5 @@ work/
 # Ruby/Bundler
 vendor/
 .bundle/
+# Resolved per-platform on the CI runner (was Windows-bound, broke Linux build)
+Gemfile.lock
