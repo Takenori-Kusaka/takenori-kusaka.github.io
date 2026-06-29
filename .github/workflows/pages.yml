@@ -36,9 +36,6 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-          # Lets jekyll-github-metadata populate site.github.url so feed.xml
-          # enclosures and internal links stay absolute (https://takenori-kusaka.github.io/...)
-          JEKYLL_GITHUB_TOKEN: ${{ github.token }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
 
