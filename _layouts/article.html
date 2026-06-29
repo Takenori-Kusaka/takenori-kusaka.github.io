@@ -23,13 +23,13 @@
                 controls=""
                 data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
                 preload="auto"
-                src="{{ page.audio_file_path | prepend:site.github.url | prepend:"https://dts.podtrac.com/redirect.mp3/"}}"
+                src="{% if page.audio_file_path contains '://' %}https://dts.podtrac.com/redirect.mp3/{{ page.audio_file_path }}{% else %}{{ page.audio_file_path | prepend:site.github.url | prepend:"https://dts.podtrac.com/redirect.mp3/" }}{% endif %}"
                 width="100%"
               >
               </audio>
             </p>
             <div class="article-download-links">
-              <a href="{{ page.audio_file_path | prepend:site.github.url | prepend:"https://dts.podtrac.com/redirect.mp3/" }}">MP3ファイルをダウンロード</a>
+              <a href="{% if page.audio_file_path contains '://' %}https://dts.podtrac.com/redirect.mp3/{{ page.audio_file_path }}{% else %}{{ page.audio_file_path | prepend:site.github.url | prepend:"https://dts.podtrac.com/redirect.mp3/" }}{% endif %}">MP3ファイルをダウンロード</a>
             </div>
             <h2>
               内容紹介

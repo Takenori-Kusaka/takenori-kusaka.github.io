@@ -29,6 +29,85 @@ exclude:
   - work
   - package.json
   - package-lock.json
+  # Audio archived to the "audio-archive" GitHub Release (served from there via
+  # the podcast feed). Excluded from the Pages artifact to stay under the 1GB
+  # limit. The source files remain tracked in git under audio/.
+  - audio/20220116m.m4a
+  - audio/20220123m.m4a
+  - audio/20220206m.m4a
+  - audio/20220306m.m4a
+  - audio/20220320m.m4a
+  - audio/20220403m.m4a
+  - audio/20220424m.m4a
+  - audio/20220515m.m4a
+  - audio/20220605m.m4a
+  - audio/20220612m.m4a
+  - audio/20220619m.m4a
+  - audio/20220703m.m4a
+  - audio/20220724m.m4a
+  - audio/20220807m.m4a
+  - audio/20220821m.m4a
+  - audio/20220918m.m4a
+  - audio/20220925m.m4a
+  - audio/20221002m.m4a
+  - audio/20221016m.m4a
+  - audio/20221106m.m4a
+  - audio/20221116m.m4a
+  - audio/20221204m.m4a
+  - audio/20221225m.m4a
+  - audio/20230108m.m4a
+  - audio/20230115m.m4a
+  - audio/20230122m.m4a
+  - audio/20230129m.m4a
+  - audio/20230212m.m4a
+  - audio/20230219m.m4a
+  - audio/20230226m.m4a
+  - audio/20230319m.m4a
+  - audio/20230402m.m4a
+  - audio/20230409m.m4a
+  - audio/20230423m.m4a
+  - audio/20230514m.m4a
+  - audio/20230521m.m4a
+  - audio/20230604m.m4a
+  - audio/20230611m.m4a
+  - audio/20230625m.m4a
+  - audio/20230702m.m4a
+  - audio/20230716m.m4a
+  - audio/20230723m.m4a
+  - audio/20230730m.m4a
+  - audio/20230806m.m4a
+  - audio/20230813m.m4a
+  - audio/20230827m.m4a
+  - audio/20230910m.m4a
+  - audio/20230917m.m4a
+  - audio/20231008m.m4a
+  - audio/20231015m.m4a
+  - audio/20231119m.m4a
+  - audio/20231126m.m4a
+  - audio/20231210m.m4a
+  - audio/20231217m.m4a
+  - audio/20240128m.m4a
+  - audio/20240204m.m4a
+  - audio/20240211m.m4a
+  - audio/20240218m.m4a
+  - audio/20240302m.m4a
+  - audio/20240310m.m4a
+  - audio/20240317m.m4a
+  - audio/20240324m.m4a
+  - audio/20240421m.m4a
+  - audio/20240505m.m4a
+  - audio/20240602a.m4a
+  - audio/20240602m.m4a
+  - audio/231001m.m4a
+  - audio/20240609m.mp3
+  - audio/20240630m.mp3
+  - audio/20240714m.mp3
+  - audio/20240908m.mp3
+  - audio/20240915m.mp3
+  - audio/20241013m.mp3
+  - audio/20241020m.mp3
+  - audio/20241124m.mp3
+  - audio/20241201m.mp3
 hashtag: Recalog
 itunes_podcast_url:
 keywords: comma,separated,keywords
