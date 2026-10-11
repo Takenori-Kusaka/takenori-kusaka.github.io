@@ -56,6 +56,7 @@ class PodcastContentApp:
             summaries = []
             youtube_summaries = []
             headlines = []
+            slide_points = []
             for topic in topics['Topic']:
                 link = topic['link']
                 text = topic['text']
@@ -74,6 +75,7 @@ class PodcastContentApp:
                     headline = headline_generator.generate_headline(summary)
                     if headline:
                         headlines.append(headline)
+                        slide_points.append(article_fetcher.generate_slide_points(headline, summary))
                     else:
                         logger.error(f"見出し生成失敗: {link}")
                         raise Exception("見出し生成に失敗しました")
@@ -91,7 +93,7 @@ class PodcastContentApp:
             latest_num = self.content_generator.get_latest_post_number(topics['Date'])
 
             # ファイルを生成
-            self.content_generator.generate_slide(topics['Date'], headlines, summaries)
+            self.content_generator.generate_slide(topics['Date'], headlines, summaries, slide_points)
             self.content_generator.generate_post(topics['Date'], headlines, summaries, main_title, latest_num)
             youtube_description = self.content_generator.generate_youtube_description(topics['Date'], headlines, youtube_summaries, main_title, latest_num)
             self.content_generator.save_youtube_description(topics['Date'], youtube_description)

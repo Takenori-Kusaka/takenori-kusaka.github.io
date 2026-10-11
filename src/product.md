@@ -16,7 +16,7 @@ run.pyは~/src/topic.yamlにある内容をもとに二つのファイルを作�
 
 ### ~/src/.env
 
-ANTHROPIC_API_KEY=生成AIのANTHROPICモデルを使うためのAPIキー。モデルはclaude-sonnet-4-6のみを利用する
+ANTHROPIC_API_KEY=生成AIのANTHROPICモデルを使うためのAPIキー。モデルはclaude-sonnet-5-5のみを利用する
 PERPLEXITY_API_KEY=検索用のPerplexity APIを使うためのAPIキー。モデルはsonar-proのみを利用する
 
 ### ~/src/topic.yaml

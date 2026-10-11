@@ -12,8 +12,8 @@ class HeadlineGenerator:
     def extract_text_from_message(message):
         """Anthropicのレスポンスからテキストを抽出"""
         if isinstance(message, list):
-            # リストの場合は最初の要素のtextを取得
-            return message[0].text if message and hasattr(message[0], 'text') else None
+            # ThinkingBlock等を除き、最初のtextブロックを取得
+            return next((b.text for b in message if getattr(b, 'type', None) == 'text'), None)
         elif hasattr(message, 'text'):
             # 単一のオブジェクトの場合
             return message.text
@@ -28,9 +28,8 @@ class HeadlineGenerator:
         
         try:
             message = self.client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=100,
-                temperature=0,
+                model="claude-sonnet-5-5",
+                max_tokens=2000,
                 system="以下のルールに従って見出しを作成してください：\n- 10〜20文字で簡潔に\n- 「」で囲む\n- 説明や理由を含めない\n- 一行のみ",
                 messages=[{
                     "role": "user",
@@ -74,9 +73,8 @@ class HeadlineGenerator:
 
         try:
             message = self.client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=200,
-                temperature=0,
+                model="claude-sonnet-5-5",
+                max_tokens=2000,
                 system="新聞の見出し作成の専門家として、提示された見出しの中から最も重要なものを選び、全体を表す見出しを作成してください。",
                 messages=[{
                     "role": "user",

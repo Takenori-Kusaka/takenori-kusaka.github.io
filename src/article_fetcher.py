@@ -1,6 +1,7 @@
 import requests
 import json
 import logging
+import re
 import anthropic
 
 logger = logging.getLogger(__name__)
@@ -28,6 +29,8 @@ class ArticleFetcher:
                         "role": "system",
                         "content": """記事の内容を要約してください。以下の点に注意してください：
                         - ポッドキャストで扱う記事なので、要約は300文字以上700文字以内に収めてください
+                        - 出力はMarkdown記法を使わないプレーンテキストの文章のみとしてください（見出し「#」、箇条書き「-」「*」、太字「**」、表、コードブロックは禁止）
+                        - 冒頭にタイトルや見出しを付けず、本文から書き始めてください
                         - [1]や[2]などの引用符は含めないでください
                         - 文末に出典を示す必要はありません"""
                     },
@@ -66,7 +69,7 @@ class ArticleFetcher:
                     result = response.json()
                     logger.debug(f"APIレスポンス: {result}")
                     
-                    content = result["choices"][0]["message"]["content"]
+                    content = self.strip_markdown(result["choices"][0]["message"]["content"])
                     logger.info(f"記事情報の取得成功: {link}")
                     logger.debug(f"取得した要約: {content[:100]}...")
                     return content
@@ -95,9 +98,8 @@ class ArticleFetcher:
         
         try:
             message = self.anthropic_client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=1000,
-                temperature=0.2,
+                model="claude-sonnet-5-5",
+                max_tokens=4000,
                 system="あなたは与えられた文章を300文字以上700文字以内に要約する専門家です。重要なポイントを保持しつつ、簡潔で魅力的な要約を作成してください。",
                 messages=[
                     {
@@ -107,7 +109,9 @@ class ArticleFetcher:
                 ]
             )
             
-            summary = message.content[0].text
+            summary = next((b.text for b in message.content if b.type == "text"), None)
+            if summary is None:
+                raise ValueError("レスポンスにtextブロックがありません")
             
             logger.info(f"テキストの要約成功（{len(summary)}文字）")
             logger.debug(f"生成された要約: {summary[:100]}...")
@@ -116,15 +120,60 @@ class ArticleFetcher:
             logger.error(f"Anthropic API エラー: {str(e)}")
             return None
 
+    @staticmethod
+    def strip_markdown(text):
+        """見出し・箇条書き・太字などのMarkdown記法と引用番号を除去して平文にする"""
+        text = re.sub(r'\[\d+\]', '', text)
+        text = re.sub(r'^\s{0,3}#{1,6}\s*', '', text, flags=re.MULTILINE)
+        text = re.sub(r'^\s*[-*+]\s+', '', text, flags=re.MULTILINE)
+        text = re.sub(r'(\*\*|__)(.+?)\1', r'\2', text)
+        text = re.sub(r'^\s*\|.*\|\s*$', '', text, flags=re.MULTILINE)
+        return re.sub(r'\n{3,}', '\n\n', text).strip()
+
+    def generate_slide_points(self, headline, summary, count=3, max_chars=45):
+        """スライド用の短い箇条書きをClaudeで生成する（失敗時はNone）"""
+        logger.info("スライド用箇条書きの生成開始")
+        try:
+            message = self.anthropic_client.messages.create(
+                model="claude-sonnet-5-5",
+                max_tokens=4000,
+                system=(
+                    "あなたはポッドキャスト用スライドの編集者です。記事要約から、スライドに載せる箇条書きを作成します。\n"
+                    f"- ちょうど{count}項目、各項目は全角{max_chars}文字以内の体言止めまたは短い一文\n"
+                    "- 各項目は単独で意味が通じ、数値・固有名詞などの重要な事実を含める\n"
+                    "- 各項目は異なる観点（何が起きたか／詳細・数値／意義や今後）にする\n"
+                    "- 見出しと重複する内容は避ける\n"
+                    "- 出力は「- 」で始まる行のみ。前置き、見出し、太字、番号、句点は禁止"
+                ),
+                messages=[{
+                    "role": "user",
+                    "content": f"見出し：{headline}\n\n要約：\n{summary}"
+                }]
+            )
+            raw = next((b.text for b in message.content if b.type == "text"), "")
+            points = []
+            for line in raw.splitlines():
+                line = re.sub(r'^\s*[-*・]\s*', '', line).strip().rstrip('。')
+                line = self.strip_markdown(line)
+                if len(line) >= 3:
+                    points.append(line)
+            points = points[:count]
+            if not points:
+                return None
+            logger.info(f"スライド用箇条書きの生成成功（{len(points)}項目）")
+            return points
+        except Exception as e:
+            logger.error(f"スライド用箇条書き生成エラー: {str(e)}")
+            return None
+
     def get_youtube_summary(self, summary):
         """Anthropicのモデル（Claude）を使用して、要約を140文字以内に再要約"""
         logger.info("YouTube用の短い要約の生成開始")
         
         try:
             message = self.anthropic_client.messages.create(
-                model="claude-sonnet-4-6",
-                max_tokens=200,
-                temperature=0.2,
+                model="claude-sonnet-5-5",
+                max_tokens=4000,
                 system="あなたは与えられた文章を140文字以内に要約する専門家です。重要なポイントを保持しつつ、簡潔で魅力的な要約を作成してください。",
                 messages=[
                     {
@@ -134,7 +183,9 @@ class ArticleFetcher:
                 ]
             )
             
-            short_summary = message.content[0].text
+            short_summary = next((b.text for b in message.content if b.type == "text"), None)
+            if short_summary is None:
+                raise ValueError("レスポンスにtextブロックがありません")
             
             if len(short_summary) > 140:
                 short_summary = short_summary[:137] + "..."

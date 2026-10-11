@@ -227,6 +227,10 @@ class ContentGenerator:
         与えられたsummaryから最大3点の箇条書きを生成
         ※体言止め処理を削除し、原文をそのまま使用する
         """
+        # Markdown記法（見出し・箇条書き・太字）が混入していても崩れないよう除去
+        summary = re.sub(r'^\s{0,3}#{1,6}\s*', '', summary, flags=re.MULTILINE)
+        summary = re.sub(r'^\s*[-*+]\s+', '', summary, flags=re.MULTILINE)
+        summary = re.sub(r'(\*\*|__)(.+?)\1', r'\2', summary)
         sentences = re.split(r'(?<=[。．?!])\s*', summary)
         bullets = []
         for sentence in sentences:
@@ -291,7 +295,7 @@ class ContentGenerator:
             print(f"ファイル書き込みエラー: {str(e)}")
             raise
 
-    def generate_slide(self, date, headlines, summaries):
+    def generate_slide(self, date, headlines, summaries, slide_points=None):
         logger.info("スライド生成開始")
         
         HEADER = """---
@@ -327,9 +331,13 @@ _class: normal
         toc_content = TABLE_OF_CONTENTS.format('\n'.join(toc_items))
         
         content_pages = []
-        for headline, summary in zip(headlines, summaries):
-            # summaryから箇条書きを生成
-            bullets = self.generate_slide_bullets(summary)
+        slide_points = slide_points or [None] * len(headlines)
+        for headline, summary, points in zip(headlines, summaries, slide_points):
+            # Claude生成の箇条書きを優先し、無ければ要約から機械的に生成
+            if points:
+                bullets = "\n".join(f"- {p}" for p in points)
+            else:
+                bullets = self.generate_slide_bullets(summary)
             page = CONTENT_PAGE.format(headline, bullets)
             # 複数スライドの間は前後に改行と区切りを入れる
             if content_pages:
