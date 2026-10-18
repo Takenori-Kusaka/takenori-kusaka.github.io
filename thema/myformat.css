@@ -60,6 +60,16 @@ section.normal h4 {
   font-size: 1.0rem;
 }
 
+section.normal ul,
+section.normal ol {
+  margin-top: 24px;
+}
+
+section.normal li {
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
 section.final {
   background-image: url(./img/logo.svg);
   background-repeat: no-repeat;
