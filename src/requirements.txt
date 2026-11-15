@@ -1,0 +1,8 @@
+anthropic
+python-dotenv
+PyYAML
+requests
+trafilatura
+pypdf
+# JavaScriptで描画されるページの取得に使用。初回のみ: python -m playwright install chromium
+playwright
